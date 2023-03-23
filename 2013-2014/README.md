@@ -22,5 +22,3 @@ The last portion represents the grade or test given.
 * 'e1' for English 1
 * 'e2' for English 2
 * 'us' for U.S. History
-
-Variable list[fy22_varlist_g03.xls](https://github.com/rorollman/Recapture/files/11054926/fy22_varlist_g03.xls)
