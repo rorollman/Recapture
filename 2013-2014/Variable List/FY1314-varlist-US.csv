@@ -1,0 +1,1549 @@
+VARNUM,NAME,VARTYPE,LENGTH,LABEL
+1,CAMPUS,Character,9,Campus Number
+2,YEAR,Character,2,Test Administration Year
+3,REGION,Character,2,Education Service Center (Region) Number
+4,DISTRICT,Character,6,District Number
+5,DNAME,Character,15,District Name
+6,CNAME,Character,18,Campus Name
+7,us_all_docs_n,Numeric,8,# Answer Documents Submitted -- U.S. History -- All Students
+8,us_all_abs_n,Numeric,8,# Absent - Not Tested -- U.S. History -- All Students
+9,us_all_oth_n,Numeric,8,# Other - Not Tested -- U.S. History -- All Students
+10,us_all_d,Numeric,8,# Tested -- U.S. History -- All Students
+11,us_sexm_d,Numeric,8,# Tested -- U.S. History -- Male Students
+12,us_sexf_d,Numeric,8,# Tested -- U.S. History -- Female Students
+13,us_sexv_d,Numeric,8,# Tested -- U.S. History -- No Sex Info Students
+14,us_ethh_d,Numeric,8,# Tested -- U.S. History -- Hispanic/Latino Students
+15,us_ethi_d,Numeric,8,# Tested -- U.S. History -- American Indian or Alaskan Native Students
+16,us_etha_d,Numeric,8,# Tested -- U.S. History -- Asian Students
+17,us_ethb_d,Numeric,8,# Tested -- U.S. History -- Black/African American Students
+18,us_ethp_d,Numeric,8,# Tested -- U.S. History -- Native Hawaiian/Pacific Islander Students
+19,us_ethw_d,Numeric,8,# Tested -- U.S. History -- White Students
+20,us_eth2_d,Numeric,8,# Tested -- U.S. History -- Two or More Races Students
+21,us_ethv_d,Numeric,8,# Tested -- U.S. History -- No Ethnicity Info Students
+22,us_ecoy_d,Numeric,8,# Tested -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+23,us_econ_d,Numeric,8,# Tested -- U.S. History -- Not Econ Disadv Students
+24,us_eco1_d,Numeric,8,# Tested -- U.S. History -- Free Meals Students
+25,us_eco2_d,Numeric,8,# Tested -- U.S. History -- Reduced-Price Meals Students
+26,us_eco9_d,Numeric,8,# Tested -- U.S. History -- Other Econ Disadvantaged Students
+27,us_ecov_d,Numeric,8,# Tested -- U.S. History -- No Info Econ Students
+28,us_ti1y_d,Numeric,8,# Tested -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+29,us_ti1n_d,Numeric,8,# Tested -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+30,us_ti10_d,Numeric,8,# Tested -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+31,us_ti16_d,Numeric,8,# Tested -- U.S. History -- Schoolwide Program Participant Students
+32,us_ti17_d,Numeric,8,# Tested -- U.S. History -- Targeted Assistance Participant Students
+33,us_ti18_d,Numeric,8,# Tested -- U.S. History -- Nonparticipant (Previous Participant) Students
+34,us_ti19_d,Numeric,8,# Tested -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+35,us_ti1v_d,Numeric,8,# Tested -- U.S. History -- No Title-I Info Students
+36,us_migy_d,Numeric,8,# Tested -- U.S. History -- Migrant Students
+37,us_mign_d,Numeric,8,# Tested -- U.S. History -- Not Migrant Students
+38,us_migv_d,Numeric,8,# Tested -- U.S. History -- No Migrant Info Students
+39,us_lepc_d,Numeric,8,# Tested -- U.S. History -- Current LEP Students
+40,us_lepf_d,Numeric,8,# Tested -- U.S. History -- First Year Monitored Students
+41,us_leps_d,Numeric,8,# Tested -- U.S. History -- Second Year Monitored Students
+42,us_lep0_d,Numeric,8,# Tested -- U.S. History -- Other Non-LEP Students
+43,us_lepv_d,Numeric,8,# Tested -- U.S. History -- No LEP Info Students
+44,us_bily_d,Numeric,8,# Tested -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+45,us_biln_d,Numeric,8,# Tested -- U.S. History -- Not Bilingual Students
+46,us_bil2_d,Numeric,8,# Tested -- U.S. History -- Transitional Bilingual/Early Exit Students
+47,us_bil3_d,Numeric,8,# Tested -- U.S. History -- Transitional Bilingual/Late Exit Students
+48,us_bil4_d,Numeric,8,# Tested -- U.S. History -- Dual Language Immersion/Two Way Students
+49,us_bil5_d,Numeric,8,# Tested -- U.S. History -- Dual Language Immersion/One Way Students
+50,us_bilv_d,Numeric,8,# Tested -- U.S. History -- No Info Bilingual Students
+51,us_esly_d,Numeric,8,# Tested -- U.S. History -- ESL Students Codes: 2 3
+52,us_esln_d,Numeric,8,# Tested -- U.S. History -- Not ESL Students
+53,us_esl2_d,Numeric,8,# Tested -- U.S. History -- ESL/Content-based students
+54,us_esl3_d,Numeric,8,# Tested -- U.S. History -- ESL/Pull-out students
+55,us_eslv_d,Numeric,8,# Tested -- U.S. History -- No Info ESL Students
+56,us_esbiy_d,Numeric,8,# Tested -- U.S. History -- Either Bilingual or ESL
+57,us_esbin_d,Numeric,8,# Tested -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+58,us_esbiv_d,Numeric,8,# Tested -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+59,us_spey_d,Numeric,8,# Tested -- U.S. History -- Special Ed Students
+60,us_spen_d,Numeric,8,# Tested -- U.S. History -- Not Special Ed Students
+61,us_spev_d,Numeric,8,# Tested -- U.S. History -- No Info Special Ed Students
+62,us_gify_d,Numeric,8,# Tested -- U.S. History -- Gifted/Talented Students
+63,us_gifn_d,Numeric,8,# Tested -- U.S. History -- Not Gifted/Talented Students
+64,us_gifv_d,Numeric,8,# Tested -- U.S. History -- No Info Gifted/Talented Students
+65,us_atry_d,Numeric,8,# Tested -- U.S. History -- At-Risk Students
+66,us_atrn_d,Numeric,8,# Tested -- U.S. History -- Not At-Risk Students
+67,us_atrv_d,Numeric,8,# Tested -- U.S. History -- No Info At-Risk Students
+68,us_vocy_d,Numeric,8,# Tested -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+69,us_vocn_d,Numeric,8,# Tested -- U.S. History -- Not Career/Tech Students
+70,us_voc1_d,Numeric,8,# Tested -- U.S. History -- Career/Tech Elective Students
+71,us_voc2_d,Numeric,8,# Tested -- U.S. History -- Career/Tech Coherent Sequence Students
+72,us_voc3_d,Numeric,8,# Tested -- U.S. History -- Career/Tech Tech Prep Students
+73,us_vocv_d,Numeric,8,# Tested -- U.S. History -- No Info Career/Tech Students
+74,us_all_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- All Students
+75,us_sexm_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Male Students
+76,us_sexf_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Female Students
+77,us_sexv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Sex Info Students
+78,us_ethh_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Hispanic/Latino Students
+79,us_ethi_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- American Indian or Alaskan Native Students
+80,us_etha_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Asian Students
+81,us_ethb_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Black/African American Students
+82,us_ethp_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+83,us_ethw_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- White Students
+84,us_eth2_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Two or More Races Students
+85,us_ethv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Ethnicity Info Students
+86,us_ecoy_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+87,us_econ_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Econ Disadv Students
+88,us_eco1_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Free Meals Students
+89,us_eco2_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Reduced-Price Meals Students
+90,us_eco9_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Other Econ Disadvantaged Students
+91,us_ecov_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Econ Students
+92,us_ti1y_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+93,us_ti1n_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+94,us_ti10_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+95,us_ti16_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Schoolwide Program Participant Students
+96,us_ti17_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Targeted Assistance Participant Students
+97,us_ti18_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+98,us_ti19_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+99,us_ti1v_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Title-I Info Students
+100,us_migy_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Migrant Students
+101,us_mign_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Migrant Students
+102,us_migv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Migrant Info Students
+103,us_lepc_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Current LEP Students
+104,us_lepf_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- First Year Monitored Students
+105,us_leps_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Second Year Monitored Students
+106,us_lep0_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Other Non-LEP Students
+107,us_lepv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No LEP Info Students
+108,us_bily_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+109,us_biln_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Bilingual Students
+110,us_bil2_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+111,us_bil3_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+112,us_bil4_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+113,us_bil5_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/One Way Students
+114,us_bilv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Bilingual Students
+115,us_esly_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL Students Codes: 2 3
+116,us_esln_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not ESL Students
+117,us_esl2_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL/Content-based students
+118,us_esl3_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL/Pull-out students
+119,us_eslv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info ESL Students
+120,us_esbiy_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Either Bilingual or ESL
+121,us_esbin_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+122,us_esbiv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+123,us_spey_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Special Ed Students
+124,us_spen_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Special Ed Students
+125,us_spev_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Special Ed Students
+126,us_gify_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Gifted/Talented Students
+127,us_gifn_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Gifted/Talented Students
+128,us_gifv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Gifted/Talented Students
+129,us_atry_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- At-Risk Students
+130,us_atrn_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not At-Risk Students
+131,us_atrv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info At-Risk Students
+132,us_vocy_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+133,us_vocn_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Career/Tech Students
+134,us_voc1_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Elective Students
+135,us_voc2_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+136,us_voc3_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Tech Prep Students
+137,us_vocv_satis_ph1_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Career/Tech Students
+138,us_all_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- All Students
+139,us_sexm_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Male Students
+140,us_sexf_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Female Students
+141,us_sexv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Sex Info Students
+142,us_ethh_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Hispanic/Latino Students
+143,us_ethi_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- American Indian or Alaskan Native Students
+144,us_etha_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Asian Students
+145,us_ethb_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Black/African American Students
+146,us_ethp_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+147,us_ethw_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- White Students
+148,us_eth2_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Two or More Races Students
+149,us_ethv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Ethnicity Info Students
+150,us_ecoy_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+151,us_econ_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Econ Disadv Students
+152,us_eco1_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Free Meals Students
+153,us_eco2_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Reduced-Price Meals Students
+154,us_eco9_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Other Econ Disadvantaged Students
+155,us_ecov_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Econ Students
+156,us_ti1y_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+157,us_ti1n_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+158,us_ti10_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+159,us_ti16_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Schoolwide Program Participant Students
+160,us_ti17_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Targeted Assistance Participant Students
+161,us_ti18_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+162,us_ti19_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+163,us_ti1v_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Title-I Info Students
+164,us_migy_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Migrant Students
+165,us_mign_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Migrant Students
+166,us_migv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Migrant Info Students
+167,us_lepc_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Current LEP Students
+168,us_lepf_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- First Year Monitored Students
+169,us_leps_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Second Year Monitored Students
+170,us_lep0_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Other Non-LEP Students
+171,us_lepv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No LEP Info Students
+172,us_bily_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+173,us_biln_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Bilingual Students
+174,us_bil2_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+175,us_bil3_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+176,us_bil4_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+177,us_bil5_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/One Way Students
+178,us_bilv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Bilingual Students
+179,us_esly_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL Students Codes: 2 3
+180,us_esln_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not ESL Students
+181,us_esl2_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL/Content-based students
+182,us_esl3_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL/Pull-out students
+183,us_eslv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info ESL Students
+184,us_esbiy_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Either Bilingual or ESL
+185,us_esbin_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+186,us_esbiv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+187,us_spey_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Special Ed Students
+188,us_spen_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Special Ed Students
+189,us_spev_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Special Ed Students
+190,us_gify_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Gifted/Talented Students
+191,us_gifn_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Gifted/Talented Students
+192,us_gifv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Gifted/Talented Students
+193,us_atry_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- At-Risk Students
+194,us_atrn_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not At-Risk Students
+195,us_atrv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info At-Risk Students
+196,us_vocy_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+197,us_vocn_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Career/Tech Students
+198,us_voc1_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Elective Students
+199,us_voc2_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+200,us_voc3_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Tech Prep Students
+201,us_vocv_satis_ph2_nm,Numeric,8,# Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Career/Tech Students
+202,us_all_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- All Students
+203,us_sexm_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Male Students
+204,us_sexf_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Female Students
+205,us_sexv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Sex Info Students
+206,us_ethh_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Hispanic/Latino Students
+207,us_ethi_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+208,us_etha_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Asian Students
+209,us_ethb_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Black/African American Students
+210,us_ethp_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+211,us_ethw_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- White Students
+212,us_eth2_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Two or More Races Students
+213,us_ethv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Ethnicity Info Students
+214,us_ecoy_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+215,us_econ_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Econ Disadv Students
+216,us_eco1_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Free Meals Students
+217,us_eco2_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+218,us_eco9_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+219,us_ecov_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Econ Students
+220,us_ti1y_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+221,us_ti1n_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+222,us_ti10_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+223,us_ti16_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+224,us_ti17_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+225,us_ti18_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+226,us_ti19_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+227,us_ti1v_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Title-I Info Students
+228,us_migy_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Migrant Students
+229,us_mign_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Migrant Students
+230,us_migv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Migrant Info Students
+231,us_lepc_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Current LEP Students
+232,us_lepf_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- First Year Monitored Students
+233,us_leps_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Second Year Monitored Students
+234,us_lep0_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Other Non-LEP Students
+235,us_lepv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No LEP Info Students
+236,us_bily_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+237,us_biln_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Bilingual Students
+238,us_bil2_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+239,us_bil3_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+240,us_bil4_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+241,us_bil5_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+242,us_bilv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Bilingual Students
+243,us_esly_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+244,us_esln_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not ESL Students
+245,us_esl2_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL/Content-based students
+246,us_esl3_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL/Pull-out students
+247,us_eslv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info ESL Students
+248,us_esbiy_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Either Bilingual or ESL
+249,us_esbin_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+250,us_esbiv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+251,us_spey_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Special Ed Students
+252,us_spen_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Special Ed Students
+253,us_spev_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Special Ed Students
+254,us_gify_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Gifted/Talented Students
+255,us_gifn_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+256,us_gifv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+257,us_atry_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- At-Risk Students
+258,us_atrn_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not At-Risk Students
+259,us_atrv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info At-Risk Students
+260,us_vocy_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+261,us_vocn_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Career/Tech Students
+262,us_voc1_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Elective Students
+263,us_voc2_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+264,us_voc3_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+265,us_vocv_satis_rec_nm,Numeric,8,# Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Career/Tech Students
+266,us_all_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- All Students
+267,us_sexm_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Male Students
+268,us_sexf_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Female Students
+269,us_sexv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Sex Info Students
+270,us_ethh_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Hispanic/Latino Students
+271,us_ethi_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+272,us_etha_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Asian Students
+273,us_ethb_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Black/African American Students
+274,us_ethp_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+275,us_ethw_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- White Students
+276,us_eth2_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Two or More Races Students
+277,us_ethv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Ethnicity Info Students
+278,us_ecoy_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+279,us_econ_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Econ Disadv Students
+280,us_eco1_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Free Meals Students
+281,us_eco2_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+282,us_eco9_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+283,us_ecov_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Econ Students
+284,us_ti1y_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+285,us_ti1n_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+286,us_ti10_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+287,us_ti16_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+288,us_ti17_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+289,us_ti18_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+290,us_ti19_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+291,us_ti1v_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Title-I Info Students
+292,us_migy_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Migrant Students
+293,us_mign_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Migrant Students
+294,us_migv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Migrant Info Students
+295,us_lepc_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Current LEP Students
+296,us_lepf_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- First Year Monitored Students
+297,us_leps_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Second Year Monitored Students
+298,us_lep0_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Other Non-LEP Students
+299,us_lepv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No LEP Info Students
+300,us_bily_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+301,us_biln_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Bilingual Students
+302,us_bil2_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+303,us_bil3_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+304,us_bil4_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+305,us_bil5_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+306,us_bilv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Bilingual Students
+307,us_esly_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+308,us_esln_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not ESL Students
+309,us_esl2_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL/Content-based students
+310,us_esl3_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL/Pull-out students
+311,us_eslv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info ESL Students
+312,us_esbiy_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Either Bilingual or ESL
+313,us_esbin_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+314,us_esbiv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+315,us_spey_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Special Ed Students
+316,us_spen_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Special Ed Students
+317,us_spev_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Special Ed Students
+318,us_gify_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Gifted/Talented Students
+319,us_gifn_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+320,us_gifv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+321,us_atry_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- At-Risk Students
+322,us_atrn_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not At-Risk Students
+323,us_atrv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info At-Risk Students
+324,us_vocy_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+325,us_vocn_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Career/Tech Students
+326,us_voc1_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Elective Students
+327,us_voc2_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+328,us_voc3_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+329,us_vocv_adv_rec_nm,Numeric,8,# Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Career/Tech Students
+330,us_all_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- All Students
+331,us_sexm_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Male Students
+332,us_sexf_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Female Students
+333,us_sexv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Sex Info Students
+334,us_ethh_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Hispanic/Latino Students
+335,us_ethi_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- American Indian or Alaskan Native Students
+336,us_etha_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Asian Students
+337,us_ethb_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Black/African American Students
+338,us_ethp_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+339,us_ethw_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- White Students
+340,us_eth2_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Two or More Races Students
+341,us_ethv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Ethnicity Info Students
+342,us_ecoy_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+343,us_econ_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Econ Disadv Students
+344,us_eco1_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Free Meals Students
+345,us_eco2_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Reduced-Price Meals Students
+346,us_eco9_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Other Econ Disadvantaged Students
+347,us_ecov_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Econ Students
+348,us_ti1y_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+349,us_ti1n_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+350,us_ti10_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+351,us_ti16_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Schoolwide Program Participant Students
+352,us_ti17_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Targeted Assistance Participant Students
+353,us_ti18_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+354,us_ti19_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+355,us_ti1v_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Title-I Info Students
+356,us_migy_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Migrant Students
+357,us_mign_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Migrant Students
+358,us_migv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Migrant Info Students
+359,us_lepc_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Current LEP Students
+360,us_lepf_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- First Year Monitored Students
+361,us_leps_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Second Year Monitored Students
+362,us_lep0_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Other Non-LEP Students
+363,us_lepv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No LEP Info Students
+364,us_bily_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+365,us_biln_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Bilingual Students
+366,us_bil2_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+367,us_bil3_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+368,us_bil4_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+369,us_bil5_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/One Way Students
+370,us_bilv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Bilingual Students
+371,us_esly_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL Students Codes: 2 3
+372,us_esln_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not ESL Students
+373,us_esl2_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL/Content-based students
+374,us_esl3_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL/Pull-out students
+375,us_eslv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info ESL Students
+376,us_esbiy_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Either Bilingual or ESL
+377,us_esbin_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+378,us_esbiv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+379,us_spey_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Special Ed Students
+380,us_spen_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Special Ed Students
+381,us_spev_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Special Ed Students
+382,us_gify_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Gifted/Talented Students
+383,us_gifn_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Gifted/Talented Students
+384,us_gifv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Gifted/Talented Students
+385,us_atry_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- At-Risk Students
+386,us_atrn_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not At-Risk Students
+387,us_atrv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info At-Risk Students
+388,us_vocy_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+389,us_vocn_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Career/Tech Students
+390,us_voc1_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Elective Students
+391,us_voc2_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+392,us_voc3_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Tech Prep Students
+393,us_vocv_unsat_ph1_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Career/Tech Students
+394,us_all_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- All Students
+395,us_sexm_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Male Students
+396,us_sexf_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Female Students
+397,us_sexv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Sex Info Students
+398,us_ethh_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Hispanic/Latino Students
+399,us_ethi_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- American Indian or Alaskan Native Students
+400,us_etha_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Asian Students
+401,us_ethb_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Black/African American Students
+402,us_ethp_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+403,us_ethw_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- White Students
+404,us_eth2_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Two or More Races Students
+405,us_ethv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Ethnicity Info Students
+406,us_ecoy_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+407,us_econ_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Econ Disadv Students
+408,us_eco1_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Free Meals Students
+409,us_eco2_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Reduced-Price Meals Students
+410,us_eco9_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Other Econ Disadvantaged Students
+411,us_ecov_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Econ Students
+412,us_ti1y_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+413,us_ti1n_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+414,us_ti10_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+415,us_ti16_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Schoolwide Program Participant Students
+416,us_ti17_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Targeted Assistance Participant Students
+417,us_ti18_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+418,us_ti19_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+419,us_ti1v_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Title-I Info Students
+420,us_migy_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Migrant Students
+421,us_mign_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Migrant Students
+422,us_migv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Migrant Info Students
+423,us_lepc_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Current LEP Students
+424,us_lepf_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- First Year Monitored Students
+425,us_leps_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Second Year Monitored Students
+426,us_lep0_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Other Non-LEP Students
+427,us_lepv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No LEP Info Students
+428,us_bily_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+429,us_biln_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Bilingual Students
+430,us_bil2_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+431,us_bil3_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+432,us_bil4_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+433,us_bil5_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/One Way Students
+434,us_bilv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Bilingual Students
+435,us_esly_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL Students Codes: 2 3
+436,us_esln_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not ESL Students
+437,us_esl2_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL/Content-based students
+438,us_esl3_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL/Pull-out students
+439,us_eslv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info ESL Students
+440,us_esbiy_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Either Bilingual or ESL
+441,us_esbin_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+442,us_esbiv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+443,us_spey_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Special Ed Students
+444,us_spen_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Special Ed Students
+445,us_spev_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Special Ed Students
+446,us_gify_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Gifted/Talented Students
+447,us_gifn_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Gifted/Talented Students
+448,us_gifv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Gifted/Talented Students
+449,us_atry_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- At-Risk Students
+450,us_atrn_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not At-Risk Students
+451,us_atrv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info At-Risk Students
+452,us_vocy_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+453,us_vocn_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Career/Tech Students
+454,us_voc1_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Elective Students
+455,us_voc2_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+456,us_voc3_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Tech Prep Students
+457,us_vocv_unsat_ph2_nm,Numeric,8,# Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Career/Tech Students
+458,us_all_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- All Students
+459,us_sexm_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Male Students
+460,us_sexf_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Female Students
+461,us_sexv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Sex Info Students
+462,us_ethh_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Hispanic/Latino Students
+463,us_ethi_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+464,us_etha_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Asian Students
+465,us_ethb_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Black/African American Students
+466,us_ethp_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+467,us_ethw_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- White Students
+468,us_eth2_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Two or More Races Students
+469,us_ethv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Ethnicity Info Students
+470,us_ecoy_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+471,us_econ_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Econ Disadv Students
+472,us_eco1_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Free Meals Students
+473,us_eco2_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+474,us_eco9_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+475,us_ecov_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Econ Students
+476,us_ti1y_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+477,us_ti1n_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+478,us_ti10_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+479,us_ti16_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+480,us_ti17_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+481,us_ti18_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+482,us_ti19_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+483,us_ti1v_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Title-I Info Students
+484,us_migy_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Migrant Students
+485,us_mign_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Migrant Students
+486,us_migv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Migrant Info Students
+487,us_lepc_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Current LEP Students
+488,us_lepf_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- First Year Monitored Students
+489,us_leps_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Second Year Monitored Students
+490,us_lep0_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Other Non-LEP Students
+491,us_lepv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No LEP Info Students
+492,us_bily_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+493,us_biln_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Bilingual Students
+494,us_bil2_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+495,us_bil3_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+496,us_bil4_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+497,us_bil5_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+498,us_bilv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Bilingual Students
+499,us_esly_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+500,us_esln_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not ESL Students
+501,us_esl2_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL/Content-based students
+502,us_esl3_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL/Pull-out students
+503,us_eslv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info ESL Students
+504,us_esbiy_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Either Bilingual or ESL
+505,us_esbin_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+506,us_esbiv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+507,us_spey_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Special Ed Students
+508,us_spen_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Special Ed Students
+509,us_spev_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Special Ed Students
+510,us_gify_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Gifted/Talented Students
+511,us_gifn_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+512,us_gifv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+513,us_atry_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- At-Risk Students
+514,us_atrn_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not At-Risk Students
+515,us_atrv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info At-Risk Students
+516,us_vocy_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+517,us_vocn_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Career/Tech Students
+518,us_voc1_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Elective Students
+519,us_voc2_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+520,us_voc3_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+521,us_vocv_unsat_rec_nm,Numeric,8,# Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Career/Tech Students
+522,us_all_docs_r,Numeric,8,% Answer Documents Submitted -- U.S. History -- All Students
+523,us_all_abs_r,Numeric,8,% Absent - Not Tested -- U.S. History -- All Students
+524,us_all_oth_r,Numeric,8,% Other - Not Tested -- U.S. History -- All Students
+525,us_all_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- All Students
+526,us_sexm_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Male Students
+527,us_sexf_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Female Students
+528,us_sexv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Sex Info Students
+529,us_ethh_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Hispanic/Latino Students
+530,us_ethi_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- American Indian or Alaskan Native Students
+531,us_etha_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Asian Students
+532,us_ethb_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Black/African American Students
+533,us_ethp_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+534,us_ethw_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- White Students
+535,us_eth2_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Two or More Races Students
+536,us_ethv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Ethnicity Info Students
+537,us_ecoy_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+538,us_econ_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Econ Disadv Students
+539,us_eco1_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Free Meals Students
+540,us_eco2_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Reduced-Price Meals Students
+541,us_eco9_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Other Econ Disadvantaged Students
+542,us_ecov_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Econ Students
+543,us_ti1y_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+544,us_ti1n_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+545,us_ti10_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+546,us_ti16_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Schoolwide Program Participant Students
+547,us_ti17_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Targeted Assistance Participant Students
+548,us_ti18_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+549,us_ti19_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+550,us_ti1v_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Title-I Info Students
+551,us_migy_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Migrant Students
+552,us_mign_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Migrant Students
+553,us_migv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Migrant Info Students
+554,us_lepc_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Current LEP Students
+555,us_lepf_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- First Year Monitored Students
+556,us_leps_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Second Year Monitored Students
+557,us_lep0_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Other Non-LEP Students
+558,us_lepv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No LEP Info Students
+559,us_bily_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+560,us_biln_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Bilingual Students
+561,us_bil2_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+562,us_bil3_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+563,us_bil4_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+564,us_bil5_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/One Way Students
+565,us_bilv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Bilingual Students
+566,us_esly_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL Students Codes: 2 3
+567,us_esln_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not ESL Students
+568,us_esl2_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL/Content-based students
+569,us_esl3_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- ESL/Pull-out students
+570,us_eslv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info ESL Students
+571,us_esbiy_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Either Bilingual or ESL
+572,us_esbin_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+573,us_esbiv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+574,us_spey_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Special Ed Students
+575,us_spen_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Special Ed Students
+576,us_spev_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Special Ed Students
+577,us_gify_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Gifted/Talented Students
+578,us_gifn_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Gifted/Talented Students
+579,us_gifv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Gifted/Talented Students
+580,us_atry_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- At-Risk Students
+581,us_atrn_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not At-Risk Students
+582,us_atrv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info At-Risk Students
+583,us_vocy_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+584,us_vocn_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Not Career/Tech Students
+585,us_voc1_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Elective Students
+586,us_voc2_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+587,us_voc3_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- Career/Tech Tech Prep Students
+588,us_vocv_satis_ph1_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 1 -- U.S. History -- No Info Career/Tech Students
+589,us_all_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- All Students
+590,us_sexm_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Male Students
+591,us_sexf_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Female Students
+592,us_sexv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Sex Info Students
+593,us_ethh_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Hispanic/Latino Students
+594,us_ethi_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- American Indian or Alaskan Native Students
+595,us_etha_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Asian Students
+596,us_ethb_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Black/African American Students
+597,us_ethp_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+598,us_ethw_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- White Students
+599,us_eth2_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Two or More Races Students
+600,us_ethv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Ethnicity Info Students
+601,us_ecoy_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+602,us_econ_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Econ Disadv Students
+603,us_eco1_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Free Meals Students
+604,us_eco2_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Reduced-Price Meals Students
+605,us_eco9_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Other Econ Disadvantaged Students
+606,us_ecov_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Econ Students
+607,us_ti1y_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+608,us_ti1n_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+609,us_ti10_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+610,us_ti16_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Schoolwide Program Participant Students
+611,us_ti17_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Targeted Assistance Participant Students
+612,us_ti18_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+613,us_ti19_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+614,us_ti1v_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Title-I Info Students
+615,us_migy_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Migrant Students
+616,us_mign_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Migrant Students
+617,us_migv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Migrant Info Students
+618,us_lepc_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Current LEP Students
+619,us_lepf_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- First Year Monitored Students
+620,us_leps_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Second Year Monitored Students
+621,us_lep0_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Other Non-LEP Students
+622,us_lepv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No LEP Info Students
+623,us_bily_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+624,us_biln_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Bilingual Students
+625,us_bil2_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+626,us_bil3_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+627,us_bil4_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+628,us_bil5_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/One Way Students
+629,us_bilv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Bilingual Students
+630,us_esly_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL Students Codes: 2 3
+631,us_esln_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not ESL Students
+632,us_esl2_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL/Content-based students
+633,us_esl3_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- ESL/Pull-out students
+634,us_eslv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info ESL Students
+635,us_esbiy_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Either Bilingual or ESL
+636,us_esbin_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+637,us_esbiv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+638,us_spey_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Special Ed Students
+639,us_spen_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Special Ed Students
+640,us_spev_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Special Ed Students
+641,us_gify_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Gifted/Talented Students
+642,us_gifn_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Gifted/Talented Students
+643,us_gifv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Gifted/Talented Students
+644,us_atry_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- At-Risk Students
+645,us_atrn_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not At-Risk Students
+646,us_atrv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info At-Risk Students
+647,us_vocy_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+648,us_vocn_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Not Career/Tech Students
+649,us_voc1_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Elective Students
+650,us_voc2_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+651,us_voc3_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- Career/Tech Tech Prep Students
+652,us_vocv_satis_ph2_rm,Numeric,8,% Achieved Level II Satisfactory--Phase-in 2 -- U.S. History -- No Info Career/Tech Students
+653,us_all_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- All Students
+654,us_sexm_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Male Students
+655,us_sexf_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Female Students
+656,us_sexv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Sex Info Students
+657,us_ethh_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Hispanic/Latino Students
+658,us_ethi_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+659,us_etha_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Asian Students
+660,us_ethb_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Black/African American Students
+661,us_ethp_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+662,us_ethw_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- White Students
+663,us_eth2_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Two or More Races Students
+664,us_ethv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Ethnicity Info Students
+665,us_ecoy_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+666,us_econ_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Econ Disadv Students
+667,us_eco1_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Free Meals Students
+668,us_eco2_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+669,us_eco9_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+670,us_ecov_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Econ Students
+671,us_ti1y_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+672,us_ti1n_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+673,us_ti10_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+674,us_ti16_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+675,us_ti17_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+676,us_ti18_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+677,us_ti19_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+678,us_ti1v_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Title-I Info Students
+679,us_migy_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Migrant Students
+680,us_mign_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Migrant Students
+681,us_migv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Migrant Info Students
+682,us_lepc_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Current LEP Students
+683,us_lepf_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- First Year Monitored Students
+684,us_leps_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Second Year Monitored Students
+685,us_lep0_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Other Non-LEP Students
+686,us_lepv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No LEP Info Students
+687,us_bily_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+688,us_biln_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Bilingual Students
+689,us_bil2_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+690,us_bil3_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+691,us_bil4_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+692,us_bil5_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+693,us_bilv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Bilingual Students
+694,us_esly_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+695,us_esln_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not ESL Students
+696,us_esl2_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL/Content-based students
+697,us_esl3_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- ESL/Pull-out students
+698,us_eslv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info ESL Students
+699,us_esbiy_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Either Bilingual or ESL
+700,us_esbin_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+701,us_esbiv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+702,us_spey_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Special Ed Students
+703,us_spen_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Special Ed Students
+704,us_spev_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Special Ed Students
+705,us_gify_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Gifted/Talented Students
+706,us_gifn_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+707,us_gifv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+708,us_atry_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- At-Risk Students
+709,us_atrn_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not At-Risk Students
+710,us_atrv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info At-Risk Students
+711,us_vocy_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+712,us_vocn_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Not Career/Tech Students
+713,us_voc1_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Elective Students
+714,us_voc2_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+715,us_voc3_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+716,us_vocv_satis_rec_rm,Numeric,8,% Achieved Level II Satisfactory--Final Recommended -- U.S. History -- No Info Career/Tech Students
+717,us_all_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- All Students
+718,us_sexm_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Male Students
+719,us_sexf_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Female Students
+720,us_sexv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Sex Info Students
+721,us_ethh_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Hispanic/Latino Students
+722,us_ethi_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+723,us_etha_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Asian Students
+724,us_ethb_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Black/African American Students
+725,us_ethp_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+726,us_ethw_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- White Students
+727,us_eth2_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Two or More Races Students
+728,us_ethv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Ethnicity Info Students
+729,us_ecoy_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+730,us_econ_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Econ Disadv Students
+731,us_eco1_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Free Meals Students
+732,us_eco2_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+733,us_eco9_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+734,us_ecov_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Econ Students
+735,us_ti1y_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+736,us_ti1n_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+737,us_ti10_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+738,us_ti16_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+739,us_ti17_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+740,us_ti18_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+741,us_ti19_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+742,us_ti1v_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Title-I Info Students
+743,us_migy_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Migrant Students
+744,us_mign_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Migrant Students
+745,us_migv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Migrant Info Students
+746,us_lepc_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Current LEP Students
+747,us_lepf_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- First Year Monitored Students
+748,us_leps_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Second Year Monitored Students
+749,us_lep0_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Other Non-LEP Students
+750,us_lepv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No LEP Info Students
+751,us_bily_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+752,us_biln_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Bilingual Students
+753,us_bil2_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+754,us_bil3_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+755,us_bil4_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+756,us_bil5_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+757,us_bilv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Bilingual Students
+758,us_esly_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+759,us_esln_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not ESL Students
+760,us_esl2_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL/Content-based students
+761,us_esl3_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- ESL/Pull-out students
+762,us_eslv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info ESL Students
+763,us_esbiy_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Either Bilingual or ESL
+764,us_esbin_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+765,us_esbiv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+766,us_spey_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Special Ed Students
+767,us_spen_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Special Ed Students
+768,us_spev_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Special Ed Students
+769,us_gify_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Gifted/Talented Students
+770,us_gifn_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+771,us_gifv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+772,us_atry_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- At-Risk Students
+773,us_atrn_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not At-Risk Students
+774,us_atrv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info At-Risk Students
+775,us_vocy_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+776,us_vocn_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Not Career/Tech Students
+777,us_voc1_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Elective Students
+778,us_voc2_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+779,us_voc3_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+780,us_vocv_adv_rec_rm,Numeric,8,% Achieved Level III Advanced--Final Recommended -- U.S. History -- No Info Career/Tech Students
+781,us_all_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- All Students
+782,us_sexm_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Male Students
+783,us_sexf_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Female Students
+784,us_sexv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Sex Info Students
+785,us_ethh_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Hispanic/Latino Students
+786,us_ethi_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- American Indian or Alaskan Native Students
+787,us_etha_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Asian Students
+788,us_ethb_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Black/African American Students
+789,us_ethp_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+790,us_ethw_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- White Students
+791,us_eth2_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Two or More Races Students
+792,us_ethv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Ethnicity Info Students
+793,us_ecoy_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+794,us_econ_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Econ Disadv Students
+795,us_eco1_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Free Meals Students
+796,us_eco2_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Reduced-Price Meals Students
+797,us_eco9_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Other Econ Disadvantaged Students
+798,us_ecov_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Econ Students
+799,us_ti1y_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+800,us_ti1n_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+801,us_ti10_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+802,us_ti16_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Schoolwide Program Participant Students
+803,us_ti17_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Targeted Assistance Participant Students
+804,us_ti18_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+805,us_ti19_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+806,us_ti1v_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Title-I Info Students
+807,us_migy_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Migrant Students
+808,us_mign_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Migrant Students
+809,us_migv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Migrant Info Students
+810,us_lepc_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Current LEP Students
+811,us_lepf_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- First Year Monitored Students
+812,us_leps_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Second Year Monitored Students
+813,us_lep0_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Other Non-LEP Students
+814,us_lepv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No LEP Info Students
+815,us_bily_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+816,us_biln_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Bilingual Students
+817,us_bil2_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+818,us_bil3_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+819,us_bil4_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+820,us_bil5_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Dual Language Immersion/One Way Students
+821,us_bilv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Bilingual Students
+822,us_esly_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL Students Codes: 2 3
+823,us_esln_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not ESL Students
+824,us_esl2_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL/Content-based students
+825,us_esl3_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- ESL/Pull-out students
+826,us_eslv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info ESL Students
+827,us_esbiy_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Either Bilingual or ESL
+828,us_esbin_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+829,us_esbiv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+830,us_spey_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Special Ed Students
+831,us_spen_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Special Ed Students
+832,us_spev_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Special Ed Students
+833,us_gify_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Gifted/Talented Students
+834,us_gifn_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Gifted/Talented Students
+835,us_gifv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Gifted/Talented Students
+836,us_atry_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- At-Risk Students
+837,us_atrn_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not At-Risk Students
+838,us_atrv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info At-Risk Students
+839,us_vocy_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+840,us_vocn_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Not Career/Tech Students
+841,us_voc1_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Elective Students
+842,us_voc2_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+843,us_voc3_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- Career/Tech Tech Prep Students
+844,us_vocv_unsat_ph1_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 1 -- U.S. History -- No Info Career/Tech Students
+845,us_all_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- All Students
+846,us_sexm_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Male Students
+847,us_sexf_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Female Students
+848,us_sexv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Sex Info Students
+849,us_ethh_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Hispanic/Latino Students
+850,us_ethi_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- American Indian or Alaskan Native Students
+851,us_etha_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Asian Students
+852,us_ethb_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Black/African American Students
+853,us_ethp_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+854,us_ethw_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- White Students
+855,us_eth2_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Two or More Races Students
+856,us_ethv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Ethnicity Info Students
+857,us_ecoy_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+858,us_econ_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Econ Disadv Students
+859,us_eco1_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Free Meals Students
+860,us_eco2_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Reduced-Price Meals Students
+861,us_eco9_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Other Econ Disadvantaged Students
+862,us_ecov_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Econ Students
+863,us_ti1y_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+864,us_ti1n_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+865,us_ti10_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+866,us_ti16_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Schoolwide Program Participant Students
+867,us_ti17_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Targeted Assistance Participant Students
+868,us_ti18_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+869,us_ti19_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+870,us_ti1v_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Title-I Info Students
+871,us_migy_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Migrant Students
+872,us_mign_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Migrant Students
+873,us_migv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Migrant Info Students
+874,us_lepc_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Current LEP Students
+875,us_lepf_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- First Year Monitored Students
+876,us_leps_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Second Year Monitored Students
+877,us_lep0_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Other Non-LEP Students
+878,us_lepv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No LEP Info Students
+879,us_bily_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+880,us_biln_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Bilingual Students
+881,us_bil2_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+882,us_bil3_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+883,us_bil4_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+884,us_bil5_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Dual Language Immersion/One Way Students
+885,us_bilv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Bilingual Students
+886,us_esly_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL Students Codes: 2 3
+887,us_esln_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not ESL Students
+888,us_esl2_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL/Content-based students
+889,us_esl3_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- ESL/Pull-out students
+890,us_eslv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info ESL Students
+891,us_esbiy_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Either Bilingual or ESL
+892,us_esbin_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+893,us_esbiv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+894,us_spey_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Special Ed Students
+895,us_spen_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Special Ed Students
+896,us_spev_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Special Ed Students
+897,us_gify_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Gifted/Talented Students
+898,us_gifn_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Gifted/Talented Students
+899,us_gifv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Gifted/Talented Students
+900,us_atry_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- At-Risk Students
+901,us_atrn_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not At-Risk Students
+902,us_atrv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info At-Risk Students
+903,us_vocy_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+904,us_vocn_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Not Career/Tech Students
+905,us_voc1_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Elective Students
+906,us_voc2_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+907,us_voc3_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- Career/Tech Tech Prep Students
+908,us_vocv_unsat_ph2_rm,Numeric,8,% Achieved Level I Unsatisfactory--Phase-in 2 -- U.S. History -- No Info Career/Tech Students
+909,us_all_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- All Students
+910,us_sexm_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Male Students
+911,us_sexf_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Female Students
+912,us_sexv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Sex Info Students
+913,us_ethh_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Hispanic/Latino Students
+914,us_ethi_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- American Indian or Alaskan Native Students
+915,us_etha_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Asian Students
+916,us_ethb_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Black/African American Students
+917,us_ethp_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Native Hawaiian/Pacific Islander Students
+918,us_ethw_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- White Students
+919,us_eth2_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Two or More Races Students
+920,us_ethv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Ethnicity Info Students
+921,us_ecoy_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+922,us_econ_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Econ Disadv Students
+923,us_eco1_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Free Meals Students
+924,us_eco2_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Reduced-Price Meals Students
+925,us_eco9_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Other Econ Disadvantaged Students
+926,us_ecov_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Econ Students
+927,us_ti1y_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+928,us_ti1n_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+929,us_ti10_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+930,us_ti16_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Schoolwide Program Participant Students
+931,us_ti17_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Targeted Assistance Participant Students
+932,us_ti18_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Nonparticipant (Previous Participant) Students
+933,us_ti19_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+934,us_ti1v_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Title-I Info Students
+935,us_migy_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Migrant Students
+936,us_mign_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Migrant Students
+937,us_migv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Migrant Info Students
+938,us_lepc_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Current LEP Students
+939,us_lepf_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- First Year Monitored Students
+940,us_leps_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Second Year Monitored Students
+941,us_lep0_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Other Non-LEP Students
+942,us_lepv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No LEP Info Students
+943,us_bily_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+944,us_biln_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Bilingual Students
+945,us_bil2_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Early Exit Students
+946,us_bil3_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Transitional Bilingual/Late Exit Students
+947,us_bil4_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/Two Way Students
+948,us_bil5_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Dual Language Immersion/One Way Students
+949,us_bilv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Bilingual Students
+950,us_esly_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL Students Codes: 2 3
+951,us_esln_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not ESL Students
+952,us_esl2_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL/Content-based students
+953,us_esl3_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- ESL/Pull-out students
+954,us_eslv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info ESL Students
+955,us_esbiy_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Either Bilingual or ESL
+956,us_esbin_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+957,us_esbiv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+958,us_spey_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Special Ed Students
+959,us_spen_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Special Ed Students
+960,us_spev_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Special Ed Students
+961,us_gify_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Gifted/Talented Students
+962,us_gifn_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Gifted/Talented Students
+963,us_gifv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Gifted/Talented Students
+964,us_atry_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- At-Risk Students
+965,us_atrn_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not At-Risk Students
+966,us_atrv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info At-Risk Students
+967,us_vocy_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+968,us_vocn_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Not Career/Tech Students
+969,us_voc1_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Elective Students
+970,us_voc2_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Coherent Sequence Students
+971,us_voc3_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- Career/Tech Tech Prep Students
+972,us_vocv_unsat_rec_rm,Numeric,8,% Achieved Level I Unsatisfactory--Final Recommended -- U.S. History -- No Info Career/Tech Students
+973,us_all_rs,Numeric,8,Average Scale Score -- U.S. History -- All Students
+974,us_sexm_rs,Numeric,8,Average Scale Score -- U.S. History -- Male Students
+975,us_sexf_rs,Numeric,8,Average Scale Score -- U.S. History -- Female Students
+976,us_sexv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Sex Info Students
+977,us_ethh_rs,Numeric,8,Average Scale Score -- U.S. History -- Hispanic/Latino Students
+978,us_ethi_rs,Numeric,8,Average Scale Score -- U.S. History -- American Indian or Alaskan Native Students
+979,us_etha_rs,Numeric,8,Average Scale Score -- U.S. History -- Asian Students
+980,us_ethb_rs,Numeric,8,Average Scale Score -- U.S. History -- Black/African American Students
+981,us_ethp_rs,Numeric,8,Average Scale Score -- U.S. History -- Native Hawaiian/Pacific Islander Students
+982,us_ethw_rs,Numeric,8,Average Scale Score -- U.S. History -- White Students
+983,us_eth2_rs,Numeric,8,Average Scale Score -- U.S. History -- Two or More Races Students
+984,us_ethv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Ethnicity Info Students
+985,us_ecoy_rs,Numeric,8,Average Scale Score -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+986,us_econ_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Econ Disadv Students
+987,us_eco1_rs,Numeric,8,Average Scale Score -- U.S. History -- Free Meals Students
+988,us_eco2_rs,Numeric,8,Average Scale Score -- U.S. History -- Reduced-Price Meals Students
+989,us_eco9_rs,Numeric,8,Average Scale Score -- U.S. History -- Other Econ Disadvantaged Students
+990,us_ecov_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info Econ Students
+991,us_ti1y_rs,Numeric,8,Average Scale Score -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+992,us_ti1n_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+993,us_ti10_rs,Numeric,8,Average Scale Score -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+994,us_ti16_rs,Numeric,8,Average Scale Score -- U.S. History -- Schoolwide Program Participant Students
+995,us_ti17_rs,Numeric,8,Average Scale Score -- U.S. History -- Targeted Assistance Participant Students
+996,us_ti18_rs,Numeric,8,Average Scale Score -- U.S. History -- Nonparticipant (Previous Participant) Students
+997,us_ti19_rs,Numeric,8,Average Scale Score -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+998,us_ti1v_rs,Numeric,8,Average Scale Score -- U.S. History -- No Title-I Info Students
+999,us_migy_rs,Numeric,8,Average Scale Score -- U.S. History -- Migrant Students
+1000,us_mign_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Migrant Students
+1001,us_migv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Migrant Info Students
+1002,us_lepc_rs,Numeric,8,Average Scale Score -- U.S. History -- Current LEP Students
+1003,us_lepf_rs,Numeric,8,Average Scale Score -- U.S. History -- First Year Monitored Students
+1004,us_leps_rs,Numeric,8,Average Scale Score -- U.S. History -- Second Year Monitored Students
+1005,us_lep0_rs,Numeric,8,Average Scale Score -- U.S. History -- Other Non-LEP Students
+1006,us_lepv_rs,Numeric,8,Average Scale Score -- U.S. History -- No LEP Info Students
+1007,us_bily_rs,Numeric,8,Average Scale Score -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1008,us_biln_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Bilingual Students
+1009,us_bil2_rs,Numeric,8,Average Scale Score -- U.S. History -- Transitional Bilingual/Early Exit Students
+1010,us_bil3_rs,Numeric,8,Average Scale Score -- U.S. History -- Transitional Bilingual/Late Exit Students
+1011,us_bil4_rs,Numeric,8,Average Scale Score -- U.S. History -- Dual Language Immersion/Two Way Students
+1012,us_bil5_rs,Numeric,8,Average Scale Score -- U.S. History -- Dual Language Immersion/One Way Students
+1013,us_bilv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info Bilingual Students
+1014,us_esly_rs,Numeric,8,Average Scale Score -- U.S. History -- ESL Students Codes: 2 3
+1015,us_esln_rs,Numeric,8,Average Scale Score -- U.S. History -- Not ESL Students
+1016,us_esl2_rs,Numeric,8,Average Scale Score -- U.S. History -- ESL/Content-based students
+1017,us_esl3_rs,Numeric,8,Average Scale Score -- U.S. History -- ESL/Pull-out students
+1018,us_eslv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info ESL Students
+1019,us_esbiy_rs,Numeric,8,Average Scale Score -- U.S. History -- Either Bilingual or ESL
+1020,us_esbin_rs,Numeric,8,Average Scale Score -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1021,us_esbiv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1022,us_spey_rs,Numeric,8,Average Scale Score -- U.S. History -- Special Ed Students
+1023,us_spen_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Special Ed Students
+1024,us_spev_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info Special Ed Students
+1025,us_gify_rs,Numeric,8,Average Scale Score -- U.S. History -- Gifted/Talented Students
+1026,us_gifn_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Gifted/Talented Students
+1027,us_gifv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info Gifted/Talented Students
+1028,us_atry_rs,Numeric,8,Average Scale Score -- U.S. History -- At-Risk Students
+1029,us_atrn_rs,Numeric,8,Average Scale Score -- U.S. History -- Not At-Risk Students
+1030,us_atrv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info At-Risk Students
+1031,us_vocy_rs,Numeric,8,Average Scale Score -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1032,us_vocn_rs,Numeric,8,Average Scale Score -- U.S. History -- Not Career/Tech Students
+1033,us_voc1_rs,Numeric,8,Average Scale Score -- U.S. History -- Career/Tech Elective Students
+1034,us_voc2_rs,Numeric,8,Average Scale Score -- U.S. History -- Career/Tech Coherent Sequence Students
+1035,us_voc3_rs,Numeric,8,Average Scale Score -- U.S. History -- Career/Tech Tech Prep Students
+1036,us_vocv_rs,Numeric,8,Average Scale Score -- U.S. History -- No Info Career/Tech Students
+1037,us_all_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- All Students
+1038,us_all_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- All Students
+1039,us_sexm_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Male Students
+1040,us_sexm_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Male Students
+1041,us_sexf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Female Students
+1042,us_sexf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Female Students
+1043,us_sexv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Sex Info Students
+1044,us_sexv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Sex Info Students
+1045,us_ethh_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Hispanic/Latino Students
+1046,us_ethh_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Hispanic/Latino Students
+1047,us_ethi_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- American Indian or Alaskan Native Students
+1048,us_ethi_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- American Indian or Alaskan Native Students
+1049,us_etha_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Asian Students
+1050,us_etha_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Asian Students
+1051,us_ethb_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Black/African American Students
+1052,us_ethb_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Black/African American Students
+1053,us_ethp_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1054,us_ethp_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1055,us_ethw_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- White Students
+1056,us_ethw_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- White Students
+1057,us_eth2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Two or More Races Students
+1058,us_eth2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Two or More Races Students
+1059,us_ethv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Ethnicity Info Students
+1060,us_ethv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Ethnicity Info Students
+1061,us_ecoy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1062,us_ecoy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1063,us_econ_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Econ Disadv Students
+1064,us_econ_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Econ Disadv Students
+1065,us_eco1_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Free Meals Students
+1066,us_eco1_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Free Meals Students
+1067,us_eco2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Reduced-Price Meals Students
+1068,us_eco2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Reduced-Price Meals Students
+1069,us_eco9_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Other Econ Disadvantaged Students
+1070,us_eco9_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Other Econ Disadvantaged Students
+1071,us_ecov_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Econ Students
+1072,us_ecov_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Econ Students
+1073,us_ti1y_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1074,us_ti1y_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1075,us_ti1n_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1076,us_ti1n_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1077,us_ti10_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1078,us_ti10_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1079,us_ti16_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Schoolwide Program Participant Students
+1080,us_ti16_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Schoolwide Program Participant Students
+1081,us_ti17_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Targeted Assistance Participant Students
+1082,us_ti17_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Targeted Assistance Participant Students
+1083,us_ti18_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1084,us_ti18_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1085,us_ti19_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1086,us_ti19_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1087,us_ti1v_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Title-I Info Students
+1088,us_ti1v_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Title-I Info Students
+1089,us_migy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Migrant Students
+1090,us_migy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Migrant Students
+1091,us_mign_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Migrant Students
+1092,us_mign_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Migrant Students
+1093,us_migv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Migrant Info Students
+1094,us_migv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Migrant Info Students
+1095,us_lepc_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Current LEP Students
+1096,us_lepc_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Current LEP Students
+1097,us_lepf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- First Year Monitored Students
+1098,us_lepf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- First Year Monitored Students
+1099,us_leps_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Second Year Monitored Students
+1100,us_leps_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Second Year Monitored Students
+1101,us_lep0_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Other Non-LEP Students
+1102,us_lep0_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Other Non-LEP Students
+1103,us_lepv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No LEP Info Students
+1104,us_lepv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No LEP Info Students
+1105,us_bily_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1106,us_bily_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1107,us_biln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Bilingual Students
+1108,us_biln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Bilingual Students
+1109,us_bil2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1110,us_bil2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1111,us_bil3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1112,us_bil3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1113,us_bil4_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+1114,us_bil4_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Dual Language Immersion/Two Way Students
+1115,us_bil5_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Dual Language Immersion/One Way Students
+1116,us_bil5_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Dual Language Immersion/One Way Students
+1117,us_bilv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Bilingual Students
+1118,us_bilv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Bilingual Students
+1119,us_esly_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL Students Codes: 2 3
+1120,us_esly_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL Students Codes: 2 3
+1121,us_esln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not ESL Students
+1122,us_esln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not ESL Students
+1123,us_esl2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL/Content-based students
+1124,us_esl2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL/Content-based students
+1125,us_esl3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL/Pull-out students
+1126,us_esl3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- ESL/Pull-out students
+1127,us_eslv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info ESL Students
+1128,us_eslv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info ESL Students
+1129,us_esbiy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Either Bilingual or ESL
+1130,us_esbiy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Either Bilingual or ESL
+1131,us_esbin_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1132,us_esbin_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1133,us_esbiv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1134,us_esbiv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1135,us_spey_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Special Ed Students
+1136,us_spey_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Special Ed Students
+1137,us_spen_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Special Ed Students
+1138,us_spen_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Special Ed Students
+1139,us_spev_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Special Ed Students
+1140,us_spev_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Special Ed Students
+1141,us_gify_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Gifted/Talented Students
+1142,us_gify_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Gifted/Talented Students
+1143,us_gifn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Gifted/Talented Students
+1144,us_gifn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Gifted/Talented Students
+1145,us_gifv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Gifted/Talented Students
+1146,us_gifv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Gifted/Talented Students
+1147,us_atry_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- At-Risk Students
+1148,us_atry_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- At-Risk Students
+1149,us_atrn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not At-Risk Students
+1150,us_atrn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not At-Risk Students
+1151,us_atrv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info At-Risk Students
+1152,us_atrv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info At-Risk Students
+1153,us_vocy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1154,us_vocy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1155,us_vocn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Career/Tech Students
+1156,us_vocn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Not Career/Tech Students
+1157,us_voc1_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Elective Students
+1158,us_voc1_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Elective Students
+1159,us_voc2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+1160,us_voc2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Coherent Sequence Students
+1161,us_voc3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Tech Prep Students
+1162,us_voc3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- Career/Tech Tech Prep Students
+1163,us_vocv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Career/Tech Students
+1164,us_vocv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- U.S. History -- No Info Career/Tech Students
+1165,us_all_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- All Students
+1166,us_all_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- All Students
+1167,us_sexm_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Male Students
+1168,us_sexm_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Male Students
+1169,us_sexf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Female Students
+1170,us_sexf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Female Students
+1171,us_sexv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Sex Info Students
+1172,us_sexv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Sex Info Students
+1173,us_ethh_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Hispanic/Latino Students
+1174,us_ethh_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Hispanic/Latino Students
+1175,us_ethi_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- American Indian or Alaskan Native Students
+1176,us_ethi_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- American Indian or Alaskan Native Students
+1177,us_etha_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Asian Students
+1178,us_etha_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Asian Students
+1179,us_ethb_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Black/African American Students
+1180,us_ethb_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Black/African American Students
+1181,us_ethp_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1182,us_ethp_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1183,us_ethw_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- White Students
+1184,us_ethw_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- White Students
+1185,us_eth2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Two or More Races Students
+1186,us_eth2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Two or More Races Students
+1187,us_ethv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Ethnicity Info Students
+1188,us_ethv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Ethnicity Info Students
+1189,us_ecoy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1190,us_ecoy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1191,us_econ_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Econ Disadv Students
+1192,us_econ_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Econ Disadv Students
+1193,us_eco1_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Free Meals Students
+1194,us_eco1_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Free Meals Students
+1195,us_eco2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Reduced-Price Meals Students
+1196,us_eco2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Reduced-Price Meals Students
+1197,us_eco9_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Other Econ Disadvantaged Students
+1198,us_eco9_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Other Econ Disadvantaged Students
+1199,us_ecov_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Econ Students
+1200,us_ecov_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Econ Students
+1201,us_ti1y_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1202,us_ti1y_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1203,us_ti1n_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1204,us_ti1n_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1205,us_ti10_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1206,us_ti10_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1207,us_ti16_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Schoolwide Program Participant Students
+1208,us_ti16_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Schoolwide Program Participant Students
+1209,us_ti17_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Targeted Assistance Participant Students
+1210,us_ti17_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Targeted Assistance Participant Students
+1211,us_ti18_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1212,us_ti18_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1213,us_ti19_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1214,us_ti19_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1215,us_ti1v_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Title-I Info Students
+1216,us_ti1v_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Title-I Info Students
+1217,us_migy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Migrant Students
+1218,us_migy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Migrant Students
+1219,us_mign_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Migrant Students
+1220,us_mign_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Migrant Students
+1221,us_migv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Migrant Info Students
+1222,us_migv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Migrant Info Students
+1223,us_lepc_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Current LEP Students
+1224,us_lepc_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Current LEP Students
+1225,us_lepf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- First Year Monitored Students
+1226,us_lepf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- First Year Monitored Students
+1227,us_leps_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Second Year Monitored Students
+1228,us_leps_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Second Year Monitored Students
+1229,us_lep0_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Other Non-LEP Students
+1230,us_lep0_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Other Non-LEP Students
+1231,us_lepv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No LEP Info Students
+1232,us_lepv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No LEP Info Students
+1233,us_bily_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1234,us_bily_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1235,us_biln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Bilingual Students
+1236,us_biln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Bilingual Students
+1237,us_bil2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1238,us_bil2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1239,us_bil3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1240,us_bil3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1241,us_bil4_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+1242,us_bil4_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Dual Language Immersion/Two Way Students
+1243,us_bil5_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Dual Language Immersion/One Way Students
+1244,us_bil5_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Dual Language Immersion/One Way Students
+1245,us_bilv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Bilingual Students
+1246,us_bilv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Bilingual Students
+1247,us_esly_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL Students Codes: 2 3
+1248,us_esly_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL Students Codes: 2 3
+1249,us_esln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not ESL Students
+1250,us_esln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not ESL Students
+1251,us_esl2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL/Content-based students
+1252,us_esl2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL/Content-based students
+1253,us_esl3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL/Pull-out students
+1254,us_esl3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- ESL/Pull-out students
+1255,us_eslv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info ESL Students
+1256,us_eslv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info ESL Students
+1257,us_esbiy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Either Bilingual or ESL
+1258,us_esbiy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Either Bilingual or ESL
+1259,us_esbin_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1260,us_esbin_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1261,us_esbiv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1262,us_esbiv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1263,us_spey_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Special Ed Students
+1264,us_spey_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Special Ed Students
+1265,us_spen_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Special Ed Students
+1266,us_spen_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Special Ed Students
+1267,us_spev_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Special Ed Students
+1268,us_spev_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Special Ed Students
+1269,us_gify_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Gifted/Talented Students
+1270,us_gify_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Gifted/Talented Students
+1271,us_gifn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Gifted/Talented Students
+1272,us_gifn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Gifted/Talented Students
+1273,us_gifv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Gifted/Talented Students
+1274,us_gifv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Gifted/Talented Students
+1275,us_atry_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- At-Risk Students
+1276,us_atry_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- At-Risk Students
+1277,us_atrn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not At-Risk Students
+1278,us_atrn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not At-Risk Students
+1279,us_atrv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info At-Risk Students
+1280,us_atrv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info At-Risk Students
+1281,us_vocy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1282,us_vocy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1283,us_vocn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Career/Tech Students
+1284,us_vocn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Not Career/Tech Students
+1285,us_voc1_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Elective Students
+1286,us_voc1_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Elective Students
+1287,us_voc2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+1288,us_voc2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Coherent Sequence Students
+1289,us_voc3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Tech Prep Students
+1290,us_voc3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- Career/Tech Tech Prep Students
+1291,us_vocv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Career/Tech Students
+1292,us_vocv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- U.S. History -- No Info Career/Tech Students
+1293,us_all_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- All Students
+1294,us_all_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- All Students
+1295,us_sexm_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Male Students
+1296,us_sexm_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Male Students
+1297,us_sexf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Female Students
+1298,us_sexf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Female Students
+1299,us_sexv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Sex Info Students
+1300,us_sexv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Sex Info Students
+1301,us_ethh_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Hispanic/Latino Students
+1302,us_ethh_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Hispanic/Latino Students
+1303,us_ethi_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- American Indian or Alaskan Native Students
+1304,us_ethi_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- American Indian or Alaskan Native Students
+1305,us_etha_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Asian Students
+1306,us_etha_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Asian Students
+1307,us_ethb_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Black/African American Students
+1308,us_ethb_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Black/African American Students
+1309,us_ethp_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1310,us_ethp_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1311,us_ethw_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- White Students
+1312,us_ethw_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- White Students
+1313,us_eth2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Two or More Races Students
+1314,us_eth2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Two or More Races Students
+1315,us_ethv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Ethnicity Info Students
+1316,us_ethv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Ethnicity Info Students
+1317,us_ecoy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1318,us_ecoy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1319,us_econ_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Econ Disadv Students
+1320,us_econ_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Econ Disadv Students
+1321,us_eco1_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Free Meals Students
+1322,us_eco1_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Free Meals Students
+1323,us_eco2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Reduced-Price Meals Students
+1324,us_eco2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Reduced-Price Meals Students
+1325,us_eco9_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Other Econ Disadvantaged Students
+1326,us_eco9_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Other Econ Disadvantaged Students
+1327,us_ecov_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Econ Students
+1328,us_ecov_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Econ Students
+1329,us_ti1y_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1330,us_ti1y_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1331,us_ti1n_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1332,us_ti1n_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1333,us_ti10_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1334,us_ti10_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1335,us_ti16_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Schoolwide Program Participant Students
+1336,us_ti16_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Schoolwide Program Participant Students
+1337,us_ti17_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Targeted Assistance Participant Students
+1338,us_ti17_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Targeted Assistance Participant Students
+1339,us_ti18_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1340,us_ti18_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1341,us_ti19_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1342,us_ti19_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1343,us_ti1v_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Title-I Info Students
+1344,us_ti1v_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Title-I Info Students
+1345,us_migy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Migrant Students
+1346,us_migy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Migrant Students
+1347,us_mign_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Migrant Students
+1348,us_mign_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Migrant Students
+1349,us_migv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Migrant Info Students
+1350,us_migv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Migrant Info Students
+1351,us_lepc_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Current LEP Students
+1352,us_lepc_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Current LEP Students
+1353,us_lepf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- First Year Monitored Students
+1354,us_lepf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- First Year Monitored Students
+1355,us_leps_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Second Year Monitored Students
+1356,us_leps_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Second Year Monitored Students
+1357,us_lep0_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Other Non-LEP Students
+1358,us_lep0_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Other Non-LEP Students
+1359,us_lepv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No LEP Info Students
+1360,us_lepv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No LEP Info Students
+1361,us_bily_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1362,us_bily_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1363,us_biln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Bilingual Students
+1364,us_biln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Bilingual Students
+1365,us_bil2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1366,us_bil2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1367,us_bil3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1368,us_bil3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1369,us_bil4_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Dual Language Immersion/Two Way Students
+1370,us_bil4_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Dual Language Immersion/Two Way Students
+1371,us_bil5_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Dual Language Immersion/One Way Students
+1372,us_bil5_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Dual Language Immersion/One Way Students
+1373,us_bilv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Bilingual Students
+1374,us_bilv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Bilingual Students
+1375,us_esly_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL Students Codes: 2 3
+1376,us_esly_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL Students Codes: 2 3
+1377,us_esln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not ESL Students
+1378,us_esln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not ESL Students
+1379,us_esl2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL/Content-based students
+1380,us_esl2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL/Content-based students
+1381,us_esl3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL/Pull-out students
+1382,us_esl3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- ESL/Pull-out students
+1383,us_eslv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info ESL Students
+1384,us_eslv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info ESL Students
+1385,us_esbiy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Either Bilingual or ESL
+1386,us_esbiy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Either Bilingual or ESL
+1387,us_esbin_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1388,us_esbin_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1389,us_esbiv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1390,us_esbiv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1391,us_spey_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Special Ed Students
+1392,us_spey_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Special Ed Students
+1393,us_spen_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Special Ed Students
+1394,us_spen_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Special Ed Students
+1395,us_spev_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Special Ed Students
+1396,us_spev_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Special Ed Students
+1397,us_gify_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Gifted/Talented Students
+1398,us_gify_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Gifted/Talented Students
+1399,us_gifn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Gifted/Talented Students
+1400,us_gifn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Gifted/Talented Students
+1401,us_gifv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Gifted/Talented Students
+1402,us_gifv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Gifted/Talented Students
+1403,us_atry_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- At-Risk Students
+1404,us_atry_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- At-Risk Students
+1405,us_atrn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not At-Risk Students
+1406,us_atrn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not At-Risk Students
+1407,us_atrv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info At-Risk Students
+1408,us_atrv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info At-Risk Students
+1409,us_vocy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1410,us_vocy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1411,us_vocn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Career/Tech Students
+1412,us_vocn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Not Career/Tech Students
+1413,us_voc1_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Elective Students
+1414,us_voc1_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Elective Students
+1415,us_voc2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Coherent Sequence Students
+1416,us_voc2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Coherent Sequence Students
+1417,us_voc3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Tech Prep Students
+1418,us_voc3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- Career/Tech Tech Prep Students
+1419,us_vocv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Career/Tech Students
+1420,us_vocv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- U.S. History -- No Info Career/Tech Students
+1421,us_all_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- All Students
+1422,us_all_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- All Students
+1423,us_sexm_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Male Students
+1424,us_sexm_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Male Students
+1425,us_sexf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Female Students
+1426,us_sexf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Female Students
+1427,us_sexv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Sex Info Students
+1428,us_sexv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Sex Info Students
+1429,us_ethh_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Hispanic/Latino Students
+1430,us_ethh_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Hispanic/Latino Students
+1431,us_ethi_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- American Indian or Alaskan Native Students
+1432,us_ethi_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- American Indian or Alaskan Native Students
+1433,us_etha_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Asian Students
+1434,us_etha_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Asian Students
+1435,us_ethb_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Black/African American Students
+1436,us_ethb_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Black/African American Students
+1437,us_ethp_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1438,us_ethp_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Native Hawaiian/Pacific Islander Students
+1439,us_ethw_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- White Students
+1440,us_ethw_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- White Students
+1441,us_eth2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Two or More Races Students
+1442,us_eth2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Two or More Races Students
+1443,us_ethv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Ethnicity Info Students
+1444,us_ethv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Ethnicity Info Students
+1445,us_ecoy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1446,us_ecoy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Econ Disadv Students Codes: 1 2 9
+1447,us_econ_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Econ Disadv Students
+1448,us_econ_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Econ Disadv Students
+1449,us_eco1_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Free Meals Students
+1450,us_eco1_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Free Meals Students
+1451,us_eco2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Reduced-Price Meals Students
+1452,us_eco2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Reduced-Price Meals Students
+1453,us_eco9_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Other Econ Disadvantaged Students
+1454,us_eco9_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Other Econ Disadvantaged Students
+1455,us_ecov_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Econ Students
+1456,us_ecov_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Econ Students
+1457,us_ti1y_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1458,us_ti1y_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Title-I Participant Students Codes: 6 7 9
+1459,us_ti1n_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1460,us_ti1n_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Title-I Participant Students Codes: 0 8
+1461,us_ti10_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1462,us_ti10_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Nonparticipant (Not Previous Participant Students)
+1463,us_ti16_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Schoolwide Program Participant Students
+1464,us_ti16_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Schoolwide Program Participant Students
+1465,us_ti17_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Targeted Assistance Participant Students
+1466,us_ti17_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Targeted Assistance Participant Students
+1467,us_ti18_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1468,us_ti18_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Nonparticipant (Previous Participant) Students
+1469,us_ti19_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1470,us_ti19_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Homeless Participant at Non-Title-I Schools Students
+1471,us_ti1v_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Title-I Info Students
+1472,us_ti1v_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Title-I Info Students
+1473,us_migy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Migrant Students
+1474,us_migy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Migrant Students
+1475,us_mign_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Migrant Students
+1476,us_mign_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Migrant Students
+1477,us_migv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Migrant Info Students
+1478,us_migv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Migrant Info Students
+1479,us_lepc_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Current LEP Students
+1480,us_lepc_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Current LEP Students
+1481,us_lepf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- First Year Monitored Students
+1482,us_lepf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- First Year Monitored Students
+1483,us_leps_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Second Year Monitored Students
+1484,us_leps_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Second Year Monitored Students
+1485,us_lep0_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Other Non-LEP Students
+1486,us_lep0_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Other Non-LEP Students
+1487,us_lepv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No LEP Info Students
+1488,us_lepv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No LEP Info Students
+1489,us_bily_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1490,us_bily_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Bilingual Students  Codes: 2 3 4 5
+1491,us_biln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Bilingual Students
+1492,us_biln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Bilingual Students
+1493,us_bil2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1494,us_bil2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Transitional Bilingual/Early Exit Students
+1495,us_bil3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1496,us_bil3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Transitional Bilingual/Late Exit Students
+1497,us_bil4_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Dual Language Immersion/Two Way Students
+1498,us_bil4_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Dual Language Immersion/Two Way Students
+1499,us_bil5_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Dual Language Immersion/One Way Students
+1500,us_bil5_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Dual Language Immersion/One Way Students
+1501,us_bilv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Bilingual Students
+1502,us_bilv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Bilingual Students
+1503,us_esly_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL Students Codes: 2 3
+1504,us_esly_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL Students Codes: 2 3
+1505,us_esln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not ESL Students
+1506,us_esln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not ESL Students
+1507,us_esl2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL/Content-based students
+1508,us_esl2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL/Content-based students
+1509,us_esl3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL/Pull-out students
+1510,us_esl3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- ESL/Pull-out students
+1511,us_eslv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info ESL Students
+1512,us_eslv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info ESL Students
+1513,us_esbiy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Either Bilingual or ESL
+1514,us_esbiy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Either Bilingual or ESL
+1515,us_esbin_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1516,us_esbin_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1517,us_esbiv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1518,us_esbiv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info for Both and/or Either Bilingual/ESL
+1519,us_spey_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Special Ed Students
+1520,us_spey_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Special Ed Students
+1521,us_spen_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Special Ed Students
+1522,us_spen_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Special Ed Students
+1523,us_spev_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Special Ed Students
+1524,us_spev_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Special Ed Students
+1525,us_gify_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Gifted/Talented Students
+1526,us_gify_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Gifted/Talented Students
+1527,us_gifn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Gifted/Talented Students
+1528,us_gifn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Gifted/Talented Students
+1529,us_gifv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Gifted/Talented Students
+1530,us_gifv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Gifted/Talented Students
+1531,us_atry_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- At-Risk Students
+1532,us_atry_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- At-Risk Students
+1533,us_atrn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not At-Risk Students
+1534,us_atrn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not At-Risk Students
+1535,us_atrv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info At-Risk Students
+1536,us_atrv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info At-Risk Students
+1537,us_vocy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1538,us_vocy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Students  Codes: 1 2 3
+1539,us_vocn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Career/Tech Students
+1540,us_vocn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Not Career/Tech Students
+1541,us_voc1_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Elective Students
+1542,us_voc1_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Elective Students
+1543,us_voc2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Coherent Sequence Students
+1544,us_voc2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Coherent Sequence Students
+1545,us_voc3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Tech Prep Students
+1546,us_voc3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- Career/Tech Tech Prep Students
+1547,us_vocv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Career/Tech Students
+1548,us_vocv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- U.S. History -- No Info Career/Tech Students
