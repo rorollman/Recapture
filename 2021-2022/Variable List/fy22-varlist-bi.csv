@@ -1,0 +1,1234 @@
+VARNUM,NAME,VARTYPE,LENGTH,LABEL
+1,YEAR,Character,2,Test Administration Year
+2,COURSE,Character,2,Course Code
+3,REGION,Character,2,Education Service Center (Region) Number
+4,DISTRICT,Character,6,District Number
+5,DNAME,Character,15,District Name
+6,CAMPUS,Character,9,Campus Number
+7,CNAME,Character,15,Campus Name
+8,bi_all_docs_n,Numeric,8,# Answer Documents Submitted -- Biology -- All Students
+9,bi_all_abs_n,Numeric,8,# Absent - Not Tested -- Biology -- All Students
+10,bi_all_oth_n,Numeric,8,# Other - Not Tested -- Biology -- All Students
+11,bi_all_d,Numeric,8,# Tested -- Biology -- All Students
+12,bi_sexm_d,Numeric,8,# Tested -- Biology -- Male Students
+13,bi_sexf_d,Numeric,8,# Tested -- Biology -- Female Students
+14,bi_sexv_d,Numeric,8,# Tested -- Biology -- No Sex Info Students
+15,bi_ethh_d,Numeric,8,# Tested -- Biology -- Hispanic/Latino Students
+16,bi_ethi_d,Numeric,8,# Tested -- Biology -- American Indian or Alaska Native Students
+17,bi_etha_d,Numeric,8,# Tested -- Biology -- Asian Students
+18,bi_ethb_d,Numeric,8,# Tested -- Biology -- Black or African American Students
+19,bi_ethp_d,Numeric,8,# Tested -- Biology -- Native Hawaiian or Other Pacific Islander Students
+20,bi_ethw_d,Numeric,8,# Tested -- Biology -- White Students
+21,bi_eth2_d,Numeric,8,# Tested -- Biology -- Two or More Races Students
+22,bi_ethv_d,Numeric,8,# Tested -- Biology -- No Ethnicity Info Students
+23,bi_ecoy_d,Numeric,8,# Tested -- Biology -- Econ Disadv Students Codes: 1 2 9
+24,bi_econ_d,Numeric,8,# Tested -- Biology -- Not Econ Disadv Students
+25,bi_eco1_d,Numeric,8,# Tested -- Biology -- Free Meals Students
+26,bi_eco2_d,Numeric,8,# Tested -- Biology -- Reduced-Price Meals Students
+27,bi_eco9_d,Numeric,8,# Tested -- Biology -- Other Econ Disadv Students
+28,bi_ecov_d,Numeric,8,# Tested -- Biology -- No Econ Disadv Info Students
+29,bi_ti1y_d,Numeric,8,# Tested -- Biology -- Title-I Participant Students Codes: 6 7 9
+30,bi_ti1n_d,Numeric,8,# Tested -- Biology -- Not Title-I Participant Students Codes: 0 8
+31,bi_ti10_d,Numeric,8,# Tested -- Biology -- Nonparticipant (Not Previous Participant Students)
+32,bi_ti16_d,Numeric,8,# Tested -- Biology -- Schoolwide Program Participant Students
+33,bi_ti17_d,Numeric,8,# Tested -- Biology -- Targeted Assistance Participant Students
+34,bi_ti18_d,Numeric,8,# Tested -- Biology -- Nonparticipant (Previous Participant) Students
+35,bi_ti19_d,Numeric,8,# Tested -- Biology -- Homeless Participant at Non-Title-I Schools Students
+36,bi_ti1v_d,Numeric,8,# Tested -- Biology -- No Title-I Info Students
+37,bi_migy_d,Numeric,8,# Tested -- Biology -- Migrant Students
+38,bi_mign_d,Numeric,8,# Tested -- Biology -- Not Migrant Students
+39,bi_migv_d,Numeric,8,# Tested -- Biology -- No Migrant Info Students
+40,bi_lepc_d,Numeric,8,# Tested -- Biology -- Emergent Bilingual/English Learner Students
+41,bi_lepf_d,Numeric,8,# Tested -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+42,bi_leps_d,Numeric,8,# Tested -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+43,bi_lept_d,Numeric,8,# Tested -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+44,bi_lepr_d,Numeric,8,# Tested -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+45,bi_lepe_d,Numeric,8,# Tested -- Biology -- Former EB/EL (Post Monitoring)  Students
+46,bi_lep0_d,Numeric,8,# Tested -- Biology -- Non-Emergent Bilingual/English Learner Students
+47,bi_lepv_d,Numeric,8,# Tested -- Biology -- No EBILING Info Students
+48,bi_bily_d,Numeric,8,# Tested -- Biology -- Bilingual Students  Codes: 2 3 4 5
+49,bi_biln_d,Numeric,8,# Tested -- Biology -- Not Bilingual Students
+50,bi_bil2_d,Numeric,8,# Tested -- Biology -- Transitional Bilingual/Early Exit Students
+51,bi_bil3_d,Numeric,8,# Tested -- Biology -- Transitional Bilingual/Late Exit Students
+52,bi_bil4_d,Numeric,8,# Tested -- Biology -- Dual Language Immersion/Two Way Students
+53,bi_bil5_d,Numeric,8,# Tested -- Biology -- Dual Language Immersion/One Way Students
+54,bi_bilv_d,Numeric,8,# Tested -- Biology -- No Bilingual Info Students
+55,bi_esly_d,Numeric,8,# Tested -- Biology -- ESL Students Codes: 2 3
+56,bi_esln_d,Numeric,8,# Tested -- Biology -- Not ESL Students
+57,bi_esl2_d,Numeric,8,# Tested -- Biology -- ESL/Content-based students
+58,bi_esl3_d,Numeric,8,# Tested -- Biology -- ESL/Pull-out students
+59,bi_eslv_d,Numeric,8,# Tested -- Biology -- No ESL Info Students
+60,bi_esbiy_d,Numeric,8,# Tested -- Biology -- Either Bilingual or ESL
+61,bi_esbin_d,Numeric,8,# Tested -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+62,bi_esbiv_d,Numeric,8,# Tested -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+63,bi_spey_d,Numeric,8,# Tested -- Biology -- Special Ed Students
+64,bi_spen_d,Numeric,8,# Tested -- Biology -- Not Special Ed Students
+65,bi_spev_d,Numeric,8,# Tested -- Biology -- No Special Ed Info Students
+66,bi_gify_d,Numeric,8,# Tested -- Biology -- Gifted/Talented Students
+67,bi_gifn_d,Numeric,8,# Tested -- Biology -- Not Gifted/Talented Students
+68,bi_gifv_d,Numeric,8,# Tested -- Biology -- No Gifted/Talented Info Students
+69,bi_atry_d,Numeric,8,# Tested -- Biology -- At-Risk Students
+70,bi_atrn_d,Numeric,8,# Tested -- Biology -- Not At-Risk Students
+71,bi_atrv_d,Numeric,8,# Tested -- Biology -- No At-Risk Info Students
+72,bi_all_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- All Students
+73,bi_sexm_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Male Students
+74,bi_sexf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Female Students
+75,bi_sexv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Sex Info Students
+76,bi_ethh_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Hispanic/Latino Students
+77,bi_ethi_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+78,bi_etha_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Asian Students
+79,bi_ethb_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Black or African American Students
+80,bi_ethp_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+81,bi_ethw_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- White Students
+82,bi_eth2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Two or More Races Students
+83,bi_ethv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Ethnicity Info Students
+84,bi_ecoy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+85,bi_econ_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Econ Disadv Students
+86,bi_eco1_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Free Meals Students
+87,bi_eco2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Reduced-Price Meals Students
+88,bi_eco9_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Other Econ Disadv Students
+89,bi_ecov_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Econ Disadv Info Students
+90,bi_ti1y_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+91,bi_ti1n_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+92,bi_ti10_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+93,bi_ti16_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+94,bi_ti17_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+95,bi_ti18_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+96,bi_ti19_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+97,bi_ti1v_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Title-I Info Students
+98,bi_migy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Migrant Students
+99,bi_mign_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Migrant Students
+100,bi_migv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Migrant Info Students
+101,bi_lepc_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+102,bi_lepf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+103,bi_leps_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+104,bi_lept_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+105,bi_lepr_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+106,bi_lepe_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+107,bi_lep0_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+108,bi_lepv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No EBILING Info Students
+109,bi_bily_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+110,bi_biln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Bilingual Students
+111,bi_bil2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+112,bi_bil3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+113,bi_bil4_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+114,bi_bil5_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+115,bi_bilv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Bilingual Info Students
+116,bi_esly_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+117,bi_esln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not ESL Students
+118,bi_esl2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- ESL/Content-based students
+119,bi_esl3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- ESL/Pull-out students
+120,bi_eslv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No ESL Info Students
+121,bi_esbiy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Either Bilingual or ESL
+122,bi_esbin_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+123,bi_esbiv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+124,bi_spey_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Special Ed Students
+125,bi_spen_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Special Ed Students
+126,bi_spev_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Special Ed Info Students
+127,bi_gify_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Gifted/Talented Students
+128,bi_gifn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not Gifted/Talented Students
+129,bi_gifv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+130,bi_atry_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- At-Risk Students
+131,bi_atrn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- Not At-Risk Students
+132,bi_atrv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Biology -- No At-Risk Info Students
+133,bi_all_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- All Students
+134,bi_sexm_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Male Students
+135,bi_sexf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Female Students
+136,bi_sexv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Sex Info Students
+137,bi_ethh_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Hispanic/Latino Students
+138,bi_ethi_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+139,bi_etha_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Asian Students
+140,bi_ethb_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Black or African American Students
+141,bi_ethp_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+142,bi_ethw_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- White Students
+143,bi_eth2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Two or More Races Students
+144,bi_ethv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Ethnicity Info Students
+145,bi_ecoy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+146,bi_econ_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Econ Disadv Students
+147,bi_eco1_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Free Meals Students
+148,bi_eco2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Reduced-Price Meals Students
+149,bi_eco9_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Other Econ Disadv Students
+150,bi_ecov_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Econ Disadv Info Students
+151,bi_ti1y_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+152,bi_ti1n_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+153,bi_ti10_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+154,bi_ti16_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+155,bi_ti17_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+156,bi_ti18_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+157,bi_ti19_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+158,bi_ti1v_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Title-I Info Students
+159,bi_migy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Migrant Students
+160,bi_mign_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Migrant Students
+161,bi_migv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Migrant Info Students
+162,bi_lepc_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+163,bi_lepf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+164,bi_leps_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+165,bi_lept_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+166,bi_lepr_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+167,bi_lepe_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+168,bi_lep0_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+169,bi_lepv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No EBILING Info Students
+170,bi_bily_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+171,bi_biln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Bilingual Students
+172,bi_bil2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+173,bi_bil3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+174,bi_bil4_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+175,bi_bil5_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+176,bi_bilv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Bilingual Info Students
+177,bi_esly_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+178,bi_esln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not ESL Students
+179,bi_esl2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- ESL/Content-based students
+180,bi_esl3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- ESL/Pull-out students
+181,bi_eslv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No ESL Info Students
+182,bi_esbiy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Either Bilingual or ESL
+183,bi_esbin_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+184,bi_esbiv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+185,bi_spey_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Special Ed Students
+186,bi_spen_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Special Ed Students
+187,bi_spev_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Special Ed Info Students
+188,bi_gify_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Gifted/Talented Students
+189,bi_gifn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not Gifted/Talented Students
+190,bi_gifv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+191,bi_atry_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- At-Risk Students
+192,bi_atrn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- Not At-Risk Students
+193,bi_atrv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Biology -- No At-Risk Info Students
+194,bi_all_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- All Students
+195,bi_sexm_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Male Students
+196,bi_sexf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Female Students
+197,bi_sexv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Sex Info Students
+198,bi_ethh_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Hispanic/Latino Students
+199,bi_ethi_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+200,bi_etha_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Asian Students
+201,bi_ethb_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Black or African American Students
+202,bi_ethp_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+203,bi_ethw_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- White Students
+204,bi_eth2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Two or More Races Students
+205,bi_ethv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Ethnicity Info Students
+206,bi_ecoy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+207,bi_econ_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Econ Disadv Students
+208,bi_eco1_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Free Meals Students
+209,bi_eco2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Reduced-Price Meals Students
+210,bi_eco9_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Other Econ Disadv Students
+211,bi_ecov_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Econ Disadv Info Students
+212,bi_ti1y_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+213,bi_ti1n_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+214,bi_ti10_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+215,bi_ti16_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+216,bi_ti17_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+217,bi_ti18_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+218,bi_ti19_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+219,bi_ti1v_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Title-I Info Students
+220,bi_migy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Migrant Students
+221,bi_mign_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Migrant Students
+222,bi_migv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Migrant Info Students
+223,bi_lepc_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+224,bi_lepf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+225,bi_leps_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+226,bi_lept_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+227,bi_lepr_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+228,bi_lepe_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+229,bi_lep0_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+230,bi_lepv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No EBILING Info Students
+231,bi_bily_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+232,bi_biln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Bilingual Students
+233,bi_bil2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+234,bi_bil3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+235,bi_bil4_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+236,bi_bil5_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+237,bi_bilv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Bilingual Info Students
+238,bi_esly_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+239,bi_esln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not ESL Students
+240,bi_esl2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- ESL/Content-based students
+241,bi_esl3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- ESL/Pull-out students
+242,bi_eslv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No ESL Info Students
+243,bi_esbiy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Either Bilingual or ESL
+244,bi_esbin_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+245,bi_esbiv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+246,bi_spey_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Special Ed Students
+247,bi_spen_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Special Ed Students
+248,bi_spev_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Special Ed Info Students
+249,bi_gify_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Gifted/Talented Students
+250,bi_gifn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not Gifted/Talented Students
+251,bi_gifv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+252,bi_atry_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- At-Risk Students
+253,bi_atrn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- Not At-Risk Students
+254,bi_atrv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Biology -- No At-Risk Info Students
+255,bi_all_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- All Students
+256,bi_sexm_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Male Students
+257,bi_sexf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Female Students
+258,bi_sexv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Sex Info Students
+259,bi_ethh_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Hispanic/Latino Students
+260,bi_ethi_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+261,bi_etha_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Asian Students
+262,bi_ethb_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Black or African American Students
+263,bi_ethp_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+264,bi_ethw_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- White Students
+265,bi_eth2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Two or More Races Students
+266,bi_ethv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Ethnicity Info Students
+267,bi_ecoy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+268,bi_econ_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Econ Disadv Students
+269,bi_eco1_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Free Meals Students
+270,bi_eco2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Reduced-Price Meals Students
+271,bi_eco9_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Other Econ Disadv Students
+272,bi_ecov_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Econ Disadv Info Students
+273,bi_ti1y_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+274,bi_ti1n_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+275,bi_ti10_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+276,bi_ti16_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+277,bi_ti17_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+278,bi_ti18_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+279,bi_ti19_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+280,bi_ti1v_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Title-I Info Students
+281,bi_migy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Migrant Students
+282,bi_mign_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Migrant Students
+283,bi_migv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Migrant Info Students
+284,bi_lepc_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+285,bi_lepf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+286,bi_leps_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+287,bi_lept_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+288,bi_lepr_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+289,bi_lepe_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+290,bi_lep0_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+291,bi_lepv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No EBILING Info Students
+292,bi_bily_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+293,bi_biln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Bilingual Students
+294,bi_bil2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+295,bi_bil3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+296,bi_bil4_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+297,bi_bil5_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+298,bi_bilv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Bilingual Info Students
+299,bi_esly_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+300,bi_esln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not ESL Students
+301,bi_esl2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- ESL/Content-based students
+302,bi_esl3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- ESL/Pull-out students
+303,bi_eslv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No ESL Info Students
+304,bi_esbiy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Either Bilingual or ESL
+305,bi_esbin_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+306,bi_esbiv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+307,bi_spey_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Special Ed Students
+308,bi_spen_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Special Ed Students
+309,bi_spev_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Special Ed Info Students
+310,bi_gify_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Gifted/Talented Students
+311,bi_gifn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not Gifted/Talented Students
+312,bi_gifv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+313,bi_atry_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- At-Risk Students
+314,bi_atrn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- Not At-Risk Students
+315,bi_atrv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Biology -- No At-Risk Info Students
+316,bi_all_docs_r,Numeric,8,% Answer Documents Submitted -- Biology -- All Students
+317,bi_all_abs_r,Numeric,8,% Absent - Not Tested -- Biology -- All Students
+318,bi_all_oth_r,Numeric,8,% Other - Not Tested -- Biology -- All Students
+319,bi_all_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- All Students
+320,bi_sexm_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Male Students
+321,bi_sexf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Female Students
+322,bi_sexv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Sex Info Students
+323,bi_ethh_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Hispanic/Latino Students
+324,bi_ethi_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+325,bi_etha_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Asian Students
+326,bi_ethb_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Black or African American Students
+327,bi_ethp_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+328,bi_ethw_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- White Students
+329,bi_eth2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Two or More Races Students
+330,bi_ethv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Ethnicity Info Students
+331,bi_ecoy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+332,bi_econ_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Econ Disadv Students
+333,bi_eco1_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Free Meals Students
+334,bi_eco2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Reduced-Price Meals Students
+335,bi_eco9_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Other Econ Disadv Students
+336,bi_ecov_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Econ Disadv Info Students
+337,bi_ti1y_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+338,bi_ti1n_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+339,bi_ti10_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+340,bi_ti16_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+341,bi_ti17_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+342,bi_ti18_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+343,bi_ti19_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+344,bi_ti1v_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Title-I Info Students
+345,bi_migy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Migrant Students
+346,bi_mign_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Migrant Students
+347,bi_migv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Migrant Info Students
+348,bi_lepc_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+349,bi_lepf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+350,bi_leps_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+351,bi_lept_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+352,bi_lepr_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+353,bi_lepe_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+354,bi_lep0_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+355,bi_lepv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No EBILING Info Students
+356,bi_bily_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+357,bi_biln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Bilingual Students
+358,bi_bil2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+359,bi_bil3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+360,bi_bil4_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+361,bi_bil5_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+362,bi_bilv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Bilingual Info Students
+363,bi_esly_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+364,bi_esln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not ESL Students
+365,bi_esl2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- ESL/Content-based students
+366,bi_esl3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- ESL/Pull-out students
+367,bi_eslv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No ESL Info Students
+368,bi_esbiy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Either Bilingual or ESL
+369,bi_esbin_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+370,bi_esbiv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+371,bi_spey_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Special Ed Students
+372,bi_spen_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Special Ed Students
+373,bi_spev_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Special Ed Info Students
+374,bi_gify_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Gifted/Talented Students
+375,bi_gifn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not Gifted/Talented Students
+376,bi_gifv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+377,bi_atry_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- At-Risk Students
+378,bi_atrn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- Not At-Risk Students
+379,bi_atrv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Biology -- No At-Risk Info Students
+380,bi_all_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- All Students
+381,bi_sexm_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Male Students
+382,bi_sexf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Female Students
+383,bi_sexv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Sex Info Students
+384,bi_ethh_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Hispanic/Latino Students
+385,bi_ethi_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+386,bi_etha_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Asian Students
+387,bi_ethb_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Black or African American Students
+388,bi_ethp_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+389,bi_ethw_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- White Students
+390,bi_eth2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Two or More Races Students
+391,bi_ethv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Ethnicity Info Students
+392,bi_ecoy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+393,bi_econ_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Econ Disadv Students
+394,bi_eco1_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Free Meals Students
+395,bi_eco2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Reduced-Price Meals Students
+396,bi_eco9_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Other Econ Disadv Students
+397,bi_ecov_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Econ Disadv Info Students
+398,bi_ti1y_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+399,bi_ti1n_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+400,bi_ti10_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+401,bi_ti16_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+402,bi_ti17_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+403,bi_ti18_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+404,bi_ti19_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+405,bi_ti1v_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Title-I Info Students
+406,bi_migy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Migrant Students
+407,bi_mign_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Migrant Students
+408,bi_migv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Migrant Info Students
+409,bi_lepc_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+410,bi_lepf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+411,bi_leps_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+412,bi_lept_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+413,bi_lepr_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+414,bi_lepe_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+415,bi_lep0_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+416,bi_lepv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No EBILING Info Students
+417,bi_bily_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+418,bi_biln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Bilingual Students
+419,bi_bil2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+420,bi_bil3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+421,bi_bil4_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+422,bi_bil5_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+423,bi_bilv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Bilingual Info Students
+424,bi_esly_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+425,bi_esln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not ESL Students
+426,bi_esl2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- ESL/Content-based students
+427,bi_esl3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- ESL/Pull-out students
+428,bi_eslv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No ESL Info Students
+429,bi_esbiy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Either Bilingual or ESL
+430,bi_esbin_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+431,bi_esbiv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+432,bi_spey_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Special Ed Students
+433,bi_spen_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Special Ed Students
+434,bi_spev_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Special Ed Info Students
+435,bi_gify_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Gifted/Talented Students
+436,bi_gifn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not Gifted/Talented Students
+437,bi_gifv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+438,bi_atry_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- At-Risk Students
+439,bi_atrn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- Not At-Risk Students
+440,bi_atrv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Biology -- No At-Risk Info Students
+441,bi_all_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- All Students
+442,bi_sexm_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Male Students
+443,bi_sexf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Female Students
+444,bi_sexv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Sex Info Students
+445,bi_ethh_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Hispanic/Latino Students
+446,bi_ethi_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+447,bi_etha_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Asian Students
+448,bi_ethb_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Black or African American Students
+449,bi_ethp_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+450,bi_ethw_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- White Students
+451,bi_eth2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Two or More Races Students
+452,bi_ethv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Ethnicity Info Students
+453,bi_ecoy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+454,bi_econ_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Econ Disadv Students
+455,bi_eco1_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Free Meals Students
+456,bi_eco2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Reduced-Price Meals Students
+457,bi_eco9_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Other Econ Disadv Students
+458,bi_ecov_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Econ Disadv Info Students
+459,bi_ti1y_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+460,bi_ti1n_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+461,bi_ti10_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+462,bi_ti16_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+463,bi_ti17_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+464,bi_ti18_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+465,bi_ti19_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+466,bi_ti1v_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Title-I Info Students
+467,bi_migy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Migrant Students
+468,bi_mign_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Migrant Students
+469,bi_migv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Migrant Info Students
+470,bi_lepc_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+471,bi_lepf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+472,bi_leps_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+473,bi_lept_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+474,bi_lepr_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+475,bi_lepe_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+476,bi_lep0_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+477,bi_lepv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No EBILING Info Students
+478,bi_bily_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+479,bi_biln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Bilingual Students
+480,bi_bil2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+481,bi_bil3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+482,bi_bil4_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+483,bi_bil5_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+484,bi_bilv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Bilingual Info Students
+485,bi_esly_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+486,bi_esln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not ESL Students
+487,bi_esl2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- ESL/Content-based students
+488,bi_esl3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- ESL/Pull-out students
+489,bi_eslv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No ESL Info Students
+490,bi_esbiy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Either Bilingual or ESL
+491,bi_esbin_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+492,bi_esbiv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+493,bi_spey_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Special Ed Students
+494,bi_spen_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Special Ed Students
+495,bi_spev_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Special Ed Info Students
+496,bi_gify_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Gifted/Talented Students
+497,bi_gifn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not Gifted/Talented Students
+498,bi_gifv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+499,bi_atry_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- At-Risk Students
+500,bi_atrn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- Not At-Risk Students
+501,bi_atrv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Biology -- No At-Risk Info Students
+502,bi_all_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- All Students
+503,bi_sexm_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Male Students
+504,bi_sexf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Female Students
+505,bi_sexv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Sex Info Students
+506,bi_ethh_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Hispanic/Latino Students
+507,bi_ethi_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- American Indian or Alaska Native Students
+508,bi_etha_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Asian Students
+509,bi_ethb_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Black or African American Students
+510,bi_ethp_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Native Hawaiian or Other Pacific Islander Students
+511,bi_ethw_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- White Students
+512,bi_eth2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Two or More Races Students
+513,bi_ethv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Ethnicity Info Students
+514,bi_ecoy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Econ Disadv Students Codes: 1 2 9
+515,bi_econ_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Econ Disadv Students
+516,bi_eco1_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Free Meals Students
+517,bi_eco2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Reduced-Price Meals Students
+518,bi_eco9_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Other Econ Disadv Students
+519,bi_ecov_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Econ Disadv Info Students
+520,bi_ti1y_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Title-I Participant Students Codes: 6 7 9
+521,bi_ti1n_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Title-I Participant Students Codes: 0 8
+522,bi_ti10_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Nonparticipant (Not Previous Participant Students)
+523,bi_ti16_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Schoolwide Program Participant Students
+524,bi_ti17_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Targeted Assistance Participant Students
+525,bi_ti18_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Nonparticipant (Previous Participant) Students
+526,bi_ti19_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Homeless Participant at Non-Title-I Schools Students
+527,bi_ti1v_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Title-I Info Students
+528,bi_migy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Migrant Students
+529,bi_mign_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Migrant Students
+530,bi_migv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Migrant Info Students
+531,bi_lepc_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Emergent Bilingual/English Learner Students
+532,bi_lepf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+533,bi_leps_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+534,bi_lept_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+535,bi_lepr_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+536,bi_lepe_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Former EB/EL (Post Monitoring)  Students
+537,bi_lep0_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Non-Emergent Bilingual/English Learner Students
+538,bi_lepv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No EBILING Info Students
+539,bi_bily_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Bilingual Students  Codes: 2 3 4 5
+540,bi_biln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Bilingual Students
+541,bi_bil2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Transitional Bilingual/Early Exit Students
+542,bi_bil3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Transitional Bilingual/Late Exit Students
+543,bi_bil4_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Dual Language Immersion/Two Way Students
+544,bi_bil5_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Dual Language Immersion/One Way Students
+545,bi_bilv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Bilingual Info Students
+546,bi_esly_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- ESL Students Codes: 2 3
+547,bi_esln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not ESL Students
+548,bi_esl2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- ESL/Content-based students
+549,bi_esl3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- ESL/Pull-out students
+550,bi_eslv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No ESL Info Students
+551,bi_esbiy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Either Bilingual or ESL
+552,bi_esbin_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+553,bi_esbiv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+554,bi_spey_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Special Ed Students
+555,bi_spen_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Special Ed Students
+556,bi_spev_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Special Ed Info Students
+557,bi_gify_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Gifted/Talented Students
+558,bi_gifn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not Gifted/Talented Students
+559,bi_gifv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No Gifted/Talented Info Students
+560,bi_atry_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- At-Risk Students
+561,bi_atrn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- Not At-Risk Students
+562,bi_atrv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Biology -- No At-Risk Info Students
+563,bi_all_rs,Numeric,8,Average Scale Score -- Biology -- All Students
+564,bi_sexm_rs,Numeric,8,Average Scale Score -- Biology -- Male Students
+565,bi_sexf_rs,Numeric,8,Average Scale Score -- Biology -- Female Students
+566,bi_sexv_rs,Numeric,8,Average Scale Score -- Biology -- No Sex Info Students
+567,bi_ethh_rs,Numeric,8,Average Scale Score -- Biology -- Hispanic/Latino Students
+568,bi_ethi_rs,Numeric,8,Average Scale Score -- Biology -- American Indian or Alaska Native Students
+569,bi_etha_rs,Numeric,8,Average Scale Score -- Biology -- Asian Students
+570,bi_ethb_rs,Numeric,8,Average Scale Score -- Biology -- Black or African American Students
+571,bi_ethp_rs,Numeric,8,Average Scale Score -- Biology -- Native Hawaiian or Other Pacific Islander Students
+572,bi_ethw_rs,Numeric,8,Average Scale Score -- Biology -- White Students
+573,bi_eth2_rs,Numeric,8,Average Scale Score -- Biology -- Two or More Races Students
+574,bi_ethv_rs,Numeric,8,Average Scale Score -- Biology -- No Ethnicity Info Students
+575,bi_ecoy_rs,Numeric,8,Average Scale Score -- Biology -- Econ Disadv Students Codes: 1 2 9
+576,bi_econ_rs,Numeric,8,Average Scale Score -- Biology -- Not Econ Disadv Students
+577,bi_eco1_rs,Numeric,8,Average Scale Score -- Biology -- Free Meals Students
+578,bi_eco2_rs,Numeric,8,Average Scale Score -- Biology -- Reduced-Price Meals Students
+579,bi_eco9_rs,Numeric,8,Average Scale Score -- Biology -- Other Econ Disadv Students
+580,bi_ecov_rs,Numeric,8,Average Scale Score -- Biology -- No Econ Disadv Info Students
+581,bi_ti1y_rs,Numeric,8,Average Scale Score -- Biology -- Title-I Participant Students Codes: 6 7 9
+582,bi_ti1n_rs,Numeric,8,Average Scale Score -- Biology -- Not Title-I Participant Students Codes: 0 8
+583,bi_ti10_rs,Numeric,8,Average Scale Score -- Biology -- Nonparticipant (Not Previous Participant Students)
+584,bi_ti16_rs,Numeric,8,Average Scale Score -- Biology -- Schoolwide Program Participant Students
+585,bi_ti17_rs,Numeric,8,Average Scale Score -- Biology -- Targeted Assistance Participant Students
+586,bi_ti18_rs,Numeric,8,Average Scale Score -- Biology -- Nonparticipant (Previous Participant) Students
+587,bi_ti19_rs,Numeric,8,Average Scale Score -- Biology -- Homeless Participant at Non-Title-I Schools Students
+588,bi_ti1v_rs,Numeric,8,Average Scale Score -- Biology -- No Title-I Info Students
+589,bi_migy_rs,Numeric,8,Average Scale Score -- Biology -- Migrant Students
+590,bi_mign_rs,Numeric,8,Average Scale Score -- Biology -- Not Migrant Students
+591,bi_migv_rs,Numeric,8,Average Scale Score -- Biology -- No Migrant Info Students
+592,bi_lepc_rs,Numeric,8,Average Scale Score -- Biology -- Emergent Bilingual/English Learner Students
+593,bi_lepf_rs,Numeric,8,Average Scale Score -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+594,bi_leps_rs,Numeric,8,Average Scale Score -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+595,bi_lept_rs,Numeric,8,Average Scale Score -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+596,bi_lepr_rs,Numeric,8,Average Scale Score -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+597,bi_lepe_rs,Numeric,8,Average Scale Score -- Biology -- Former EB/EL (Post Monitoring)  Students
+598,bi_lep0_rs,Numeric,8,Average Scale Score -- Biology -- Non-Emergent Bilingual/English Learner Students
+599,bi_lepv_rs,Numeric,8,Average Scale Score -- Biology -- No EBILING Info Students
+600,bi_bily_rs,Numeric,8,Average Scale Score -- Biology -- Bilingual Students  Codes: 2 3 4 5
+601,bi_biln_rs,Numeric,8,Average Scale Score -- Biology -- Not Bilingual Students
+602,bi_bil2_rs,Numeric,8,Average Scale Score -- Biology -- Transitional Bilingual/Early Exit Students
+603,bi_bil3_rs,Numeric,8,Average Scale Score -- Biology -- Transitional Bilingual/Late Exit Students
+604,bi_bil4_rs,Numeric,8,Average Scale Score -- Biology -- Dual Language Immersion/Two Way Students
+605,bi_bil5_rs,Numeric,8,Average Scale Score -- Biology -- Dual Language Immersion/One Way Students
+606,bi_bilv_rs,Numeric,8,Average Scale Score -- Biology -- No Bilingual Info Students
+607,bi_esly_rs,Numeric,8,Average Scale Score -- Biology -- ESL Students Codes: 2 3
+608,bi_esln_rs,Numeric,8,Average Scale Score -- Biology -- Not ESL Students
+609,bi_esl2_rs,Numeric,8,Average Scale Score -- Biology -- ESL/Content-based students
+610,bi_esl3_rs,Numeric,8,Average Scale Score -- Biology -- ESL/Pull-out students
+611,bi_eslv_rs,Numeric,8,Average Scale Score -- Biology -- No ESL Info Students
+612,bi_esbiy_rs,Numeric,8,Average Scale Score -- Biology -- Either Bilingual or ESL
+613,bi_esbin_rs,Numeric,8,Average Scale Score -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+614,bi_esbiv_rs,Numeric,8,Average Scale Score -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+615,bi_spey_rs,Numeric,8,Average Scale Score -- Biology -- Special Ed Students
+616,bi_spen_rs,Numeric,8,Average Scale Score -- Biology -- Not Special Ed Students
+617,bi_spev_rs,Numeric,8,Average Scale Score -- Biology -- No Special Ed Info Students
+618,bi_gify_rs,Numeric,8,Average Scale Score -- Biology -- Gifted/Talented Students
+619,bi_gifn_rs,Numeric,8,Average Scale Score -- Biology -- Not Gifted/Talented Students
+620,bi_gifv_rs,Numeric,8,Average Scale Score -- Biology -- No Gifted/Talented Info Students
+621,bi_atry_rs,Numeric,8,Average Scale Score -- Biology -- At-Risk Students
+622,bi_atrn_rs,Numeric,8,Average Scale Score -- Biology -- Not At-Risk Students
+623,bi_atrv_rs,Numeric,8,Average Scale Score -- Biology -- No At-Risk Info Students
+624,bi_all_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- All Students
+625,bi_all_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- All Students
+626,bi_sexm_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Male Students
+627,bi_sexm_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Male Students
+628,bi_sexf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Female Students
+629,bi_sexf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Female Students
+630,bi_sexv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Sex Info Students
+631,bi_sexv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Sex Info Students
+632,bi_ethh_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Hispanic/Latino Students
+633,bi_ethh_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Hispanic/Latino Students
+634,bi_ethi_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- American Indian or Alaska Native Students
+635,bi_ethi_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- American Indian or Alaska Native Students
+636,bi_etha_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Asian Students
+637,bi_etha_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Asian Students
+638,bi_ethb_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Black or African American Students
+639,bi_ethb_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Black or African American Students
+640,bi_ethp_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+641,bi_ethp_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+642,bi_ethw_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- White Students
+643,bi_ethw_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- White Students
+644,bi_eth2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Two or More Races Students
+645,bi_eth2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Two or More Races Students
+646,bi_ethv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Ethnicity Info Students
+647,bi_ethv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Ethnicity Info Students
+648,bi_ecoy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Econ Disadv Students Codes: 1 2 9
+649,bi_ecoy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Econ Disadv Students Codes: 1 2 9
+650,bi_econ_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Econ Disadv Students
+651,bi_econ_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Econ Disadv Students
+652,bi_eco1_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Free Meals Students
+653,bi_eco1_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Free Meals Students
+654,bi_eco2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Reduced-Price Meals Students
+655,bi_eco2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Reduced-Price Meals Students
+656,bi_eco9_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Other Econ Disadv Students
+657,bi_eco9_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Other Econ Disadv Students
+658,bi_ecov_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Econ Disadv Info Students
+659,bi_ecov_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Econ Disadv Info Students
+660,bi_ti1y_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Title-I Participant Students Codes: 6 7 9
+661,bi_ti1y_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Title-I Participant Students Codes: 6 7 9
+662,bi_ti1n_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Title-I Participant Students Codes: 0 8
+663,bi_ti1n_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Title-I Participant Students Codes: 0 8
+664,bi_ti10_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Nonparticipant (Not Previous Participant Students)
+665,bi_ti10_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Nonparticipant (Not Previous Participant Students)
+666,bi_ti16_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Schoolwide Program Participant Students
+667,bi_ti16_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Schoolwide Program Participant Students
+668,bi_ti17_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Targeted Assistance Participant Students
+669,bi_ti17_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Targeted Assistance Participant Students
+670,bi_ti18_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Nonparticipant (Previous Participant) Students
+671,bi_ti18_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Nonparticipant (Previous Participant) Students
+672,bi_ti19_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+673,bi_ti19_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+674,bi_ti1v_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Title-I Info Students
+675,bi_ti1v_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Title-I Info Students
+676,bi_migy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Migrant Students
+677,bi_migy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Migrant Students
+678,bi_mign_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Migrant Students
+679,bi_mign_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Migrant Students
+680,bi_migv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Migrant Info Students
+681,bi_migv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Migrant Info Students
+682,bi_lepc_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Emergent Bilingual/English Learner Students
+683,bi_lepc_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Emergent Bilingual/English Learner Students
+684,bi_lepf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+685,bi_lepf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+686,bi_leps_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+687,bi_leps_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+688,bi_lept_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+689,bi_lept_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+690,bi_lepr_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+691,bi_lepr_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+692,bi_lepe_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Former EB/EL (Post Monitoring)  Students
+693,bi_lepe_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Former EB/EL (Post Monitoring)  Students
+694,bi_lep0_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Non-Emergent Bilingual/English Learner Students
+695,bi_lep0_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Non-Emergent Bilingual/English Learner Students
+696,bi_lepv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No EBILING Info Students
+697,bi_lepv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No EBILING Info Students
+698,bi_bily_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+699,bi_bily_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+700,bi_biln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Bilingual Students
+701,bi_biln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Bilingual Students
+702,bi_bil2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Transitional Bilingual/Early Exit Students
+703,bi_bil2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Transitional Bilingual/Early Exit Students
+704,bi_bil3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Transitional Bilingual/Late Exit Students
+705,bi_bil3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Transitional Bilingual/Late Exit Students
+706,bi_bil4_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Dual Language Immersion/Two Way Students
+707,bi_bil4_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Dual Language Immersion/Two Way Students
+708,bi_bil5_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Dual Language Immersion/One Way Students
+709,bi_bil5_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Dual Language Immersion/One Way Students
+710,bi_bilv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Bilingual Info Students
+711,bi_bilv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Bilingual Info Students
+712,bi_esly_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- ESL Students Codes: 2 3
+713,bi_esly_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- ESL Students Codes: 2 3
+714,bi_esln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not ESL Students
+715,bi_esln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not ESL Students
+716,bi_esl2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- ESL/Content-based students
+717,bi_esl2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- ESL/Content-based students
+718,bi_esl3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- ESL/Pull-out students
+719,bi_esl3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- ESL/Pull-out students
+720,bi_eslv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No ESL Info Students
+721,bi_eslv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No ESL Info Students
+722,bi_esbiy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Either Bilingual or ESL
+723,bi_esbiy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Either Bilingual or ESL
+724,bi_esbin_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+725,bi_esbin_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+726,bi_esbiv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+727,bi_esbiv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+728,bi_spey_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Special Ed Students
+729,bi_spey_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Special Ed Students
+730,bi_spen_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Special Ed Students
+731,bi_spen_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Special Ed Students
+732,bi_spev_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Special Ed Info Students
+733,bi_spev_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Special Ed Info Students
+734,bi_gify_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Gifted/Talented Students
+735,bi_gify_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Gifted/Talented Students
+736,bi_gifn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not Gifted/Talented Students
+737,bi_gifn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not Gifted/Talented Students
+738,bi_gifv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No Gifted/Talented Info Students
+739,bi_gifv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No Gifted/Talented Info Students
+740,bi_atry_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- At-Risk Students
+741,bi_atry_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- At-Risk Students
+742,bi_atrn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- Not At-Risk Students
+743,bi_atrn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- Not At-Risk Students
+744,bi_atrv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Biology -- No At-Risk Info Students
+745,bi_atrv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Biology -- No At-Risk Info Students
+746,bi_all_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- All Students
+747,bi_all_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- All Students
+748,bi_sexm_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Male Students
+749,bi_sexm_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Male Students
+750,bi_sexf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Female Students
+751,bi_sexf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Female Students
+752,bi_sexv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Sex Info Students
+753,bi_sexv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Sex Info Students
+754,bi_ethh_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Hispanic/Latino Students
+755,bi_ethh_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Hispanic/Latino Students
+756,bi_ethi_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- American Indian or Alaska Native Students
+757,bi_ethi_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- American Indian or Alaska Native Students
+758,bi_etha_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Asian Students
+759,bi_etha_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Asian Students
+760,bi_ethb_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Black or African American Students
+761,bi_ethb_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Black or African American Students
+762,bi_ethp_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+763,bi_ethp_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+764,bi_ethw_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- White Students
+765,bi_ethw_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- White Students
+766,bi_eth2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Two or More Races Students
+767,bi_eth2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Two or More Races Students
+768,bi_ethv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Ethnicity Info Students
+769,bi_ethv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Ethnicity Info Students
+770,bi_ecoy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Econ Disadv Students Codes: 1 2 9
+771,bi_ecoy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Econ Disadv Students Codes: 1 2 9
+772,bi_econ_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Econ Disadv Students
+773,bi_econ_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Econ Disadv Students
+774,bi_eco1_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Free Meals Students
+775,bi_eco1_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Free Meals Students
+776,bi_eco2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Reduced-Price Meals Students
+777,bi_eco2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Reduced-Price Meals Students
+778,bi_eco9_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Other Econ Disadv Students
+779,bi_eco9_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Other Econ Disadv Students
+780,bi_ecov_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Econ Disadv Info Students
+781,bi_ecov_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Econ Disadv Info Students
+782,bi_ti1y_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Title-I Participant Students Codes: 6 7 9
+783,bi_ti1y_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Title-I Participant Students Codes: 6 7 9
+784,bi_ti1n_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Title-I Participant Students Codes: 0 8
+785,bi_ti1n_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Title-I Participant Students Codes: 0 8
+786,bi_ti10_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Nonparticipant (Not Previous Participant Students)
+787,bi_ti10_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Nonparticipant (Not Previous Participant Students)
+788,bi_ti16_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Schoolwide Program Participant Students
+789,bi_ti16_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Schoolwide Program Participant Students
+790,bi_ti17_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Targeted Assistance Participant Students
+791,bi_ti17_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Targeted Assistance Participant Students
+792,bi_ti18_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Nonparticipant (Previous Participant) Students
+793,bi_ti18_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Nonparticipant (Previous Participant) Students
+794,bi_ti19_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+795,bi_ti19_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+796,bi_ti1v_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Title-I Info Students
+797,bi_ti1v_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Title-I Info Students
+798,bi_migy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Migrant Students
+799,bi_migy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Migrant Students
+800,bi_mign_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Migrant Students
+801,bi_mign_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Migrant Students
+802,bi_migv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Migrant Info Students
+803,bi_migv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Migrant Info Students
+804,bi_lepc_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Emergent Bilingual/English Learner Students
+805,bi_lepc_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Emergent Bilingual/English Learner Students
+806,bi_lepf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+807,bi_lepf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+808,bi_leps_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+809,bi_leps_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+810,bi_lept_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+811,bi_lept_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+812,bi_lepr_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+813,bi_lepr_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+814,bi_lepe_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Former EB/EL (Post Monitoring)  Students
+815,bi_lepe_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Former EB/EL (Post Monitoring)  Students
+816,bi_lep0_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Non-Emergent Bilingual/English Learner Students
+817,bi_lep0_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Non-Emergent Bilingual/English Learner Students
+818,bi_lepv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No EBILING Info Students
+819,bi_lepv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No EBILING Info Students
+820,bi_bily_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+821,bi_bily_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+822,bi_biln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Bilingual Students
+823,bi_biln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Bilingual Students
+824,bi_bil2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Transitional Bilingual/Early Exit Students
+825,bi_bil2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Transitional Bilingual/Early Exit Students
+826,bi_bil3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Transitional Bilingual/Late Exit Students
+827,bi_bil3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Transitional Bilingual/Late Exit Students
+828,bi_bil4_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Dual Language Immersion/Two Way Students
+829,bi_bil4_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Dual Language Immersion/Two Way Students
+830,bi_bil5_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Dual Language Immersion/One Way Students
+831,bi_bil5_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Dual Language Immersion/One Way Students
+832,bi_bilv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Bilingual Info Students
+833,bi_bilv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Bilingual Info Students
+834,bi_esly_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- ESL Students Codes: 2 3
+835,bi_esly_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- ESL Students Codes: 2 3
+836,bi_esln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not ESL Students
+837,bi_esln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not ESL Students
+838,bi_esl2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- ESL/Content-based students
+839,bi_esl2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- ESL/Content-based students
+840,bi_esl3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- ESL/Pull-out students
+841,bi_esl3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- ESL/Pull-out students
+842,bi_eslv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No ESL Info Students
+843,bi_eslv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No ESL Info Students
+844,bi_esbiy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Either Bilingual or ESL
+845,bi_esbiy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Either Bilingual or ESL
+846,bi_esbin_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+847,bi_esbin_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+848,bi_esbiv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+849,bi_esbiv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+850,bi_spey_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Special Ed Students
+851,bi_spey_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Special Ed Students
+852,bi_spen_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Special Ed Students
+853,bi_spen_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Special Ed Students
+854,bi_spev_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Special Ed Info Students
+855,bi_spev_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Special Ed Info Students
+856,bi_gify_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Gifted/Talented Students
+857,bi_gify_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Gifted/Talented Students
+858,bi_gifn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not Gifted/Talented Students
+859,bi_gifn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not Gifted/Talented Students
+860,bi_gifv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No Gifted/Talented Info Students
+861,bi_gifv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No Gifted/Talented Info Students
+862,bi_atry_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- At-Risk Students
+863,bi_atry_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- At-Risk Students
+864,bi_atrn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- Not At-Risk Students
+865,bi_atrn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- Not At-Risk Students
+866,bi_atrv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Biology -- No At-Risk Info Students
+867,bi_atrv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Biology -- No At-Risk Info Students
+868,bi_all_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- All Students
+869,bi_all_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- All Students
+870,bi_sexm_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Male Students
+871,bi_sexm_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Male Students
+872,bi_sexf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Female Students
+873,bi_sexf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Female Students
+874,bi_sexv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Sex Info Students
+875,bi_sexv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Sex Info Students
+876,bi_ethh_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Hispanic/Latino Students
+877,bi_ethh_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Hispanic/Latino Students
+878,bi_ethi_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- American Indian or Alaska Native Students
+879,bi_ethi_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- American Indian or Alaska Native Students
+880,bi_etha_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Asian Students
+881,bi_etha_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Asian Students
+882,bi_ethb_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Black or African American Students
+883,bi_ethb_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Black or African American Students
+884,bi_ethp_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+885,bi_ethp_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+886,bi_ethw_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- White Students
+887,bi_ethw_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- White Students
+888,bi_eth2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Two or More Races Students
+889,bi_eth2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Two or More Races Students
+890,bi_ethv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Ethnicity Info Students
+891,bi_ethv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Ethnicity Info Students
+892,bi_ecoy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Econ Disadv Students Codes: 1 2 9
+893,bi_ecoy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Econ Disadv Students Codes: 1 2 9
+894,bi_econ_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Econ Disadv Students
+895,bi_econ_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Econ Disadv Students
+896,bi_eco1_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Free Meals Students
+897,bi_eco1_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Free Meals Students
+898,bi_eco2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Reduced-Price Meals Students
+899,bi_eco2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Reduced-Price Meals Students
+900,bi_eco9_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Other Econ Disadv Students
+901,bi_eco9_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Other Econ Disadv Students
+902,bi_ecov_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Econ Disadv Info Students
+903,bi_ecov_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Econ Disadv Info Students
+904,bi_ti1y_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Title-I Participant Students Codes: 6 7 9
+905,bi_ti1y_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Title-I Participant Students Codes: 6 7 9
+906,bi_ti1n_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Title-I Participant Students Codes: 0 8
+907,bi_ti1n_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Title-I Participant Students Codes: 0 8
+908,bi_ti10_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Nonparticipant (Not Previous Participant Students)
+909,bi_ti10_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Nonparticipant (Not Previous Participant Students)
+910,bi_ti16_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Schoolwide Program Participant Students
+911,bi_ti16_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Schoolwide Program Participant Students
+912,bi_ti17_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Targeted Assistance Participant Students
+913,bi_ti17_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Targeted Assistance Participant Students
+914,bi_ti18_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Nonparticipant (Previous Participant) Students
+915,bi_ti18_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Nonparticipant (Previous Participant) Students
+916,bi_ti19_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+917,bi_ti19_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+918,bi_ti1v_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Title-I Info Students
+919,bi_ti1v_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Title-I Info Students
+920,bi_migy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Migrant Students
+921,bi_migy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Migrant Students
+922,bi_mign_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Migrant Students
+923,bi_mign_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Migrant Students
+924,bi_migv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Migrant Info Students
+925,bi_migv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Migrant Info Students
+926,bi_lepc_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Emergent Bilingual/English Learner Students
+927,bi_lepc_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Emergent Bilingual/English Learner Students
+928,bi_lepf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+929,bi_lepf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+930,bi_leps_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+931,bi_leps_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+932,bi_lept_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+933,bi_lept_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+934,bi_lepr_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+935,bi_lepr_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+936,bi_lepe_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Former EB/EL (Post Monitoring)  Students
+937,bi_lepe_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Former EB/EL (Post Monitoring)  Students
+938,bi_lep0_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Non-Emergent Bilingual/English Learner Students
+939,bi_lep0_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Non-Emergent Bilingual/English Learner Students
+940,bi_lepv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No EBILING Info Students
+941,bi_lepv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No EBILING Info Students
+942,bi_bily_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+943,bi_bily_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+944,bi_biln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Bilingual Students
+945,bi_biln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Bilingual Students
+946,bi_bil2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Transitional Bilingual/Early Exit Students
+947,bi_bil2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Transitional Bilingual/Early Exit Students
+948,bi_bil3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Transitional Bilingual/Late Exit Students
+949,bi_bil3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Transitional Bilingual/Late Exit Students
+950,bi_bil4_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Dual Language Immersion/Two Way Students
+951,bi_bil4_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Dual Language Immersion/Two Way Students
+952,bi_bil5_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Dual Language Immersion/One Way Students
+953,bi_bil5_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Dual Language Immersion/One Way Students
+954,bi_bilv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Bilingual Info Students
+955,bi_bilv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Bilingual Info Students
+956,bi_esly_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- ESL Students Codes: 2 3
+957,bi_esly_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- ESL Students Codes: 2 3
+958,bi_esln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not ESL Students
+959,bi_esln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not ESL Students
+960,bi_esl2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- ESL/Content-based students
+961,bi_esl2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- ESL/Content-based students
+962,bi_esl3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- ESL/Pull-out students
+963,bi_esl3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- ESL/Pull-out students
+964,bi_eslv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No ESL Info Students
+965,bi_eslv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No ESL Info Students
+966,bi_esbiy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Either Bilingual or ESL
+967,bi_esbiy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Either Bilingual or ESL
+968,bi_esbin_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+969,bi_esbin_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+970,bi_esbiv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+971,bi_esbiv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+972,bi_spey_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Special Ed Students
+973,bi_spey_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Special Ed Students
+974,bi_spen_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Special Ed Students
+975,bi_spen_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Special Ed Students
+976,bi_spev_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Special Ed Info Students
+977,bi_spev_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Special Ed Info Students
+978,bi_gify_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Gifted/Talented Students
+979,bi_gify_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Gifted/Talented Students
+980,bi_gifn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not Gifted/Talented Students
+981,bi_gifn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not Gifted/Talented Students
+982,bi_gifv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No Gifted/Talented Info Students
+983,bi_gifv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No Gifted/Talented Info Students
+984,bi_atry_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- At-Risk Students
+985,bi_atry_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- At-Risk Students
+986,bi_atrn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- Not At-Risk Students
+987,bi_atrn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- Not At-Risk Students
+988,bi_atrv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Biology -- No At-Risk Info Students
+989,bi_atrv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Biology -- No At-Risk Info Students
+990,bi_all_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- All Students
+991,bi_all_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- All Students
+992,bi_sexm_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Male Students
+993,bi_sexm_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Male Students
+994,bi_sexf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Female Students
+995,bi_sexf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Female Students
+996,bi_sexv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Sex Info Students
+997,bi_sexv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Sex Info Students
+998,bi_ethh_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Hispanic/Latino Students
+999,bi_ethh_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Hispanic/Latino Students
+1000,bi_ethi_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- American Indian or Alaska Native Students
+1001,bi_ethi_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- American Indian or Alaska Native Students
+1002,bi_etha_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Asian Students
+1003,bi_etha_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Asian Students
+1004,bi_ethb_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Black or African American Students
+1005,bi_ethb_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Black or African American Students
+1006,bi_ethp_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+1007,bi_ethp_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+1008,bi_ethw_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- White Students
+1009,bi_ethw_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- White Students
+1010,bi_eth2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Two or More Races Students
+1011,bi_eth2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Two or More Races Students
+1012,bi_ethv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Ethnicity Info Students
+1013,bi_ethv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Ethnicity Info Students
+1014,bi_ecoy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Econ Disadv Students Codes: 1 2 9
+1015,bi_ecoy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Econ Disadv Students Codes: 1 2 9
+1016,bi_econ_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Econ Disadv Students
+1017,bi_econ_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Econ Disadv Students
+1018,bi_eco1_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Free Meals Students
+1019,bi_eco1_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Free Meals Students
+1020,bi_eco2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Reduced-Price Meals Students
+1021,bi_eco2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Reduced-Price Meals Students
+1022,bi_eco9_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Other Econ Disadv Students
+1023,bi_eco9_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Other Econ Disadv Students
+1024,bi_ecov_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Econ Disadv Info Students
+1025,bi_ecov_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Econ Disadv Info Students
+1026,bi_ti1y_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Title-I Participant Students Codes: 6 7 9
+1027,bi_ti1y_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Title-I Participant Students Codes: 6 7 9
+1028,bi_ti1n_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Title-I Participant Students Codes: 0 8
+1029,bi_ti1n_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Title-I Participant Students Codes: 0 8
+1030,bi_ti10_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Nonparticipant (Not Previous Participant Students)
+1031,bi_ti10_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Nonparticipant (Not Previous Participant Students)
+1032,bi_ti16_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Schoolwide Program Participant Students
+1033,bi_ti16_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Schoolwide Program Participant Students
+1034,bi_ti17_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Targeted Assistance Participant Students
+1035,bi_ti17_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Targeted Assistance Participant Students
+1036,bi_ti18_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Nonparticipant (Previous Participant) Students
+1037,bi_ti18_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Nonparticipant (Previous Participant) Students
+1038,bi_ti19_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+1039,bi_ti19_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+1040,bi_ti1v_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Title-I Info Students
+1041,bi_ti1v_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Title-I Info Students
+1042,bi_migy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Migrant Students
+1043,bi_migy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Migrant Students
+1044,bi_mign_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Migrant Students
+1045,bi_mign_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Migrant Students
+1046,bi_migv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Migrant Info Students
+1047,bi_migv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Migrant Info Students
+1048,bi_lepc_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Emergent Bilingual/English Learner Students
+1049,bi_lepc_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Emergent Bilingual/English Learner Students
+1050,bi_lepf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+1051,bi_lepf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+1052,bi_leps_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1053,bi_leps_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1054,bi_lept_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1055,bi_lept_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1056,bi_lepr_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+1057,bi_lepr_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+1058,bi_lepe_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Former EB/EL (Post Monitoring)  Students
+1059,bi_lepe_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Former EB/EL (Post Monitoring)  Students
+1060,bi_lep0_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Non-Emergent Bilingual/English Learner Students
+1061,bi_lep0_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Non-Emergent Bilingual/English Learner Students
+1062,bi_lepv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No EBILING Info Students
+1063,bi_lepv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No EBILING Info Students
+1064,bi_bily_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+1065,bi_bily_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+1066,bi_biln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Bilingual Students
+1067,bi_biln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Bilingual Students
+1068,bi_bil2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Transitional Bilingual/Early Exit Students
+1069,bi_bil2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Transitional Bilingual/Early Exit Students
+1070,bi_bil3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Transitional Bilingual/Late Exit Students
+1071,bi_bil3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Transitional Bilingual/Late Exit Students
+1072,bi_bil4_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Dual Language Immersion/Two Way Students
+1073,bi_bil4_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Dual Language Immersion/Two Way Students
+1074,bi_bil5_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Dual Language Immersion/One Way Students
+1075,bi_bil5_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Dual Language Immersion/One Way Students
+1076,bi_bilv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Bilingual Info Students
+1077,bi_bilv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Bilingual Info Students
+1078,bi_esly_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- ESL Students Codes: 2 3
+1079,bi_esly_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- ESL Students Codes: 2 3
+1080,bi_esln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not ESL Students
+1081,bi_esln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not ESL Students
+1082,bi_esl2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- ESL/Content-based students
+1083,bi_esl2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- ESL/Content-based students
+1084,bi_esl3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- ESL/Pull-out students
+1085,bi_esl3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- ESL/Pull-out students
+1086,bi_eslv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No ESL Info Students
+1087,bi_eslv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No ESL Info Students
+1088,bi_esbiy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Either Bilingual or ESL
+1089,bi_esbiy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Either Bilingual or ESL
+1090,bi_esbin_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1091,bi_esbin_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1092,bi_esbiv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+1093,bi_esbiv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+1094,bi_spey_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Special Ed Students
+1095,bi_spey_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Special Ed Students
+1096,bi_spen_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Special Ed Students
+1097,bi_spen_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Special Ed Students
+1098,bi_spev_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Special Ed Info Students
+1099,bi_spev_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Special Ed Info Students
+1100,bi_gify_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Gifted/Talented Students
+1101,bi_gify_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Gifted/Talented Students
+1102,bi_gifn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not Gifted/Talented Students
+1103,bi_gifn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not Gifted/Talented Students
+1104,bi_gifv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No Gifted/Talented Info Students
+1105,bi_gifv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No Gifted/Talented Info Students
+1106,bi_atry_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- At-Risk Students
+1107,bi_atry_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- At-Risk Students
+1108,bi_atrn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- Not At-Risk Students
+1109,bi_atrn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- Not At-Risk Students
+1110,bi_atrv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Biology -- No At-Risk Info Students
+1111,bi_atrv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Biology -- No At-Risk Info Students
+1112,bi_all_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- All Students
+1113,bi_all_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- All Students
+1114,bi_sexm_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Male Students
+1115,bi_sexm_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Male Students
+1116,bi_sexf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Female Students
+1117,bi_sexf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Female Students
+1118,bi_sexv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Sex Info Students
+1119,bi_sexv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Sex Info Students
+1120,bi_ethh_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Hispanic/Latino Students
+1121,bi_ethh_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Hispanic/Latino Students
+1122,bi_ethi_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- American Indian or Alaska Native Students
+1123,bi_ethi_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- American Indian or Alaska Native Students
+1124,bi_etha_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Asian Students
+1125,bi_etha_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Asian Students
+1126,bi_ethb_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Black or African American Students
+1127,bi_ethb_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Black or African American Students
+1128,bi_ethp_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+1129,bi_ethp_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Native Hawaiian or Other Pacific Islander Students
+1130,bi_ethw_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- White Students
+1131,bi_ethw_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- White Students
+1132,bi_eth2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Two or More Races Students
+1133,bi_eth2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Two or More Races Students
+1134,bi_ethv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Ethnicity Info Students
+1135,bi_ethv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Ethnicity Info Students
+1136,bi_ecoy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Econ Disadv Students Codes: 1 2 9
+1137,bi_ecoy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Econ Disadv Students Codes: 1 2 9
+1138,bi_econ_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Econ Disadv Students
+1139,bi_econ_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Econ Disadv Students
+1140,bi_eco1_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Free Meals Students
+1141,bi_eco1_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Free Meals Students
+1142,bi_eco2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Reduced-Price Meals Students
+1143,bi_eco2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Reduced-Price Meals Students
+1144,bi_eco9_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Other Econ Disadv Students
+1145,bi_eco9_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Other Econ Disadv Students
+1146,bi_ecov_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Econ Disadv Info Students
+1147,bi_ecov_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Econ Disadv Info Students
+1148,bi_ti1y_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Title-I Participant Students Codes: 6 7 9
+1149,bi_ti1y_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Title-I Participant Students Codes: 6 7 9
+1150,bi_ti1n_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Title-I Participant Students Codes: 0 8
+1151,bi_ti1n_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Title-I Participant Students Codes: 0 8
+1152,bi_ti10_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Nonparticipant (Not Previous Participant Students)
+1153,bi_ti10_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Nonparticipant (Not Previous Participant Students)
+1154,bi_ti16_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Schoolwide Program Participant Students
+1155,bi_ti16_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Schoolwide Program Participant Students
+1156,bi_ti17_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Targeted Assistance Participant Students
+1157,bi_ti17_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Targeted Assistance Participant Students
+1158,bi_ti18_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Nonparticipant (Previous Participant) Students
+1159,bi_ti18_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Nonparticipant (Previous Participant) Students
+1160,bi_ti19_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+1161,bi_ti19_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Homeless Participant at Non-Title-I Schools Students
+1162,bi_ti1v_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Title-I Info Students
+1163,bi_ti1v_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Title-I Info Students
+1164,bi_migy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Migrant Students
+1165,bi_migy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Migrant Students
+1166,bi_mign_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Migrant Students
+1167,bi_mign_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Migrant Students
+1168,bi_migv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Migrant Info Students
+1169,bi_migv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Migrant Info Students
+1170,bi_lepc_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Emergent Bilingual/English Learner Students
+1171,bi_lepc_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Emergent Bilingual/English Learner Students
+1172,bi_lepf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+1173,bi_lepf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 1st Year) Students
+1174,bi_leps_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1175,bi_leps_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1176,bi_lept_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1177,bi_lept_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1178,bi_lepr_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+1179,bi_lepr_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Reclassified from EB/EL (Monitored 4th Year) Students
+1180,bi_lepe_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Former EB/EL (Post Monitoring)  Students
+1181,bi_lepe_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Former EB/EL (Post Monitoring)  Students
+1182,bi_lep0_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Non-Emergent Bilingual/English Learner Students
+1183,bi_lep0_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Non-Emergent Bilingual/English Learner Students
+1184,bi_lepv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No EBILING Info Students
+1185,bi_lepv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No EBILING Info Students
+1186,bi_bily_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+1187,bi_bily_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Bilingual Students  Codes: 2 3 4 5
+1188,bi_biln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Bilingual Students
+1189,bi_biln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Bilingual Students
+1190,bi_bil2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Transitional Bilingual/Early Exit Students
+1191,bi_bil2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Transitional Bilingual/Early Exit Students
+1192,bi_bil3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Transitional Bilingual/Late Exit Students
+1193,bi_bil3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Transitional Bilingual/Late Exit Students
+1194,bi_bil4_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Dual Language Immersion/Two Way Students
+1195,bi_bil4_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Dual Language Immersion/Two Way Students
+1196,bi_bil5_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Dual Language Immersion/One Way Students
+1197,bi_bil5_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Dual Language Immersion/One Way Students
+1198,bi_bilv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Bilingual Info Students
+1199,bi_bilv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Bilingual Info Students
+1200,bi_esly_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- ESL Students Codes: 2 3
+1201,bi_esly_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- ESL Students Codes: 2 3
+1202,bi_esln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not ESL Students
+1203,bi_esln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not ESL Students
+1204,bi_esl2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- ESL/Content-based students
+1205,bi_esl2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- ESL/Content-based students
+1206,bi_esl3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- ESL/Pull-out students
+1207,bi_esl3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- ESL/Pull-out students
+1208,bi_eslv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No ESL Info Students
+1209,bi_eslv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No ESL Info Students
+1210,bi_esbiy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Either Bilingual or ESL
+1211,bi_esbiy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Either Bilingual or ESL
+1212,bi_esbin_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1213,bi_esbin_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1214,bi_esbiv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+1215,bi_esbiv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Both and/or Either Bilingual/ESL Info Students
+1216,bi_spey_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Special Ed Students
+1217,bi_spey_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Special Ed Students
+1218,bi_spen_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Special Ed Students
+1219,bi_spen_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Special Ed Students
+1220,bi_spev_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Special Ed Info Students
+1221,bi_spev_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Special Ed Info Students
+1222,bi_gify_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Gifted/Talented Students
+1223,bi_gify_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Gifted/Talented Students
+1224,bi_gifn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not Gifted/Talented Students
+1225,bi_gifn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not Gifted/Talented Students
+1226,bi_gifv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No Gifted/Talented Info Students
+1227,bi_gifv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No Gifted/Talented Info Students
+1228,bi_atry_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- At-Risk Students
+1229,bi_atry_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- At-Risk Students
+1230,bi_atrn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- Not At-Risk Students
+1231,bi_atrn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- Not At-Risk Students
+1232,bi_atrv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Biology -- No At-Risk Info Students
+1233,bi_atrv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Biology -- No At-Risk Info Students

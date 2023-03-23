@@ -1,0 +1,1234 @@
+VARNUM,NAME,VARTYPE,LENGTH,LABEL
+1,YEAR,Character,2,Test Administration Year
+2,COURSE,Character,2,Course Code
+3,REGION,Character,2,Education Service Center (Region) Number
+4,DISTRICT,Character,6,District Number
+5,DNAME,Character,15,District Name
+6,CAMPUS,Character,9,Campus Number
+7,CNAME,Character,15,Campus Name
+8,a1_all_docs_n,Numeric,8,# Answer Documents Submitted -- Algebra I -- All Students
+9,a1_all_abs_n,Numeric,8,# Absent - Not Tested -- Algebra I -- All Students
+10,a1_all_oth_n,Numeric,8,# Other - Not Tested -- Algebra I -- All Students
+11,a1_all_d,Numeric,8,# Tested -- Algebra I -- All Students
+12,a1_sexm_d,Numeric,8,# Tested -- Algebra I -- Male Students
+13,a1_sexf_d,Numeric,8,# Tested -- Algebra I -- Female Students
+14,a1_sexv_d,Numeric,8,# Tested -- Algebra I -- No Sex Info Students
+15,a1_ethh_d,Numeric,8,# Tested -- Algebra I -- Hispanic/Latino Students
+16,a1_ethi_d,Numeric,8,# Tested -- Algebra I -- American Indian or Alaska Native Students
+17,a1_etha_d,Numeric,8,# Tested -- Algebra I -- Asian Students
+18,a1_ethb_d,Numeric,8,# Tested -- Algebra I -- Black or African American Students
+19,a1_ethp_d,Numeric,8,# Tested -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+20,a1_ethw_d,Numeric,8,# Tested -- Algebra I -- White Students
+21,a1_eth2_d,Numeric,8,# Tested -- Algebra I -- Two or More Races Students
+22,a1_ethv_d,Numeric,8,# Tested -- Algebra I -- No Ethnicity Info Students
+23,a1_ecoy_d,Numeric,8,# Tested -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+24,a1_econ_d,Numeric,8,# Tested -- Algebra I -- Not Econ Disadv Students
+25,a1_eco1_d,Numeric,8,# Tested -- Algebra I -- Free Meals Students
+26,a1_eco2_d,Numeric,8,# Tested -- Algebra I -- Reduced-Price Meals Students
+27,a1_eco9_d,Numeric,8,# Tested -- Algebra I -- Other Econ Disadv Students
+28,a1_ecov_d,Numeric,8,# Tested -- Algebra I -- No Econ Disadv Info Students
+29,a1_ti1y_d,Numeric,8,# Tested -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+30,a1_ti1n_d,Numeric,8,# Tested -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+31,a1_ti10_d,Numeric,8,# Tested -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+32,a1_ti16_d,Numeric,8,# Tested -- Algebra I -- Schoolwide Program Participant Students
+33,a1_ti17_d,Numeric,8,# Tested -- Algebra I -- Targeted Assistance Participant Students
+34,a1_ti18_d,Numeric,8,# Tested -- Algebra I -- Nonparticipant (Previous Participant) Students
+35,a1_ti19_d,Numeric,8,# Tested -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+36,a1_ti1v_d,Numeric,8,# Tested -- Algebra I -- No Title-I Info Students
+37,a1_migy_d,Numeric,8,# Tested -- Algebra I -- Migrant Students
+38,a1_mign_d,Numeric,8,# Tested -- Algebra I -- Not Migrant Students
+39,a1_migv_d,Numeric,8,# Tested -- Algebra I -- No Migrant Info Students
+40,a1_lepc_d,Numeric,8,# Tested -- Algebra I -- Emergent Bilingual/English Learner Students
+41,a1_lepf_d,Numeric,8,# Tested -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+42,a1_leps_d,Numeric,8,# Tested -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+43,a1_lept_d,Numeric,8,# Tested -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+44,a1_lepr_d,Numeric,8,# Tested -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+45,a1_lepe_d,Numeric,8,# Tested -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+46,a1_lep0_d,Numeric,8,# Tested -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+47,a1_lepv_d,Numeric,8,# Tested -- Algebra I -- No EBILING Info Students
+48,a1_bily_d,Numeric,8,# Tested -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+49,a1_biln_d,Numeric,8,# Tested -- Algebra I -- Not Bilingual Students
+50,a1_bil2_d,Numeric,8,# Tested -- Algebra I -- Transitional Bilingual/Early Exit Students
+51,a1_bil3_d,Numeric,8,# Tested -- Algebra I -- Transitional Bilingual/Late Exit Students
+52,a1_bil4_d,Numeric,8,# Tested -- Algebra I -- Dual Language Immersion/Two Way Students
+53,a1_bil5_d,Numeric,8,# Tested -- Algebra I -- Dual Language Immersion/One Way Students
+54,a1_bilv_d,Numeric,8,# Tested -- Algebra I -- No Bilingual Info Students
+55,a1_esly_d,Numeric,8,# Tested -- Algebra I -- ESL Students Codes: 2 3
+56,a1_esln_d,Numeric,8,# Tested -- Algebra I -- Not ESL Students
+57,a1_esl2_d,Numeric,8,# Tested -- Algebra I -- ESL/Content-based students
+58,a1_esl3_d,Numeric,8,# Tested -- Algebra I -- ESL/Pull-out students
+59,a1_eslv_d,Numeric,8,# Tested -- Algebra I -- No ESL Info Students
+60,a1_esbiy_d,Numeric,8,# Tested -- Algebra I -- Either Bilingual or ESL
+61,a1_esbin_d,Numeric,8,# Tested -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+62,a1_esbiv_d,Numeric,8,# Tested -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+63,a1_spey_d,Numeric,8,# Tested -- Algebra I -- Special Ed Students
+64,a1_spen_d,Numeric,8,# Tested -- Algebra I -- Not Special Ed Students
+65,a1_spev_d,Numeric,8,# Tested -- Algebra I -- No Special Ed Info Students
+66,a1_gify_d,Numeric,8,# Tested -- Algebra I -- Gifted/Talented Students
+67,a1_gifn_d,Numeric,8,# Tested -- Algebra I -- Not Gifted/Talented Students
+68,a1_gifv_d,Numeric,8,# Tested -- Algebra I -- No Gifted/Talented Info Students
+69,a1_atry_d,Numeric,8,# Tested -- Algebra I -- At-Risk Students
+70,a1_atrn_d,Numeric,8,# Tested -- Algebra I -- Not At-Risk Students
+71,a1_atrv_d,Numeric,8,# Tested -- Algebra I -- No At-Risk Info Students
+72,a1_all_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- All Students
+73,a1_sexm_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Male Students
+74,a1_sexf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Female Students
+75,a1_sexv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Sex Info Students
+76,a1_ethh_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+77,a1_ethi_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+78,a1_etha_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Asian Students
+79,a1_ethb_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Black or African American Students
+80,a1_ethp_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+81,a1_ethw_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- White Students
+82,a1_eth2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Two or More Races Students
+83,a1_ethv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+84,a1_ecoy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+85,a1_econ_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+86,a1_eco1_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Free Meals Students
+87,a1_eco2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+88,a1_eco9_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+89,a1_ecov_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+90,a1_ti1y_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+91,a1_ti1n_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+92,a1_ti10_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+93,a1_ti16_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+94,a1_ti17_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+95,a1_ti18_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+96,a1_ti19_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+97,a1_ti1v_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Title-I Info Students
+98,a1_migy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Migrant Students
+99,a1_mign_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Migrant Students
+100,a1_migv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Migrant Info Students
+101,a1_lepc_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+102,a1_lepf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+103,a1_leps_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+104,a1_lept_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+105,a1_lepr_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+106,a1_lepe_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+107,a1_lep0_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+108,a1_lepv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No EBILING Info Students
+109,a1_bily_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+110,a1_biln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Bilingual Students
+111,a1_bil2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+112,a1_bil3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+113,a1_bil4_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+114,a1_bil5_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+115,a1_bilv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Bilingual Info Students
+116,a1_esly_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+117,a1_esln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not ESL Students
+118,a1_esl2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- ESL/Content-based students
+119,a1_esl3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- ESL/Pull-out students
+120,a1_eslv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No ESL Info Students
+121,a1_esbiy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+122,a1_esbin_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+123,a1_esbiv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+124,a1_spey_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Special Ed Students
+125,a1_spen_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Special Ed Students
+126,a1_spev_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Special Ed Info Students
+127,a1_gify_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Gifted/Talented Students
+128,a1_gifn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+129,a1_gifv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+130,a1_atry_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- At-Risk Students
+131,a1_atrn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- Not At-Risk Students
+132,a1_atrv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- Algebra I -- No At-Risk Info Students
+133,a1_all_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- All Students
+134,a1_sexm_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Male Students
+135,a1_sexf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Female Students
+136,a1_sexv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Sex Info Students
+137,a1_ethh_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+138,a1_ethi_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+139,a1_etha_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Asian Students
+140,a1_ethb_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Black or African American Students
+141,a1_ethp_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+142,a1_ethw_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- White Students
+143,a1_eth2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Two or More Races Students
+144,a1_ethv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+145,a1_ecoy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+146,a1_econ_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+147,a1_eco1_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Free Meals Students
+148,a1_eco2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+149,a1_eco9_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+150,a1_ecov_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+151,a1_ti1y_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+152,a1_ti1n_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+153,a1_ti10_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+154,a1_ti16_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+155,a1_ti17_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+156,a1_ti18_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+157,a1_ti19_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+158,a1_ti1v_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Title-I Info Students
+159,a1_migy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Migrant Students
+160,a1_mign_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Migrant Students
+161,a1_migv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Migrant Info Students
+162,a1_lepc_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+163,a1_lepf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+164,a1_leps_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+165,a1_lept_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+166,a1_lepr_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+167,a1_lepe_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+168,a1_lep0_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+169,a1_lepv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No EBILING Info Students
+170,a1_bily_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+171,a1_biln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Bilingual Students
+172,a1_bil2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+173,a1_bil3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+174,a1_bil4_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+175,a1_bil5_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+176,a1_bilv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Bilingual Info Students
+177,a1_esly_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+178,a1_esln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not ESL Students
+179,a1_esl2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- ESL/Content-based students
+180,a1_esl3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- ESL/Pull-out students
+181,a1_eslv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No ESL Info Students
+182,a1_esbiy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+183,a1_esbin_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+184,a1_esbiv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+185,a1_spey_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Special Ed Students
+186,a1_spen_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Special Ed Students
+187,a1_spev_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Special Ed Info Students
+188,a1_gify_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Gifted/Talented Students
+189,a1_gifn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+190,a1_gifv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+191,a1_atry_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- At-Risk Students
+192,a1_atrn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- Not At-Risk Students
+193,a1_atrv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- Algebra I -- No At-Risk Info Students
+194,a1_all_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- All Students
+195,a1_sexm_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Male Students
+196,a1_sexf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Female Students
+197,a1_sexv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Sex Info Students
+198,a1_ethh_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+199,a1_ethi_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+200,a1_etha_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Asian Students
+201,a1_ethb_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Black or African American Students
+202,a1_ethp_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+203,a1_ethw_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- White Students
+204,a1_eth2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Two or More Races Students
+205,a1_ethv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+206,a1_ecoy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+207,a1_econ_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+208,a1_eco1_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Free Meals Students
+209,a1_eco2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+210,a1_eco9_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+211,a1_ecov_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+212,a1_ti1y_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+213,a1_ti1n_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+214,a1_ti10_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+215,a1_ti16_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+216,a1_ti17_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+217,a1_ti18_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+218,a1_ti19_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+219,a1_ti1v_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Title-I Info Students
+220,a1_migy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Migrant Students
+221,a1_mign_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Migrant Students
+222,a1_migv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Migrant Info Students
+223,a1_lepc_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+224,a1_lepf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+225,a1_leps_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+226,a1_lept_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+227,a1_lepr_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+228,a1_lepe_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+229,a1_lep0_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+230,a1_lepv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No EBILING Info Students
+231,a1_bily_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+232,a1_biln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Bilingual Students
+233,a1_bil2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+234,a1_bil3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+235,a1_bil4_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+236,a1_bil5_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+237,a1_bilv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Bilingual Info Students
+238,a1_esly_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+239,a1_esln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not ESL Students
+240,a1_esl2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- ESL/Content-based students
+241,a1_esl3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- ESL/Pull-out students
+242,a1_eslv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No ESL Info Students
+243,a1_esbiy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+244,a1_esbin_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+245,a1_esbiv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+246,a1_spey_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Special Ed Students
+247,a1_spen_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Special Ed Students
+248,a1_spev_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Special Ed Info Students
+249,a1_gify_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Gifted/Talented Students
+250,a1_gifn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+251,a1_gifv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+252,a1_atry_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- At-Risk Students
+253,a1_atrn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- Not At-Risk Students
+254,a1_atrv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- Algebra I -- No At-Risk Info Students
+255,a1_all_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- All Students
+256,a1_sexm_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Male Students
+257,a1_sexf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Female Students
+258,a1_sexv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Sex Info Students
+259,a1_ethh_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+260,a1_ethi_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+261,a1_etha_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Asian Students
+262,a1_ethb_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Black or African American Students
+263,a1_ethp_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+264,a1_ethw_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- White Students
+265,a1_eth2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Two or More Races Students
+266,a1_ethv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+267,a1_ecoy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+268,a1_econ_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+269,a1_eco1_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Free Meals Students
+270,a1_eco2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+271,a1_eco9_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+272,a1_ecov_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+273,a1_ti1y_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+274,a1_ti1n_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+275,a1_ti10_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+276,a1_ti16_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+277,a1_ti17_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+278,a1_ti18_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+279,a1_ti19_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+280,a1_ti1v_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Title-I Info Students
+281,a1_migy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Migrant Students
+282,a1_mign_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Migrant Students
+283,a1_migv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Migrant Info Students
+284,a1_lepc_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+285,a1_lepf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+286,a1_leps_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+287,a1_lept_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+288,a1_lepr_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+289,a1_lepe_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+290,a1_lep0_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+291,a1_lepv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No EBILING Info Students
+292,a1_bily_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+293,a1_biln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Bilingual Students
+294,a1_bil2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+295,a1_bil3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+296,a1_bil4_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+297,a1_bil5_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+298,a1_bilv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Bilingual Info Students
+299,a1_esly_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+300,a1_esln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not ESL Students
+301,a1_esl2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- ESL/Content-based students
+302,a1_esl3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- ESL/Pull-out students
+303,a1_eslv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No ESL Info Students
+304,a1_esbiy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+305,a1_esbin_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+306,a1_esbiv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+307,a1_spey_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Special Ed Students
+308,a1_spen_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Special Ed Students
+309,a1_spev_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Special Ed Info Students
+310,a1_gify_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Gifted/Talented Students
+311,a1_gifn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+312,a1_gifv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+313,a1_atry_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- At-Risk Students
+314,a1_atrn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- Not At-Risk Students
+315,a1_atrv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- Algebra I -- No At-Risk Info Students
+316,a1_all_docs_r,Numeric,8,% Answer Documents Submitted -- Algebra I -- All Students
+317,a1_all_abs_r,Numeric,8,% Absent - Not Tested -- Algebra I -- All Students
+318,a1_all_oth_r,Numeric,8,% Other - Not Tested -- Algebra I -- All Students
+319,a1_all_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- All Students
+320,a1_sexm_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Male Students
+321,a1_sexf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Female Students
+322,a1_sexv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Sex Info Students
+323,a1_ethh_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+324,a1_ethi_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+325,a1_etha_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Asian Students
+326,a1_ethb_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Black or African American Students
+327,a1_ethp_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+328,a1_ethw_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- White Students
+329,a1_eth2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Two or More Races Students
+330,a1_ethv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+331,a1_ecoy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+332,a1_econ_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+333,a1_eco1_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Free Meals Students
+334,a1_eco2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+335,a1_eco9_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+336,a1_ecov_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+337,a1_ti1y_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+338,a1_ti1n_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+339,a1_ti10_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+340,a1_ti16_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+341,a1_ti17_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+342,a1_ti18_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+343,a1_ti19_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+344,a1_ti1v_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Title-I Info Students
+345,a1_migy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Migrant Students
+346,a1_mign_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Migrant Students
+347,a1_migv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Migrant Info Students
+348,a1_lepc_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+349,a1_lepf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+350,a1_leps_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+351,a1_lept_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+352,a1_lepr_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+353,a1_lepe_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+354,a1_lep0_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+355,a1_lepv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No EBILING Info Students
+356,a1_bily_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+357,a1_biln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Bilingual Students
+358,a1_bil2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+359,a1_bil3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+360,a1_bil4_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+361,a1_bil5_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+362,a1_bilv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Bilingual Info Students
+363,a1_esly_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+364,a1_esln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not ESL Students
+365,a1_esl2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- ESL/Content-based students
+366,a1_esl3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- ESL/Pull-out students
+367,a1_eslv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No ESL Info Students
+368,a1_esbiy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+369,a1_esbin_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+370,a1_esbiv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+371,a1_spey_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Special Ed Students
+372,a1_spen_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Special Ed Students
+373,a1_spev_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Special Ed Info Students
+374,a1_gify_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Gifted/Talented Students
+375,a1_gifn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+376,a1_gifv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+377,a1_atry_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- At-Risk Students
+378,a1_atrn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- Not At-Risk Students
+379,a1_atrv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- Algebra I -- No At-Risk Info Students
+380,a1_all_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- All Students
+381,a1_sexm_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Male Students
+382,a1_sexf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Female Students
+383,a1_sexv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Sex Info Students
+384,a1_ethh_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+385,a1_ethi_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+386,a1_etha_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Asian Students
+387,a1_ethb_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Black or African American Students
+388,a1_ethp_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+389,a1_ethw_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- White Students
+390,a1_eth2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Two or More Races Students
+391,a1_ethv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+392,a1_ecoy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+393,a1_econ_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+394,a1_eco1_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Free Meals Students
+395,a1_eco2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+396,a1_eco9_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+397,a1_ecov_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+398,a1_ti1y_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+399,a1_ti1n_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+400,a1_ti10_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+401,a1_ti16_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+402,a1_ti17_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+403,a1_ti18_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+404,a1_ti19_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+405,a1_ti1v_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Title-I Info Students
+406,a1_migy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Migrant Students
+407,a1_mign_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Migrant Students
+408,a1_migv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Migrant Info Students
+409,a1_lepc_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+410,a1_lepf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+411,a1_leps_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+412,a1_lept_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+413,a1_lepr_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+414,a1_lepe_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+415,a1_lep0_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+416,a1_lepv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No EBILING Info Students
+417,a1_bily_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+418,a1_biln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Bilingual Students
+419,a1_bil2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+420,a1_bil3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+421,a1_bil4_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+422,a1_bil5_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+423,a1_bilv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Bilingual Info Students
+424,a1_esly_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+425,a1_esln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not ESL Students
+426,a1_esl2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- ESL/Content-based students
+427,a1_esl3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- ESL/Pull-out students
+428,a1_eslv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No ESL Info Students
+429,a1_esbiy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+430,a1_esbin_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+431,a1_esbiv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+432,a1_spey_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Special Ed Students
+433,a1_spen_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Special Ed Students
+434,a1_spev_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Special Ed Info Students
+435,a1_gify_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Gifted/Talented Students
+436,a1_gifn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+437,a1_gifv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+438,a1_atry_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- At-Risk Students
+439,a1_atrn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- Not At-Risk Students
+440,a1_atrv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- Algebra I -- No At-Risk Info Students
+441,a1_all_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- All Students
+442,a1_sexm_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Male Students
+443,a1_sexf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Female Students
+444,a1_sexv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Sex Info Students
+445,a1_ethh_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+446,a1_ethi_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+447,a1_etha_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Asian Students
+448,a1_ethb_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Black or African American Students
+449,a1_ethp_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+450,a1_ethw_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- White Students
+451,a1_eth2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Two or More Races Students
+452,a1_ethv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+453,a1_ecoy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+454,a1_econ_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+455,a1_eco1_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Free Meals Students
+456,a1_eco2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+457,a1_eco9_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+458,a1_ecov_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+459,a1_ti1y_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+460,a1_ti1n_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+461,a1_ti10_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+462,a1_ti16_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+463,a1_ti17_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+464,a1_ti18_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+465,a1_ti19_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+466,a1_ti1v_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Title-I Info Students
+467,a1_migy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Migrant Students
+468,a1_mign_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Migrant Students
+469,a1_migv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Migrant Info Students
+470,a1_lepc_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+471,a1_lepf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+472,a1_leps_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+473,a1_lept_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+474,a1_lepr_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+475,a1_lepe_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+476,a1_lep0_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+477,a1_lepv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No EBILING Info Students
+478,a1_bily_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+479,a1_biln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Bilingual Students
+480,a1_bil2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+481,a1_bil3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+482,a1_bil4_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+483,a1_bil5_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+484,a1_bilv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Bilingual Info Students
+485,a1_esly_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+486,a1_esln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not ESL Students
+487,a1_esl2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- ESL/Content-based students
+488,a1_esl3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- ESL/Pull-out students
+489,a1_eslv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No ESL Info Students
+490,a1_esbiy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+491,a1_esbin_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+492,a1_esbiv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+493,a1_spey_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Special Ed Students
+494,a1_spen_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Special Ed Students
+495,a1_spev_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Special Ed Info Students
+496,a1_gify_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Gifted/Talented Students
+497,a1_gifn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+498,a1_gifv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+499,a1_atry_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- At-Risk Students
+500,a1_atrn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- Not At-Risk Students
+501,a1_atrv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- Algebra I -- No At-Risk Info Students
+502,a1_all_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- All Students
+503,a1_sexm_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Male Students
+504,a1_sexf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Female Students
+505,a1_sexv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Sex Info Students
+506,a1_ethh_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Hispanic/Latino Students
+507,a1_ethi_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- American Indian or Alaska Native Students
+508,a1_etha_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Asian Students
+509,a1_ethb_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Black or African American Students
+510,a1_ethp_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+511,a1_ethw_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- White Students
+512,a1_eth2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Two or More Races Students
+513,a1_ethv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Ethnicity Info Students
+514,a1_ecoy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+515,a1_econ_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Econ Disadv Students
+516,a1_eco1_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Free Meals Students
+517,a1_eco2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Reduced-Price Meals Students
+518,a1_eco9_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Other Econ Disadv Students
+519,a1_ecov_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Econ Disadv Info Students
+520,a1_ti1y_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+521,a1_ti1n_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+522,a1_ti10_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+523,a1_ti16_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Schoolwide Program Participant Students
+524,a1_ti17_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Targeted Assistance Participant Students
+525,a1_ti18_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Nonparticipant (Previous Participant) Students
+526,a1_ti19_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+527,a1_ti1v_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Title-I Info Students
+528,a1_migy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Migrant Students
+529,a1_mign_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Migrant Students
+530,a1_migv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Migrant Info Students
+531,a1_lepc_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Emergent Bilingual/English Learner Students
+532,a1_lepf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+533,a1_leps_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+534,a1_lept_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+535,a1_lepr_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+536,a1_lepe_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+537,a1_lep0_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+538,a1_lepv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No EBILING Info Students
+539,a1_bily_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+540,a1_biln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Bilingual Students
+541,a1_bil2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Transitional Bilingual/Early Exit Students
+542,a1_bil3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Transitional Bilingual/Late Exit Students
+543,a1_bil4_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Dual Language Immersion/Two Way Students
+544,a1_bil5_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Dual Language Immersion/One Way Students
+545,a1_bilv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Bilingual Info Students
+546,a1_esly_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- ESL Students Codes: 2 3
+547,a1_esln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not ESL Students
+548,a1_esl2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- ESL/Content-based students
+549,a1_esl3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- ESL/Pull-out students
+550,a1_eslv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No ESL Info Students
+551,a1_esbiy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Either Bilingual or ESL
+552,a1_esbin_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+553,a1_esbiv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+554,a1_spey_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Special Ed Students
+555,a1_spen_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Special Ed Students
+556,a1_spev_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Special Ed Info Students
+557,a1_gify_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Gifted/Talented Students
+558,a1_gifn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not Gifted/Talented Students
+559,a1_gifv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No Gifted/Talented Info Students
+560,a1_atry_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- At-Risk Students
+561,a1_atrn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- Not At-Risk Students
+562,a1_atrv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- Algebra I -- No At-Risk Info Students
+563,a1_all_rs,Numeric,8,Average Scale Score -- Algebra I -- All Students
+564,a1_sexm_rs,Numeric,8,Average Scale Score -- Algebra I -- Male Students
+565,a1_sexf_rs,Numeric,8,Average Scale Score -- Algebra I -- Female Students
+566,a1_sexv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Sex Info Students
+567,a1_ethh_rs,Numeric,8,Average Scale Score -- Algebra I -- Hispanic/Latino Students
+568,a1_ethi_rs,Numeric,8,Average Scale Score -- Algebra I -- American Indian or Alaska Native Students
+569,a1_etha_rs,Numeric,8,Average Scale Score -- Algebra I -- Asian Students
+570,a1_ethb_rs,Numeric,8,Average Scale Score -- Algebra I -- Black or African American Students
+571,a1_ethp_rs,Numeric,8,Average Scale Score -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+572,a1_ethw_rs,Numeric,8,Average Scale Score -- Algebra I -- White Students
+573,a1_eth2_rs,Numeric,8,Average Scale Score -- Algebra I -- Two or More Races Students
+574,a1_ethv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Ethnicity Info Students
+575,a1_ecoy_rs,Numeric,8,Average Scale Score -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+576,a1_econ_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Econ Disadv Students
+577,a1_eco1_rs,Numeric,8,Average Scale Score -- Algebra I -- Free Meals Students
+578,a1_eco2_rs,Numeric,8,Average Scale Score -- Algebra I -- Reduced-Price Meals Students
+579,a1_eco9_rs,Numeric,8,Average Scale Score -- Algebra I -- Other Econ Disadv Students
+580,a1_ecov_rs,Numeric,8,Average Scale Score -- Algebra I -- No Econ Disadv Info Students
+581,a1_ti1y_rs,Numeric,8,Average Scale Score -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+582,a1_ti1n_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+583,a1_ti10_rs,Numeric,8,Average Scale Score -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+584,a1_ti16_rs,Numeric,8,Average Scale Score -- Algebra I -- Schoolwide Program Participant Students
+585,a1_ti17_rs,Numeric,8,Average Scale Score -- Algebra I -- Targeted Assistance Participant Students
+586,a1_ti18_rs,Numeric,8,Average Scale Score -- Algebra I -- Nonparticipant (Previous Participant) Students
+587,a1_ti19_rs,Numeric,8,Average Scale Score -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+588,a1_ti1v_rs,Numeric,8,Average Scale Score -- Algebra I -- No Title-I Info Students
+589,a1_migy_rs,Numeric,8,Average Scale Score -- Algebra I -- Migrant Students
+590,a1_mign_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Migrant Students
+591,a1_migv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Migrant Info Students
+592,a1_lepc_rs,Numeric,8,Average Scale Score -- Algebra I -- Emergent Bilingual/English Learner Students
+593,a1_lepf_rs,Numeric,8,Average Scale Score -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+594,a1_leps_rs,Numeric,8,Average Scale Score -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+595,a1_lept_rs,Numeric,8,Average Scale Score -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+596,a1_lepr_rs,Numeric,8,Average Scale Score -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+597,a1_lepe_rs,Numeric,8,Average Scale Score -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+598,a1_lep0_rs,Numeric,8,Average Scale Score -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+599,a1_lepv_rs,Numeric,8,Average Scale Score -- Algebra I -- No EBILING Info Students
+600,a1_bily_rs,Numeric,8,Average Scale Score -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+601,a1_biln_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Bilingual Students
+602,a1_bil2_rs,Numeric,8,Average Scale Score -- Algebra I -- Transitional Bilingual/Early Exit Students
+603,a1_bil3_rs,Numeric,8,Average Scale Score -- Algebra I -- Transitional Bilingual/Late Exit Students
+604,a1_bil4_rs,Numeric,8,Average Scale Score -- Algebra I -- Dual Language Immersion/Two Way Students
+605,a1_bil5_rs,Numeric,8,Average Scale Score -- Algebra I -- Dual Language Immersion/One Way Students
+606,a1_bilv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Bilingual Info Students
+607,a1_esly_rs,Numeric,8,Average Scale Score -- Algebra I -- ESL Students Codes: 2 3
+608,a1_esln_rs,Numeric,8,Average Scale Score -- Algebra I -- Not ESL Students
+609,a1_esl2_rs,Numeric,8,Average Scale Score -- Algebra I -- ESL/Content-based students
+610,a1_esl3_rs,Numeric,8,Average Scale Score -- Algebra I -- ESL/Pull-out students
+611,a1_eslv_rs,Numeric,8,Average Scale Score -- Algebra I -- No ESL Info Students
+612,a1_esbiy_rs,Numeric,8,Average Scale Score -- Algebra I -- Either Bilingual or ESL
+613,a1_esbin_rs,Numeric,8,Average Scale Score -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+614,a1_esbiv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+615,a1_spey_rs,Numeric,8,Average Scale Score -- Algebra I -- Special Ed Students
+616,a1_spen_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Special Ed Students
+617,a1_spev_rs,Numeric,8,Average Scale Score -- Algebra I -- No Special Ed Info Students
+618,a1_gify_rs,Numeric,8,Average Scale Score -- Algebra I -- Gifted/Talented Students
+619,a1_gifn_rs,Numeric,8,Average Scale Score -- Algebra I -- Not Gifted/Talented Students
+620,a1_gifv_rs,Numeric,8,Average Scale Score -- Algebra I -- No Gifted/Talented Info Students
+621,a1_atry_rs,Numeric,8,Average Scale Score -- Algebra I -- At-Risk Students
+622,a1_atrn_rs,Numeric,8,Average Scale Score -- Algebra I -- Not At-Risk Students
+623,a1_atrv_rs,Numeric,8,Average Scale Score -- Algebra I -- No At-Risk Info Students
+624,a1_all_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- All Students
+625,a1_all_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- All Students
+626,a1_sexm_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Male Students
+627,a1_sexm_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Male Students
+628,a1_sexf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Female Students
+629,a1_sexf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Female Students
+630,a1_sexv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Sex Info Students
+631,a1_sexv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Sex Info Students
+632,a1_ethh_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Hispanic/Latino Students
+633,a1_ethh_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Hispanic/Latino Students
+634,a1_ethi_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- American Indian or Alaska Native Students
+635,a1_ethi_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- American Indian or Alaska Native Students
+636,a1_etha_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Asian Students
+637,a1_etha_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Asian Students
+638,a1_ethb_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Black or African American Students
+639,a1_ethb_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Black or African American Students
+640,a1_ethp_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+641,a1_ethp_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+642,a1_ethw_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- White Students
+643,a1_ethw_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- White Students
+644,a1_eth2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Two or More Races Students
+645,a1_eth2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Two or More Races Students
+646,a1_ethv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Ethnicity Info Students
+647,a1_ethv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Ethnicity Info Students
+648,a1_ecoy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+649,a1_ecoy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+650,a1_econ_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Econ Disadv Students
+651,a1_econ_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Econ Disadv Students
+652,a1_eco1_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Free Meals Students
+653,a1_eco1_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Free Meals Students
+654,a1_eco2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Reduced-Price Meals Students
+655,a1_eco2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Reduced-Price Meals Students
+656,a1_eco9_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Other Econ Disadv Students
+657,a1_eco9_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Other Econ Disadv Students
+658,a1_ecov_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Econ Disadv Info Students
+659,a1_ecov_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Econ Disadv Info Students
+660,a1_ti1y_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+661,a1_ti1y_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+662,a1_ti1n_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+663,a1_ti1n_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+664,a1_ti10_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+665,a1_ti10_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+666,a1_ti16_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Schoolwide Program Participant Students
+667,a1_ti16_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Schoolwide Program Participant Students
+668,a1_ti17_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Targeted Assistance Participant Students
+669,a1_ti17_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Targeted Assistance Participant Students
+670,a1_ti18_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Nonparticipant (Previous Participant) Students
+671,a1_ti18_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Nonparticipant (Previous Participant) Students
+672,a1_ti19_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+673,a1_ti19_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+674,a1_ti1v_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Title-I Info Students
+675,a1_ti1v_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Title-I Info Students
+676,a1_migy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Migrant Students
+677,a1_migy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Migrant Students
+678,a1_mign_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Migrant Students
+679,a1_mign_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Migrant Students
+680,a1_migv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Migrant Info Students
+681,a1_migv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Migrant Info Students
+682,a1_lepc_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Emergent Bilingual/English Learner Students
+683,a1_lepc_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Emergent Bilingual/English Learner Students
+684,a1_lepf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+685,a1_lepf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+686,a1_leps_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+687,a1_leps_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+688,a1_lept_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+689,a1_lept_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+690,a1_lepr_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+691,a1_lepr_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+692,a1_lepe_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+693,a1_lepe_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+694,a1_lep0_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+695,a1_lep0_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+696,a1_lepv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No EBILING Info Students
+697,a1_lepv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No EBILING Info Students
+698,a1_bily_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+699,a1_bily_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+700,a1_biln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Bilingual Students
+701,a1_biln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Bilingual Students
+702,a1_bil2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Transitional Bilingual/Early Exit Students
+703,a1_bil2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Transitional Bilingual/Early Exit Students
+704,a1_bil3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Transitional Bilingual/Late Exit Students
+705,a1_bil3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Transitional Bilingual/Late Exit Students
+706,a1_bil4_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Dual Language Immersion/Two Way Students
+707,a1_bil4_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Dual Language Immersion/Two Way Students
+708,a1_bil5_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Dual Language Immersion/One Way Students
+709,a1_bil5_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Dual Language Immersion/One Way Students
+710,a1_bilv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Bilingual Info Students
+711,a1_bilv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Bilingual Info Students
+712,a1_esly_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL Students Codes: 2 3
+713,a1_esly_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL Students Codes: 2 3
+714,a1_esln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not ESL Students
+715,a1_esln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not ESL Students
+716,a1_esl2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL/Content-based students
+717,a1_esl2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL/Content-based students
+718,a1_esl3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL/Pull-out students
+719,a1_esl3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- ESL/Pull-out students
+720,a1_eslv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No ESL Info Students
+721,a1_eslv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No ESL Info Students
+722,a1_esbiy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Either Bilingual or ESL
+723,a1_esbiy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Either Bilingual or ESL
+724,a1_esbin_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+725,a1_esbin_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+726,a1_esbiv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+727,a1_esbiv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+728,a1_spey_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Special Ed Students
+729,a1_spey_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Special Ed Students
+730,a1_spen_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Special Ed Students
+731,a1_spen_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Special Ed Students
+732,a1_spev_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Special Ed Info Students
+733,a1_spev_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Special Ed Info Students
+734,a1_gify_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Gifted/Talented Students
+735,a1_gify_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Gifted/Talented Students
+736,a1_gifn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Gifted/Talented Students
+737,a1_gifn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not Gifted/Talented Students
+738,a1_gifv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No Gifted/Talented Info Students
+739,a1_gifv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No Gifted/Talented Info Students
+740,a1_atry_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- At-Risk Students
+741,a1_atry_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- At-Risk Students
+742,a1_atrn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- Not At-Risk Students
+743,a1_atrn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- Not At-Risk Students
+744,a1_atrv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- Algebra I -- No At-Risk Info Students
+745,a1_atrv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- Algebra I -- No At-Risk Info Students
+746,a1_all_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- All Students
+747,a1_all_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- All Students
+748,a1_sexm_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Male Students
+749,a1_sexm_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Male Students
+750,a1_sexf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Female Students
+751,a1_sexf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Female Students
+752,a1_sexv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Sex Info Students
+753,a1_sexv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Sex Info Students
+754,a1_ethh_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Hispanic/Latino Students
+755,a1_ethh_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Hispanic/Latino Students
+756,a1_ethi_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- American Indian or Alaska Native Students
+757,a1_ethi_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- American Indian or Alaska Native Students
+758,a1_etha_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Asian Students
+759,a1_etha_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Asian Students
+760,a1_ethb_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Black or African American Students
+761,a1_ethb_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Black or African American Students
+762,a1_ethp_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+763,a1_ethp_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+764,a1_ethw_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- White Students
+765,a1_ethw_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- White Students
+766,a1_eth2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Two or More Races Students
+767,a1_eth2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Two or More Races Students
+768,a1_ethv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Ethnicity Info Students
+769,a1_ethv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Ethnicity Info Students
+770,a1_ecoy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+771,a1_ecoy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+772,a1_econ_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Econ Disadv Students
+773,a1_econ_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Econ Disadv Students
+774,a1_eco1_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Free Meals Students
+775,a1_eco1_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Free Meals Students
+776,a1_eco2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Reduced-Price Meals Students
+777,a1_eco2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Reduced-Price Meals Students
+778,a1_eco9_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Other Econ Disadv Students
+779,a1_eco9_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Other Econ Disadv Students
+780,a1_ecov_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Econ Disadv Info Students
+781,a1_ecov_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Econ Disadv Info Students
+782,a1_ti1y_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+783,a1_ti1y_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+784,a1_ti1n_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+785,a1_ti1n_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+786,a1_ti10_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+787,a1_ti10_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+788,a1_ti16_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Schoolwide Program Participant Students
+789,a1_ti16_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Schoolwide Program Participant Students
+790,a1_ti17_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Targeted Assistance Participant Students
+791,a1_ti17_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Targeted Assistance Participant Students
+792,a1_ti18_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Nonparticipant (Previous Participant) Students
+793,a1_ti18_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Nonparticipant (Previous Participant) Students
+794,a1_ti19_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+795,a1_ti19_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+796,a1_ti1v_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Title-I Info Students
+797,a1_ti1v_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Title-I Info Students
+798,a1_migy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Migrant Students
+799,a1_migy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Migrant Students
+800,a1_mign_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Migrant Students
+801,a1_mign_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Migrant Students
+802,a1_migv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Migrant Info Students
+803,a1_migv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Migrant Info Students
+804,a1_lepc_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Emergent Bilingual/English Learner Students
+805,a1_lepc_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Emergent Bilingual/English Learner Students
+806,a1_lepf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+807,a1_lepf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+808,a1_leps_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+809,a1_leps_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+810,a1_lept_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+811,a1_lept_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+812,a1_lepr_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+813,a1_lepr_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+814,a1_lepe_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+815,a1_lepe_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+816,a1_lep0_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+817,a1_lep0_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+818,a1_lepv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No EBILING Info Students
+819,a1_lepv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No EBILING Info Students
+820,a1_bily_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+821,a1_bily_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+822,a1_biln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Bilingual Students
+823,a1_biln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Bilingual Students
+824,a1_bil2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Transitional Bilingual/Early Exit Students
+825,a1_bil2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Transitional Bilingual/Early Exit Students
+826,a1_bil3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Transitional Bilingual/Late Exit Students
+827,a1_bil3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Transitional Bilingual/Late Exit Students
+828,a1_bil4_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Dual Language Immersion/Two Way Students
+829,a1_bil4_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Dual Language Immersion/Two Way Students
+830,a1_bil5_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Dual Language Immersion/One Way Students
+831,a1_bil5_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Dual Language Immersion/One Way Students
+832,a1_bilv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Bilingual Info Students
+833,a1_bilv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Bilingual Info Students
+834,a1_esly_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL Students Codes: 2 3
+835,a1_esly_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL Students Codes: 2 3
+836,a1_esln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not ESL Students
+837,a1_esln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not ESL Students
+838,a1_esl2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL/Content-based students
+839,a1_esl2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL/Content-based students
+840,a1_esl3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL/Pull-out students
+841,a1_esl3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- ESL/Pull-out students
+842,a1_eslv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No ESL Info Students
+843,a1_eslv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No ESL Info Students
+844,a1_esbiy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Either Bilingual or ESL
+845,a1_esbiy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Either Bilingual or ESL
+846,a1_esbin_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+847,a1_esbin_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+848,a1_esbiv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+849,a1_esbiv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+850,a1_spey_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Special Ed Students
+851,a1_spey_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Special Ed Students
+852,a1_spen_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Special Ed Students
+853,a1_spen_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Special Ed Students
+854,a1_spev_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Special Ed Info Students
+855,a1_spev_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Special Ed Info Students
+856,a1_gify_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Gifted/Talented Students
+857,a1_gify_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Gifted/Talented Students
+858,a1_gifn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Gifted/Talented Students
+859,a1_gifn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not Gifted/Talented Students
+860,a1_gifv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No Gifted/Talented Info Students
+861,a1_gifv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No Gifted/Talented Info Students
+862,a1_atry_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- At-Risk Students
+863,a1_atry_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- At-Risk Students
+864,a1_atrn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- Not At-Risk Students
+865,a1_atrn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- Not At-Risk Students
+866,a1_atrv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- Algebra I -- No At-Risk Info Students
+867,a1_atrv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- Algebra I -- No At-Risk Info Students
+868,a1_all_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- All Students
+869,a1_all_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- All Students
+870,a1_sexm_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Male Students
+871,a1_sexm_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Male Students
+872,a1_sexf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Female Students
+873,a1_sexf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Female Students
+874,a1_sexv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Sex Info Students
+875,a1_sexv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Sex Info Students
+876,a1_ethh_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Hispanic/Latino Students
+877,a1_ethh_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Hispanic/Latino Students
+878,a1_ethi_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- American Indian or Alaska Native Students
+879,a1_ethi_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- American Indian or Alaska Native Students
+880,a1_etha_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Asian Students
+881,a1_etha_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Asian Students
+882,a1_ethb_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Black or African American Students
+883,a1_ethb_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Black or African American Students
+884,a1_ethp_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+885,a1_ethp_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+886,a1_ethw_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- White Students
+887,a1_ethw_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- White Students
+888,a1_eth2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Two or More Races Students
+889,a1_eth2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Two or More Races Students
+890,a1_ethv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Ethnicity Info Students
+891,a1_ethv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Ethnicity Info Students
+892,a1_ecoy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+893,a1_ecoy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+894,a1_econ_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Econ Disadv Students
+895,a1_econ_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Econ Disadv Students
+896,a1_eco1_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Free Meals Students
+897,a1_eco1_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Free Meals Students
+898,a1_eco2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Reduced-Price Meals Students
+899,a1_eco2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Reduced-Price Meals Students
+900,a1_eco9_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Other Econ Disadv Students
+901,a1_eco9_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Other Econ Disadv Students
+902,a1_ecov_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Econ Disadv Info Students
+903,a1_ecov_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Econ Disadv Info Students
+904,a1_ti1y_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+905,a1_ti1y_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+906,a1_ti1n_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+907,a1_ti1n_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+908,a1_ti10_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+909,a1_ti10_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+910,a1_ti16_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Schoolwide Program Participant Students
+911,a1_ti16_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Schoolwide Program Participant Students
+912,a1_ti17_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Targeted Assistance Participant Students
+913,a1_ti17_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Targeted Assistance Participant Students
+914,a1_ti18_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Nonparticipant (Previous Participant) Students
+915,a1_ti18_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Nonparticipant (Previous Participant) Students
+916,a1_ti19_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+917,a1_ti19_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+918,a1_ti1v_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Title-I Info Students
+919,a1_ti1v_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Title-I Info Students
+920,a1_migy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Migrant Students
+921,a1_migy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Migrant Students
+922,a1_mign_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Migrant Students
+923,a1_mign_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Migrant Students
+924,a1_migv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Migrant Info Students
+925,a1_migv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Migrant Info Students
+926,a1_lepc_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Emergent Bilingual/English Learner Students
+927,a1_lepc_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Emergent Bilingual/English Learner Students
+928,a1_lepf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+929,a1_lepf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+930,a1_leps_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+931,a1_leps_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+932,a1_lept_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+933,a1_lept_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+934,a1_lepr_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+935,a1_lepr_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+936,a1_lepe_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+937,a1_lepe_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+938,a1_lep0_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+939,a1_lep0_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+940,a1_lepv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No EBILING Info Students
+941,a1_lepv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No EBILING Info Students
+942,a1_bily_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+943,a1_bily_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+944,a1_biln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Bilingual Students
+945,a1_biln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Bilingual Students
+946,a1_bil2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Transitional Bilingual/Early Exit Students
+947,a1_bil2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Transitional Bilingual/Early Exit Students
+948,a1_bil3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Transitional Bilingual/Late Exit Students
+949,a1_bil3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Transitional Bilingual/Late Exit Students
+950,a1_bil4_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Dual Language Immersion/Two Way Students
+951,a1_bil4_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Dual Language Immersion/Two Way Students
+952,a1_bil5_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Dual Language Immersion/One Way Students
+953,a1_bil5_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Dual Language Immersion/One Way Students
+954,a1_bilv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Bilingual Info Students
+955,a1_bilv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Bilingual Info Students
+956,a1_esly_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL Students Codes: 2 3
+957,a1_esly_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL Students Codes: 2 3
+958,a1_esln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not ESL Students
+959,a1_esln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not ESL Students
+960,a1_esl2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL/Content-based students
+961,a1_esl2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL/Content-based students
+962,a1_esl3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL/Pull-out students
+963,a1_esl3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- ESL/Pull-out students
+964,a1_eslv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No ESL Info Students
+965,a1_eslv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No ESL Info Students
+966,a1_esbiy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Either Bilingual or ESL
+967,a1_esbiy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Either Bilingual or ESL
+968,a1_esbin_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+969,a1_esbin_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+970,a1_esbiv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+971,a1_esbiv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+972,a1_spey_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Special Ed Students
+973,a1_spey_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Special Ed Students
+974,a1_spen_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Special Ed Students
+975,a1_spen_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Special Ed Students
+976,a1_spev_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Special Ed Info Students
+977,a1_spev_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Special Ed Info Students
+978,a1_gify_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Gifted/Talented Students
+979,a1_gify_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Gifted/Talented Students
+980,a1_gifn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Gifted/Talented Students
+981,a1_gifn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not Gifted/Talented Students
+982,a1_gifv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No Gifted/Talented Info Students
+983,a1_gifv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No Gifted/Talented Info Students
+984,a1_atry_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- At-Risk Students
+985,a1_atry_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- At-Risk Students
+986,a1_atrn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- Not At-Risk Students
+987,a1_atrn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- Not At-Risk Students
+988,a1_atrv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- Algebra I -- No At-Risk Info Students
+989,a1_atrv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- Algebra I -- No At-Risk Info Students
+990,a1_all_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- All Students
+991,a1_all_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- All Students
+992,a1_sexm_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Male Students
+993,a1_sexm_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Male Students
+994,a1_sexf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Female Students
+995,a1_sexf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Female Students
+996,a1_sexv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Sex Info Students
+997,a1_sexv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Sex Info Students
+998,a1_ethh_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Hispanic/Latino Students
+999,a1_ethh_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Hispanic/Latino Students
+1000,a1_ethi_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- American Indian or Alaska Native Students
+1001,a1_ethi_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- American Indian or Alaska Native Students
+1002,a1_etha_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Asian Students
+1003,a1_etha_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Asian Students
+1004,a1_ethb_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Black or African American Students
+1005,a1_ethb_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Black or African American Students
+1006,a1_ethp_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+1007,a1_ethp_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+1008,a1_ethw_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- White Students
+1009,a1_ethw_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- White Students
+1010,a1_eth2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Two or More Races Students
+1011,a1_eth2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Two or More Races Students
+1012,a1_ethv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Ethnicity Info Students
+1013,a1_ethv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Ethnicity Info Students
+1014,a1_ecoy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+1015,a1_ecoy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+1016,a1_econ_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Econ Disadv Students
+1017,a1_econ_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Econ Disadv Students
+1018,a1_eco1_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Free Meals Students
+1019,a1_eco1_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Free Meals Students
+1020,a1_eco2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Reduced-Price Meals Students
+1021,a1_eco2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Reduced-Price Meals Students
+1022,a1_eco9_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Other Econ Disadv Students
+1023,a1_eco9_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Other Econ Disadv Students
+1024,a1_ecov_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Econ Disadv Info Students
+1025,a1_ecov_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Econ Disadv Info Students
+1026,a1_ti1y_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+1027,a1_ti1y_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+1028,a1_ti1n_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+1029,a1_ti1n_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+1030,a1_ti10_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+1031,a1_ti10_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+1032,a1_ti16_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Schoolwide Program Participant Students
+1033,a1_ti16_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Schoolwide Program Participant Students
+1034,a1_ti17_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Targeted Assistance Participant Students
+1035,a1_ti17_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Targeted Assistance Participant Students
+1036,a1_ti18_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Nonparticipant (Previous Participant) Students
+1037,a1_ti18_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Nonparticipant (Previous Participant) Students
+1038,a1_ti19_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+1039,a1_ti19_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+1040,a1_ti1v_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Title-I Info Students
+1041,a1_ti1v_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Title-I Info Students
+1042,a1_migy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Migrant Students
+1043,a1_migy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Migrant Students
+1044,a1_mign_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Migrant Students
+1045,a1_mign_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Migrant Students
+1046,a1_migv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Migrant Info Students
+1047,a1_migv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Migrant Info Students
+1048,a1_lepc_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Emergent Bilingual/English Learner Students
+1049,a1_lepc_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Emergent Bilingual/English Learner Students
+1050,a1_lepf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1051,a1_lepf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1052,a1_leps_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1053,a1_leps_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1054,a1_lept_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1055,a1_lept_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1056,a1_lepr_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1057,a1_lepr_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1058,a1_lepe_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+1059,a1_lepe_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+1060,a1_lep0_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+1061,a1_lep0_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+1062,a1_lepv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No EBILING Info Students
+1063,a1_lepv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No EBILING Info Students
+1064,a1_bily_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+1065,a1_bily_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+1066,a1_biln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Bilingual Students
+1067,a1_biln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Bilingual Students
+1068,a1_bil2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Transitional Bilingual/Early Exit Students
+1069,a1_bil2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Transitional Bilingual/Early Exit Students
+1070,a1_bil3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Transitional Bilingual/Late Exit Students
+1071,a1_bil3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Transitional Bilingual/Late Exit Students
+1072,a1_bil4_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Dual Language Immersion/Two Way Students
+1073,a1_bil4_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Dual Language Immersion/Two Way Students
+1074,a1_bil5_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Dual Language Immersion/One Way Students
+1075,a1_bil5_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Dual Language Immersion/One Way Students
+1076,a1_bilv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Bilingual Info Students
+1077,a1_bilv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Bilingual Info Students
+1078,a1_esly_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL Students Codes: 2 3
+1079,a1_esly_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL Students Codes: 2 3
+1080,a1_esln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not ESL Students
+1081,a1_esln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not ESL Students
+1082,a1_esl2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL/Content-based students
+1083,a1_esl2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL/Content-based students
+1084,a1_esl3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL/Pull-out students
+1085,a1_esl3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- ESL/Pull-out students
+1086,a1_eslv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No ESL Info Students
+1087,a1_eslv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No ESL Info Students
+1088,a1_esbiy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Either Bilingual or ESL
+1089,a1_esbiy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Either Bilingual or ESL
+1090,a1_esbin_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1091,a1_esbin_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1092,a1_esbiv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+1093,a1_esbiv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+1094,a1_spey_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Special Ed Students
+1095,a1_spey_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Special Ed Students
+1096,a1_spen_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Special Ed Students
+1097,a1_spen_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Special Ed Students
+1098,a1_spev_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Special Ed Info Students
+1099,a1_spev_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Special Ed Info Students
+1100,a1_gify_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Gifted/Talented Students
+1101,a1_gify_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Gifted/Talented Students
+1102,a1_gifn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Gifted/Talented Students
+1103,a1_gifn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not Gifted/Talented Students
+1104,a1_gifv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No Gifted/Talented Info Students
+1105,a1_gifv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No Gifted/Talented Info Students
+1106,a1_atry_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- At-Risk Students
+1107,a1_atry_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- At-Risk Students
+1108,a1_atrn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- Not At-Risk Students
+1109,a1_atrn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- Not At-Risk Students
+1110,a1_atrv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- Algebra I -- No At-Risk Info Students
+1111,a1_atrv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- Algebra I -- No At-Risk Info Students
+1112,a1_all_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- All Students
+1113,a1_all_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- All Students
+1114,a1_sexm_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Male Students
+1115,a1_sexm_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Male Students
+1116,a1_sexf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Female Students
+1117,a1_sexf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Female Students
+1118,a1_sexv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Sex Info Students
+1119,a1_sexv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Sex Info Students
+1120,a1_ethh_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Hispanic/Latino Students
+1121,a1_ethh_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Hispanic/Latino Students
+1122,a1_ethi_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- American Indian or Alaska Native Students
+1123,a1_ethi_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- American Indian or Alaska Native Students
+1124,a1_etha_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Asian Students
+1125,a1_etha_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Asian Students
+1126,a1_ethb_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Black or African American Students
+1127,a1_ethb_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Black or African American Students
+1128,a1_ethp_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+1129,a1_ethp_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Native Hawaiian or Other Pacific Islander Students
+1130,a1_ethw_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- White Students
+1131,a1_ethw_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- White Students
+1132,a1_eth2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Two or More Races Students
+1133,a1_eth2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Two or More Races Students
+1134,a1_ethv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Ethnicity Info Students
+1135,a1_ethv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Ethnicity Info Students
+1136,a1_ecoy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+1137,a1_ecoy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Econ Disadv Students Codes: 1 2 9
+1138,a1_econ_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Econ Disadv Students
+1139,a1_econ_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Econ Disadv Students
+1140,a1_eco1_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Free Meals Students
+1141,a1_eco1_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Free Meals Students
+1142,a1_eco2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Reduced-Price Meals Students
+1143,a1_eco2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Reduced-Price Meals Students
+1144,a1_eco9_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Other Econ Disadv Students
+1145,a1_eco9_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Other Econ Disadv Students
+1146,a1_ecov_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Econ Disadv Info Students
+1147,a1_ecov_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Econ Disadv Info Students
+1148,a1_ti1y_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+1149,a1_ti1y_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Title-I Participant Students Codes: 6 7 9
+1150,a1_ti1n_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+1151,a1_ti1n_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Title-I Participant Students Codes: 0 8
+1152,a1_ti10_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+1153,a1_ti10_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Nonparticipant (Not Previous Participant Students)
+1154,a1_ti16_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Schoolwide Program Participant Students
+1155,a1_ti16_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Schoolwide Program Participant Students
+1156,a1_ti17_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Targeted Assistance Participant Students
+1157,a1_ti17_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Targeted Assistance Participant Students
+1158,a1_ti18_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Nonparticipant (Previous Participant) Students
+1159,a1_ti18_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Nonparticipant (Previous Participant) Students
+1160,a1_ti19_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+1161,a1_ti19_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Homeless Participant at Non-Title-I Schools Students
+1162,a1_ti1v_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Title-I Info Students
+1163,a1_ti1v_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Title-I Info Students
+1164,a1_migy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Migrant Students
+1165,a1_migy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Migrant Students
+1166,a1_mign_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Migrant Students
+1167,a1_mign_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Migrant Students
+1168,a1_migv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Migrant Info Students
+1169,a1_migv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Migrant Info Students
+1170,a1_lepc_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Emergent Bilingual/English Learner Students
+1171,a1_lepc_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Emergent Bilingual/English Learner Students
+1172,a1_lepf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1173,a1_lepf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1174,a1_leps_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1175,a1_leps_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1176,a1_lept_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1177,a1_lept_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1178,a1_lepr_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1179,a1_lepr_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1180,a1_lepe_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+1181,a1_lepe_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Former EB/EL (Post Monitoring)  Students
+1182,a1_lep0_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+1183,a1_lep0_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Non-Emergent Bilingual/English Learner Students
+1184,a1_lepv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No EBILING Info Students
+1185,a1_lepv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No EBILING Info Students
+1186,a1_bily_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+1187,a1_bily_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Bilingual Students  Codes: 2 3 4 5
+1188,a1_biln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Bilingual Students
+1189,a1_biln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Bilingual Students
+1190,a1_bil2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Transitional Bilingual/Early Exit Students
+1191,a1_bil2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Transitional Bilingual/Early Exit Students
+1192,a1_bil3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Transitional Bilingual/Late Exit Students
+1193,a1_bil3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Transitional Bilingual/Late Exit Students
+1194,a1_bil4_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Dual Language Immersion/Two Way Students
+1195,a1_bil4_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Dual Language Immersion/Two Way Students
+1196,a1_bil5_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Dual Language Immersion/One Way Students
+1197,a1_bil5_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Dual Language Immersion/One Way Students
+1198,a1_bilv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Bilingual Info Students
+1199,a1_bilv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Bilingual Info Students
+1200,a1_esly_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL Students Codes: 2 3
+1201,a1_esly_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL Students Codes: 2 3
+1202,a1_esln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not ESL Students
+1203,a1_esln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not ESL Students
+1204,a1_esl2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL/Content-based students
+1205,a1_esl2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL/Content-based students
+1206,a1_esl3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL/Pull-out students
+1207,a1_esl3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- ESL/Pull-out students
+1208,a1_eslv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No ESL Info Students
+1209,a1_eslv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No ESL Info Students
+1210,a1_esbiy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Either Bilingual or ESL
+1211,a1_esbiy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Either Bilingual or ESL
+1212,a1_esbin_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1213,a1_esbin_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1214,a1_esbiv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+1215,a1_esbiv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Both and/or Either Bilingual/ESL Info Students
+1216,a1_spey_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Special Ed Students
+1217,a1_spey_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Special Ed Students
+1218,a1_spen_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Special Ed Students
+1219,a1_spen_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Special Ed Students
+1220,a1_spev_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Special Ed Info Students
+1221,a1_spev_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Special Ed Info Students
+1222,a1_gify_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Gifted/Talented Students
+1223,a1_gify_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Gifted/Talented Students
+1224,a1_gifn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Gifted/Talented Students
+1225,a1_gifn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not Gifted/Talented Students
+1226,a1_gifv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No Gifted/Talented Info Students
+1227,a1_gifv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No Gifted/Talented Info Students
+1228,a1_atry_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- At-Risk Students
+1229,a1_atry_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- At-Risk Students
+1230,a1_atrn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- Not At-Risk Students
+1231,a1_atrn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- Not At-Risk Students
+1232,a1_atrv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- Algebra I -- No At-Risk Info Students
+1233,a1_atrv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- Algebra I -- No At-Risk Info Students

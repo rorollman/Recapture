@@ -1,0 +1,1356 @@
+VARNUM,NAME,VARTYPE,LENGTH,LABEL
+1,YEAR,Character,2,Test Administration Year
+2,COURSE,Character,2,Course Code
+3,REGION,Character,2,Education Service Center (Region) Number
+4,DISTRICT,Character,6,District Number
+5,DNAME,Character,15,District Name
+6,CAMPUS,Character,9,Campus Number
+7,CNAME,Character,15,Campus Name
+8,e1_all_docs_n,Numeric,8,# Answer Documents Submitted -- English I -- All Students
+9,e1_all_abs_n,Numeric,8,# Absent - Not Tested -- English I -- All Students
+10,e1_all_oth_n,Numeric,8,# Other - Not Tested -- English I -- All Students
+11,e1_all_d,Numeric,8,# Tested -- English I -- All Students
+12,e1_sexm_d,Numeric,8,# Tested -- English I -- Male Students
+13,e1_sexf_d,Numeric,8,# Tested -- English I -- Female Students
+14,e1_sexv_d,Numeric,8,# Tested -- English I -- No Sex Info Students
+15,e1_ethh_d,Numeric,8,# Tested -- English I -- Hispanic/Latino Students
+16,e1_ethi_d,Numeric,8,# Tested -- English I -- American Indian or Alaska Native Students
+17,e1_etha_d,Numeric,8,# Tested -- English I -- Asian Students
+18,e1_ethb_d,Numeric,8,# Tested -- English I -- Black or African American Students
+19,e1_ethp_d,Numeric,8,# Tested -- English I -- Native Hawaiian or Other Pacific Islander Students
+20,e1_ethw_d,Numeric,8,# Tested -- English I -- White Students
+21,e1_eth2_d,Numeric,8,# Tested -- English I -- Two or More Races Students
+22,e1_ethv_d,Numeric,8,# Tested -- English I -- No Ethnicity Info Students
+23,e1_ecoy_d,Numeric,8,# Tested -- English I -- Econ Disadv Students Codes: 1 2 9
+24,e1_econ_d,Numeric,8,# Tested -- English I -- Not Econ Disadv Students
+25,e1_eco1_d,Numeric,8,# Tested -- English I -- Free Meals Students
+26,e1_eco2_d,Numeric,8,# Tested -- English I -- Reduced-Price Meals Students
+27,e1_eco9_d,Numeric,8,# Tested -- English I -- Other Econ Disadv Students
+28,e1_ecov_d,Numeric,8,# Tested -- English I -- No Econ Disadv Info Students
+29,e1_ti1y_d,Numeric,8,# Tested -- English I -- Title-I Participant Students Codes: 6 7 9
+30,e1_ti1n_d,Numeric,8,# Tested -- English I -- Not Title-I Participant Students Codes: 0 8
+31,e1_ti10_d,Numeric,8,# Tested -- English I -- Nonparticipant (Not Previous Participant Students)
+32,e1_ti16_d,Numeric,8,# Tested -- English I -- Schoolwide Program Participant Students
+33,e1_ti17_d,Numeric,8,# Tested -- English I -- Targeted Assistance Participant Students
+34,e1_ti18_d,Numeric,8,# Tested -- English I -- Nonparticipant (Previous Participant) Students
+35,e1_ti19_d,Numeric,8,# Tested -- English I -- Homeless Participant at Non-Title-I Schools Students
+36,e1_ti1v_d,Numeric,8,# Tested -- English I -- No Title-I Info Students
+37,e1_migy_d,Numeric,8,# Tested -- English I -- Migrant Students
+38,e1_mign_d,Numeric,8,# Tested -- English I -- Not Migrant Students
+39,e1_migv_d,Numeric,8,# Tested -- English I -- No Migrant Info Students
+40,e1_lepc_d,Numeric,8,# Tested -- English I -- Emergent Bilingual/English Learner Students
+41,e1_lepf_d,Numeric,8,# Tested -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+42,e1_leps_d,Numeric,8,# Tested -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+43,e1_lept_d,Numeric,8,# Tested -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+44,e1_lepr_d,Numeric,8,# Tested -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+45,e1_lepe_d,Numeric,8,# Tested -- English I -- Former EB/EL (Post Monitoring)  Students
+46,e1_lep0_d,Numeric,8,# Tested -- English I -- Non-Emergent Bilingual/English Learner Students
+47,e1_lepv_d,Numeric,8,# Tested -- English I -- No EBILING Info Students
+48,e1_bily_d,Numeric,8,# Tested -- English I -- Bilingual Students  Codes: 2 3 4 5
+49,e1_biln_d,Numeric,8,# Tested -- English I -- Not Bilingual Students
+50,e1_bil2_d,Numeric,8,# Tested -- English I -- Transitional Bilingual/Early Exit Students
+51,e1_bil3_d,Numeric,8,# Tested -- English I -- Transitional Bilingual/Late Exit Students
+52,e1_bil4_d,Numeric,8,# Tested -- English I -- Dual Language Immersion/Two Way Students
+53,e1_bil5_d,Numeric,8,# Tested -- English I -- Dual Language Immersion/One Way Students
+54,e1_bilv_d,Numeric,8,# Tested -- English I -- No Bilingual Info Students
+55,e1_esly_d,Numeric,8,# Tested -- English I -- ESL Students Codes: 2 3
+56,e1_esln_d,Numeric,8,# Tested -- English I -- Not ESL Students
+57,e1_esl2_d,Numeric,8,# Tested -- English I -- ESL/Content-based students
+58,e1_esl3_d,Numeric,8,# Tested -- English I -- ESL/Pull-out students
+59,e1_eslv_d,Numeric,8,# Tested -- English I -- No ESL Info Students
+60,e1_esbiy_d,Numeric,8,# Tested -- English I -- Either Bilingual or ESL
+61,e1_esbin_d,Numeric,8,# Tested -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+62,e1_esbiv_d,Numeric,8,# Tested -- English I -- No Both and/or Either Bilingual/ESL Info Students
+63,e1_spey_d,Numeric,8,# Tested -- English I -- Special Ed Students
+64,e1_spen_d,Numeric,8,# Tested -- English I -- Not Special Ed Students
+65,e1_spev_d,Numeric,8,# Tested -- English I -- No Special Ed Info Students
+66,e1_gify_d,Numeric,8,# Tested -- English I -- Gifted/Talented Students
+67,e1_gifn_d,Numeric,8,# Tested -- English I -- Not Gifted/Talented Students
+68,e1_gifv_d,Numeric,8,# Tested -- English I -- No Gifted/Talented Info Students
+69,e1_atry_d,Numeric,8,# Tested -- English I -- At-Risk Students
+70,e1_atrn_d,Numeric,8,# Tested -- English I -- Not At-Risk Students
+71,e1_atrv_d,Numeric,8,# Tested -- English I -- No At-Risk Info Students
+72,e1_all_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- All Students
+73,e1_sexm_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Male Students
+74,e1_sexf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Female Students
+75,e1_sexv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Sex Info Students
+76,e1_ethh_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Hispanic/Latino Students
+77,e1_ethi_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- American Indian or Alaska Native Students
+78,e1_etha_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Asian Students
+79,e1_ethb_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Black or African American Students
+80,e1_ethp_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+81,e1_ethw_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- White Students
+82,e1_eth2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Two or More Races Students
+83,e1_ethv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Ethnicity Info Students
+84,e1_ecoy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+85,e1_econ_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Econ Disadv Students
+86,e1_eco1_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Free Meals Students
+87,e1_eco2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Reduced-Price Meals Students
+88,e1_eco9_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Other Econ Disadv Students
+89,e1_ecov_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Econ Disadv Info Students
+90,e1_ti1y_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+91,e1_ti1n_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+92,e1_ti10_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+93,e1_ti16_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Schoolwide Program Participant Students
+94,e1_ti17_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Targeted Assistance Participant Students
+95,e1_ti18_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+96,e1_ti19_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+97,e1_ti1v_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Title-I Info Students
+98,e1_migy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Migrant Students
+99,e1_mign_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Migrant Students
+100,e1_migv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Migrant Info Students
+101,e1_lepc_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+102,e1_lepf_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+103,e1_leps_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+104,e1_lept_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+105,e1_lepr_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+106,e1_lepe_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+107,e1_lep0_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+108,e1_lepv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No EBILING Info Students
+109,e1_bily_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+110,e1_biln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Bilingual Students
+111,e1_bil2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+112,e1_bil3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+113,e1_bil4_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+114,e1_bil5_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+115,e1_bilv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Bilingual Info Students
+116,e1_esly_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- ESL Students Codes: 2 3
+117,e1_esln_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not ESL Students
+118,e1_esl2_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- ESL/Content-based students
+119,e1_esl3_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- ESL/Pull-out students
+120,e1_eslv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No ESL Info Students
+121,e1_esbiy_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Either Bilingual or ESL
+122,e1_esbin_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+123,e1_esbiv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+124,e1_spey_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Special Ed Students
+125,e1_spen_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Special Ed Students
+126,e1_spev_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Special Ed Info Students
+127,e1_gify_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Gifted/Talented Students
+128,e1_gifn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not Gifted/Talented Students
+129,e1_gifv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No Gifted/Talented Info Students
+130,e1_atry_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- At-Risk Students
+131,e1_atrn_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- Not At-Risk Students
+132,e1_atrv_unsatgl_nm,Numeric,8,# Did Not Meet Grade Level Performance -- English I -- No At-Risk Info Students
+133,e1_all_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- All Students
+134,e1_sexm_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Male Students
+135,e1_sexf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Female Students
+136,e1_sexv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Sex Info Students
+137,e1_ethh_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Hispanic/Latino Students
+138,e1_ethi_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- American Indian or Alaska Native Students
+139,e1_etha_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Asian Students
+140,e1_ethb_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Black or African American Students
+141,e1_ethp_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+142,e1_ethw_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- White Students
+143,e1_eth2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Two or More Races Students
+144,e1_ethv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Ethnicity Info Students
+145,e1_ecoy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+146,e1_econ_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Econ Disadv Students
+147,e1_eco1_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Free Meals Students
+148,e1_eco2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Reduced-Price Meals Students
+149,e1_eco9_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Other Econ Disadv Students
+150,e1_ecov_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Econ Disadv Info Students
+151,e1_ti1y_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+152,e1_ti1n_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+153,e1_ti10_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+154,e1_ti16_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Schoolwide Program Participant Students
+155,e1_ti17_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Targeted Assistance Participant Students
+156,e1_ti18_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+157,e1_ti19_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+158,e1_ti1v_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Title-I Info Students
+159,e1_migy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Migrant Students
+160,e1_mign_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Migrant Students
+161,e1_migv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Migrant Info Students
+162,e1_lepc_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+163,e1_lepf_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+164,e1_leps_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+165,e1_lept_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+166,e1_lepr_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+167,e1_lepe_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+168,e1_lep0_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+169,e1_lepv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No EBILING Info Students
+170,e1_bily_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+171,e1_biln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Bilingual Students
+172,e1_bil2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+173,e1_bil3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+174,e1_bil4_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+175,e1_bil5_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+176,e1_bilv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Bilingual Info Students
+177,e1_esly_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- ESL Students Codes: 2 3
+178,e1_esln_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not ESL Students
+179,e1_esl2_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- ESL/Content-based students
+180,e1_esl3_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- ESL/Pull-out students
+181,e1_eslv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No ESL Info Students
+182,e1_esbiy_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Either Bilingual or ESL
+183,e1_esbin_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+184,e1_esbiv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+185,e1_spey_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Special Ed Students
+186,e1_spen_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Special Ed Students
+187,e1_spev_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Special Ed Info Students
+188,e1_gify_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Gifted/Talented Students
+189,e1_gifn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not Gifted/Talented Students
+190,e1_gifv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No Gifted/Talented Info Students
+191,e1_atry_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- At-Risk Students
+192,e1_atrn_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- Not At-Risk Students
+193,e1_atrv_approgl_nm,Numeric,8,# Approaches Grade Level Performance -- English I -- No At-Risk Info Students
+194,e1_all_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- All Students
+195,e1_sexm_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Male Students
+196,e1_sexf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Female Students
+197,e1_sexv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Sex Info Students
+198,e1_ethh_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Hispanic/Latino Students
+199,e1_ethi_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- American Indian or Alaska Native Students
+200,e1_etha_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Asian Students
+201,e1_ethb_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Black or African American Students
+202,e1_ethp_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+203,e1_ethw_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- White Students
+204,e1_eth2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Two or More Races Students
+205,e1_ethv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Ethnicity Info Students
+206,e1_ecoy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+207,e1_econ_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Econ Disadv Students
+208,e1_eco1_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Free Meals Students
+209,e1_eco2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Reduced-Price Meals Students
+210,e1_eco9_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Other Econ Disadv Students
+211,e1_ecov_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Econ Disadv Info Students
+212,e1_ti1y_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+213,e1_ti1n_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+214,e1_ti10_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+215,e1_ti16_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Schoolwide Program Participant Students
+216,e1_ti17_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Targeted Assistance Participant Students
+217,e1_ti18_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+218,e1_ti19_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+219,e1_ti1v_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Title-I Info Students
+220,e1_migy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Migrant Students
+221,e1_mign_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Migrant Students
+222,e1_migv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Migrant Info Students
+223,e1_lepc_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+224,e1_lepf_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+225,e1_leps_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+226,e1_lept_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+227,e1_lepr_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+228,e1_lepe_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+229,e1_lep0_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+230,e1_lepv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No EBILING Info Students
+231,e1_bily_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+232,e1_biln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Bilingual Students
+233,e1_bil2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+234,e1_bil3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+235,e1_bil4_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+236,e1_bil5_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+237,e1_bilv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Bilingual Info Students
+238,e1_esly_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- ESL Students Codes: 2 3
+239,e1_esln_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not ESL Students
+240,e1_esl2_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- ESL/Content-based students
+241,e1_esl3_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- ESL/Pull-out students
+242,e1_eslv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No ESL Info Students
+243,e1_esbiy_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Either Bilingual or ESL
+244,e1_esbin_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+245,e1_esbiv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+246,e1_spey_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Special Ed Students
+247,e1_spen_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Special Ed Students
+248,e1_spev_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Special Ed Info Students
+249,e1_gify_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Gifted/Talented Students
+250,e1_gifn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not Gifted/Talented Students
+251,e1_gifv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No Gifted/Talented Info Students
+252,e1_atry_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- At-Risk Students
+253,e1_atrn_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- Not At-Risk Students
+254,e1_atrv_meetsgl_nm,Numeric,8,# Meets Grade Level Performance -- English I -- No At-Risk Info Students
+255,e1_all_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- All Students
+256,e1_sexm_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Male Students
+257,e1_sexf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Female Students
+258,e1_sexv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Sex Info Students
+259,e1_ethh_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Hispanic/Latino Students
+260,e1_ethi_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- American Indian or Alaska Native Students
+261,e1_etha_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Asian Students
+262,e1_ethb_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Black or African American Students
+263,e1_ethp_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+264,e1_ethw_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- White Students
+265,e1_eth2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Two or More Races Students
+266,e1_ethv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Ethnicity Info Students
+267,e1_ecoy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+268,e1_econ_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Econ Disadv Students
+269,e1_eco1_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Free Meals Students
+270,e1_eco2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Reduced-Price Meals Students
+271,e1_eco9_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Other Econ Disadv Students
+272,e1_ecov_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Econ Disadv Info Students
+273,e1_ti1y_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+274,e1_ti1n_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+275,e1_ti10_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+276,e1_ti16_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Schoolwide Program Participant Students
+277,e1_ti17_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Targeted Assistance Participant Students
+278,e1_ti18_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+279,e1_ti19_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+280,e1_ti1v_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Title-I Info Students
+281,e1_migy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Migrant Students
+282,e1_mign_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Migrant Students
+283,e1_migv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Migrant Info Students
+284,e1_lepc_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+285,e1_lepf_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+286,e1_leps_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+287,e1_lept_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+288,e1_lepr_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+289,e1_lepe_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+290,e1_lep0_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+291,e1_lepv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No EBILING Info Students
+292,e1_bily_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+293,e1_biln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Bilingual Students
+294,e1_bil2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+295,e1_bil3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+296,e1_bil4_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+297,e1_bil5_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+298,e1_bilv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Bilingual Info Students
+299,e1_esly_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- ESL Students Codes: 2 3
+300,e1_esln_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not ESL Students
+301,e1_esl2_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- ESL/Content-based students
+302,e1_esl3_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- ESL/Pull-out students
+303,e1_eslv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No ESL Info Students
+304,e1_esbiy_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Either Bilingual or ESL
+305,e1_esbin_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+306,e1_esbiv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+307,e1_spey_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Special Ed Students
+308,e1_spen_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Special Ed Students
+309,e1_spev_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Special Ed Info Students
+310,e1_gify_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Gifted/Talented Students
+311,e1_gifn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not Gifted/Talented Students
+312,e1_gifv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No Gifted/Talented Info Students
+313,e1_atry_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- At-Risk Students
+314,e1_atrn_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- Not At-Risk Students
+315,e1_atrv_mastrgl_nm,Numeric,8,# Masters Grade Level Performance -- English I -- No At-Risk Info Students
+316,e1_all_docs_r,Numeric,8,% Answer Documents Submitted -- English I -- All Students
+317,e1_all_abs_r,Numeric,8,% Absent - Not Tested -- English I -- All Students
+318,e1_all_oth_r,Numeric,8,% Other - Not Tested -- English I -- All Students
+319,e1_all_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- All Students
+320,e1_sexm_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Male Students
+321,e1_sexf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Female Students
+322,e1_sexv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Sex Info Students
+323,e1_ethh_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Hispanic/Latino Students
+324,e1_ethi_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- American Indian or Alaska Native Students
+325,e1_etha_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Asian Students
+326,e1_ethb_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Black or African American Students
+327,e1_ethp_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+328,e1_ethw_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- White Students
+329,e1_eth2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Two or More Races Students
+330,e1_ethv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Ethnicity Info Students
+331,e1_ecoy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+332,e1_econ_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Econ Disadv Students
+333,e1_eco1_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Free Meals Students
+334,e1_eco2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Reduced-Price Meals Students
+335,e1_eco9_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Other Econ Disadv Students
+336,e1_ecov_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Econ Disadv Info Students
+337,e1_ti1y_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+338,e1_ti1n_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+339,e1_ti10_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+340,e1_ti16_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Schoolwide Program Participant Students
+341,e1_ti17_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Targeted Assistance Participant Students
+342,e1_ti18_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+343,e1_ti19_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+344,e1_ti1v_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Title-I Info Students
+345,e1_migy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Migrant Students
+346,e1_mign_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Migrant Students
+347,e1_migv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Migrant Info Students
+348,e1_lepc_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+349,e1_lepf_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+350,e1_leps_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+351,e1_lept_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+352,e1_lepr_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+353,e1_lepe_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+354,e1_lep0_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+355,e1_lepv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No EBILING Info Students
+356,e1_bily_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+357,e1_biln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Bilingual Students
+358,e1_bil2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+359,e1_bil3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+360,e1_bil4_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+361,e1_bil5_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+362,e1_bilv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Bilingual Info Students
+363,e1_esly_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- ESL Students Codes: 2 3
+364,e1_esln_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not ESL Students
+365,e1_esl2_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- ESL/Content-based students
+366,e1_esl3_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- ESL/Pull-out students
+367,e1_eslv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No ESL Info Students
+368,e1_esbiy_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Either Bilingual or ESL
+369,e1_esbin_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+370,e1_esbiv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+371,e1_spey_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Special Ed Students
+372,e1_spen_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Special Ed Students
+373,e1_spev_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Special Ed Info Students
+374,e1_gify_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Gifted/Talented Students
+375,e1_gifn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not Gifted/Talented Students
+376,e1_gifv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No Gifted/Talented Info Students
+377,e1_atry_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- At-Risk Students
+378,e1_atrn_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- Not At-Risk Students
+379,e1_atrv_unsatgl_rm,Numeric,8,% Did Not Meet Grade Level Performance -- English I -- No At-Risk Info Students
+380,e1_all_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- All Students
+381,e1_sexm_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Male Students
+382,e1_sexf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Female Students
+383,e1_sexv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Sex Info Students
+384,e1_ethh_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Hispanic/Latino Students
+385,e1_ethi_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- American Indian or Alaska Native Students
+386,e1_etha_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Asian Students
+387,e1_ethb_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Black or African American Students
+388,e1_ethp_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+389,e1_ethw_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- White Students
+390,e1_eth2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Two or More Races Students
+391,e1_ethv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Ethnicity Info Students
+392,e1_ecoy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+393,e1_econ_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Econ Disadv Students
+394,e1_eco1_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Free Meals Students
+395,e1_eco2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Reduced-Price Meals Students
+396,e1_eco9_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Other Econ Disadv Students
+397,e1_ecov_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Econ Disadv Info Students
+398,e1_ti1y_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+399,e1_ti1n_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+400,e1_ti10_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+401,e1_ti16_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Schoolwide Program Participant Students
+402,e1_ti17_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Targeted Assistance Participant Students
+403,e1_ti18_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+404,e1_ti19_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+405,e1_ti1v_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Title-I Info Students
+406,e1_migy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Migrant Students
+407,e1_mign_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Migrant Students
+408,e1_migv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Migrant Info Students
+409,e1_lepc_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+410,e1_lepf_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+411,e1_leps_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+412,e1_lept_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+413,e1_lepr_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+414,e1_lepe_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+415,e1_lep0_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+416,e1_lepv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No EBILING Info Students
+417,e1_bily_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+418,e1_biln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Bilingual Students
+419,e1_bil2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+420,e1_bil3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+421,e1_bil4_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+422,e1_bil5_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+423,e1_bilv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Bilingual Info Students
+424,e1_esly_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- ESL Students Codes: 2 3
+425,e1_esln_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not ESL Students
+426,e1_esl2_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- ESL/Content-based students
+427,e1_esl3_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- ESL/Pull-out students
+428,e1_eslv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No ESL Info Students
+429,e1_esbiy_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Either Bilingual or ESL
+430,e1_esbin_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+431,e1_esbiv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+432,e1_spey_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Special Ed Students
+433,e1_spen_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Special Ed Students
+434,e1_spev_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Special Ed Info Students
+435,e1_gify_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Gifted/Talented Students
+436,e1_gifn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not Gifted/Talented Students
+437,e1_gifv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No Gifted/Talented Info Students
+438,e1_atry_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- At-Risk Students
+439,e1_atrn_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- Not At-Risk Students
+440,e1_atrv_approgl_rm,Numeric,8,% Approaches Grade Level Performance -- English I -- No At-Risk Info Students
+441,e1_all_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- All Students
+442,e1_sexm_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Male Students
+443,e1_sexf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Female Students
+444,e1_sexv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Sex Info Students
+445,e1_ethh_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Hispanic/Latino Students
+446,e1_ethi_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- American Indian or Alaska Native Students
+447,e1_etha_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Asian Students
+448,e1_ethb_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Black or African American Students
+449,e1_ethp_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+450,e1_ethw_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- White Students
+451,e1_eth2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Two or More Races Students
+452,e1_ethv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Ethnicity Info Students
+453,e1_ecoy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+454,e1_econ_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Econ Disadv Students
+455,e1_eco1_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Free Meals Students
+456,e1_eco2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Reduced-Price Meals Students
+457,e1_eco9_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Other Econ Disadv Students
+458,e1_ecov_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Econ Disadv Info Students
+459,e1_ti1y_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+460,e1_ti1n_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+461,e1_ti10_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+462,e1_ti16_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Schoolwide Program Participant Students
+463,e1_ti17_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Targeted Assistance Participant Students
+464,e1_ti18_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+465,e1_ti19_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+466,e1_ti1v_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Title-I Info Students
+467,e1_migy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Migrant Students
+468,e1_mign_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Migrant Students
+469,e1_migv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Migrant Info Students
+470,e1_lepc_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+471,e1_lepf_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+472,e1_leps_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+473,e1_lept_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+474,e1_lepr_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+475,e1_lepe_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+476,e1_lep0_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+477,e1_lepv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No EBILING Info Students
+478,e1_bily_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+479,e1_biln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Bilingual Students
+480,e1_bil2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+481,e1_bil3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+482,e1_bil4_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+483,e1_bil5_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+484,e1_bilv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Bilingual Info Students
+485,e1_esly_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- ESL Students Codes: 2 3
+486,e1_esln_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not ESL Students
+487,e1_esl2_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- ESL/Content-based students
+488,e1_esl3_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- ESL/Pull-out students
+489,e1_eslv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No ESL Info Students
+490,e1_esbiy_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Either Bilingual or ESL
+491,e1_esbin_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+492,e1_esbiv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+493,e1_spey_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Special Ed Students
+494,e1_spen_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Special Ed Students
+495,e1_spev_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Special Ed Info Students
+496,e1_gify_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Gifted/Talented Students
+497,e1_gifn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not Gifted/Talented Students
+498,e1_gifv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No Gifted/Talented Info Students
+499,e1_atry_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- At-Risk Students
+500,e1_atrn_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- Not At-Risk Students
+501,e1_atrv_meetsgl_rm,Numeric,8,% Meets Grade Level Performance -- English I -- No At-Risk Info Students
+502,e1_all_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- All Students
+503,e1_sexm_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Male Students
+504,e1_sexf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Female Students
+505,e1_sexv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Sex Info Students
+506,e1_ethh_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Hispanic/Latino Students
+507,e1_ethi_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- American Indian or Alaska Native Students
+508,e1_etha_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Asian Students
+509,e1_ethb_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Black or African American Students
+510,e1_ethp_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Native Hawaiian or Other Pacific Islander Students
+511,e1_ethw_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- White Students
+512,e1_eth2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Two or More Races Students
+513,e1_ethv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Ethnicity Info Students
+514,e1_ecoy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Econ Disadv Students Codes: 1 2 9
+515,e1_econ_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Econ Disadv Students
+516,e1_eco1_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Free Meals Students
+517,e1_eco2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Reduced-Price Meals Students
+518,e1_eco9_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Other Econ Disadv Students
+519,e1_ecov_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Econ Disadv Info Students
+520,e1_ti1y_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Title-I Participant Students Codes: 6 7 9
+521,e1_ti1n_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Title-I Participant Students Codes: 0 8
+522,e1_ti10_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Nonparticipant (Not Previous Participant Students)
+523,e1_ti16_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Schoolwide Program Participant Students
+524,e1_ti17_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Targeted Assistance Participant Students
+525,e1_ti18_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Nonparticipant (Previous Participant) Students
+526,e1_ti19_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Homeless Participant at Non-Title-I Schools Students
+527,e1_ti1v_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Title-I Info Students
+528,e1_migy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Migrant Students
+529,e1_mign_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Migrant Students
+530,e1_migv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Migrant Info Students
+531,e1_lepc_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Emergent Bilingual/English Learner Students
+532,e1_lepf_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+533,e1_leps_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+534,e1_lept_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+535,e1_lepr_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+536,e1_lepe_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Former EB/EL (Post Monitoring)  Students
+537,e1_lep0_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Non-Emergent Bilingual/English Learner Students
+538,e1_lepv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No EBILING Info Students
+539,e1_bily_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Bilingual Students  Codes: 2 3 4 5
+540,e1_biln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Bilingual Students
+541,e1_bil2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Transitional Bilingual/Early Exit Students
+542,e1_bil3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Transitional Bilingual/Late Exit Students
+543,e1_bil4_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Dual Language Immersion/Two Way Students
+544,e1_bil5_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Dual Language Immersion/One Way Students
+545,e1_bilv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Bilingual Info Students
+546,e1_esly_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- ESL Students Codes: 2 3
+547,e1_esln_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not ESL Students
+548,e1_esl2_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- ESL/Content-based students
+549,e1_esl3_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- ESL/Pull-out students
+550,e1_eslv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No ESL Info Students
+551,e1_esbiy_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Either Bilingual or ESL
+552,e1_esbin_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+553,e1_esbiv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Both and/or Either Bilingual/ESL Info Students
+554,e1_spey_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Special Ed Students
+555,e1_spen_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Special Ed Students
+556,e1_spev_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Special Ed Info Students
+557,e1_gify_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Gifted/Talented Students
+558,e1_gifn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not Gifted/Talented Students
+559,e1_gifv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No Gifted/Talented Info Students
+560,e1_atry_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- At-Risk Students
+561,e1_atrn_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- Not At-Risk Students
+562,e1_atrv_mastrgl_rm,Numeric,8,% Masters Grade Level Performance -- English I -- No At-Risk Info Students
+563,e1_all_rs,Numeric,8,Average Scale Score -- English I -- All Students
+564,e1_sexm_rs,Numeric,8,Average Scale Score -- English I -- Male Students
+565,e1_sexf_rs,Numeric,8,Average Scale Score -- English I -- Female Students
+566,e1_sexv_rs,Numeric,8,Average Scale Score -- English I -- No Sex Info Students
+567,e1_ethh_rs,Numeric,8,Average Scale Score -- English I -- Hispanic/Latino Students
+568,e1_ethi_rs,Numeric,8,Average Scale Score -- English I -- American Indian or Alaska Native Students
+569,e1_etha_rs,Numeric,8,Average Scale Score -- English I -- Asian Students
+570,e1_ethb_rs,Numeric,8,Average Scale Score -- English I -- Black or African American Students
+571,e1_ethp_rs,Numeric,8,Average Scale Score -- English I -- Native Hawaiian or Other Pacific Islander Students
+572,e1_ethw_rs,Numeric,8,Average Scale Score -- English I -- White Students
+573,e1_eth2_rs,Numeric,8,Average Scale Score -- English I -- Two or More Races Students
+574,e1_ethv_rs,Numeric,8,Average Scale Score -- English I -- No Ethnicity Info Students
+575,e1_ecoy_rs,Numeric,8,Average Scale Score -- English I -- Econ Disadv Students Codes: 1 2 9
+576,e1_econ_rs,Numeric,8,Average Scale Score -- English I -- Not Econ Disadv Students
+577,e1_eco1_rs,Numeric,8,Average Scale Score -- English I -- Free Meals Students
+578,e1_eco2_rs,Numeric,8,Average Scale Score -- English I -- Reduced-Price Meals Students
+579,e1_eco9_rs,Numeric,8,Average Scale Score -- English I -- Other Econ Disadv Students
+580,e1_ecov_rs,Numeric,8,Average Scale Score -- English I -- No Econ Disadv Info Students
+581,e1_ti1y_rs,Numeric,8,Average Scale Score -- English I -- Title-I Participant Students Codes: 6 7 9
+582,e1_ti1n_rs,Numeric,8,Average Scale Score -- English I -- Not Title-I Participant Students Codes: 0 8
+583,e1_ti10_rs,Numeric,8,Average Scale Score -- English I -- Nonparticipant (Not Previous Participant Students)
+584,e1_ti16_rs,Numeric,8,Average Scale Score -- English I -- Schoolwide Program Participant Students
+585,e1_ti17_rs,Numeric,8,Average Scale Score -- English I -- Targeted Assistance Participant Students
+586,e1_ti18_rs,Numeric,8,Average Scale Score -- English I -- Nonparticipant (Previous Participant) Students
+587,e1_ti19_rs,Numeric,8,Average Scale Score -- English I -- Homeless Participant at Non-Title-I Schools Students
+588,e1_ti1v_rs,Numeric,8,Average Scale Score -- English I -- No Title-I Info Students
+589,e1_migy_rs,Numeric,8,Average Scale Score -- English I -- Migrant Students
+590,e1_mign_rs,Numeric,8,Average Scale Score -- English I -- Not Migrant Students
+591,e1_migv_rs,Numeric,8,Average Scale Score -- English I -- No Migrant Info Students
+592,e1_lepc_rs,Numeric,8,Average Scale Score -- English I -- Emergent Bilingual/English Learner Students
+593,e1_lepf_rs,Numeric,8,Average Scale Score -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+594,e1_leps_rs,Numeric,8,Average Scale Score -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+595,e1_lept_rs,Numeric,8,Average Scale Score -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+596,e1_lepr_rs,Numeric,8,Average Scale Score -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+597,e1_lepe_rs,Numeric,8,Average Scale Score -- English I -- Former EB/EL (Post Monitoring)  Students
+598,e1_lep0_rs,Numeric,8,Average Scale Score -- English I -- Non-Emergent Bilingual/English Learner Students
+599,e1_lepv_rs,Numeric,8,Average Scale Score -- English I -- No EBILING Info Students
+600,e1_bily_rs,Numeric,8,Average Scale Score -- English I -- Bilingual Students  Codes: 2 3 4 5
+601,e1_biln_rs,Numeric,8,Average Scale Score -- English I -- Not Bilingual Students
+602,e1_bil2_rs,Numeric,8,Average Scale Score -- English I -- Transitional Bilingual/Early Exit Students
+603,e1_bil3_rs,Numeric,8,Average Scale Score -- English I -- Transitional Bilingual/Late Exit Students
+604,e1_bil4_rs,Numeric,8,Average Scale Score -- English I -- Dual Language Immersion/Two Way Students
+605,e1_bil5_rs,Numeric,8,Average Scale Score -- English I -- Dual Language Immersion/One Way Students
+606,e1_bilv_rs,Numeric,8,Average Scale Score -- English I -- No Bilingual Info Students
+607,e1_esly_rs,Numeric,8,Average Scale Score -- English I -- ESL Students Codes: 2 3
+608,e1_esln_rs,Numeric,8,Average Scale Score -- English I -- Not ESL Students
+609,e1_esl2_rs,Numeric,8,Average Scale Score -- English I -- ESL/Content-based students
+610,e1_esl3_rs,Numeric,8,Average Scale Score -- English I -- ESL/Pull-out students
+611,e1_eslv_rs,Numeric,8,Average Scale Score -- English I -- No ESL Info Students
+612,e1_esbiy_rs,Numeric,8,Average Scale Score -- English I -- Either Bilingual or ESL
+613,e1_esbin_rs,Numeric,8,Average Scale Score -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+614,e1_esbiv_rs,Numeric,8,Average Scale Score -- English I -- No Both and/or Either Bilingual/ESL Info Students
+615,e1_spey_rs,Numeric,8,Average Scale Score -- English I -- Special Ed Students
+616,e1_spen_rs,Numeric,8,Average Scale Score -- English I -- Not Special Ed Students
+617,e1_spev_rs,Numeric,8,Average Scale Score -- English I -- No Special Ed Info Students
+618,e1_gify_rs,Numeric,8,Average Scale Score -- English I -- Gifted/Talented Students
+619,e1_gifn_rs,Numeric,8,Average Scale Score -- English I -- Not Gifted/Talented Students
+620,e1_gifv_rs,Numeric,8,Average Scale Score -- English I -- No Gifted/Talented Info Students
+621,e1_atry_rs,Numeric,8,Average Scale Score -- English I -- At-Risk Students
+622,e1_atrn_rs,Numeric,8,Average Scale Score -- English I -- Not At-Risk Students
+623,e1_atrv_rs,Numeric,8,Average Scale Score -- English I -- No At-Risk Info Students
+624,e1_all_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- All Students
+625,e1_all_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- All Students
+626,e1_sexm_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Male Students
+627,e1_sexm_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Male Students
+628,e1_sexf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Female Students
+629,e1_sexf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Female Students
+630,e1_sexv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Sex Info Students
+631,e1_sexv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Sex Info Students
+632,e1_ethh_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Hispanic/Latino Students
+633,e1_ethh_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Hispanic/Latino Students
+634,e1_ethi_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- American Indian or Alaska Native Students
+635,e1_ethi_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- American Indian or Alaska Native Students
+636,e1_etha_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Asian Students
+637,e1_etha_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Asian Students
+638,e1_ethb_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Black or African American Students
+639,e1_ethb_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Black or African American Students
+640,e1_ethp_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Native Hawaiian or Other Pacific Islander Students
+641,e1_ethp_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Native Hawaiian or Other Pacific Islander Students
+642,e1_ethw_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- White Students
+643,e1_ethw_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- White Students
+644,e1_eth2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Two or More Races Students
+645,e1_eth2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Two or More Races Students
+646,e1_ethv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Ethnicity Info Students
+647,e1_ethv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Ethnicity Info Students
+648,e1_ecoy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Econ Disadv Students Codes: 1 2 9
+649,e1_ecoy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Econ Disadv Students Codes: 1 2 9
+650,e1_econ_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Econ Disadv Students
+651,e1_econ_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Econ Disadv Students
+652,e1_eco1_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Free Meals Students
+653,e1_eco1_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Free Meals Students
+654,e1_eco2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Reduced-Price Meals Students
+655,e1_eco2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Reduced-Price Meals Students
+656,e1_eco9_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Other Econ Disadv Students
+657,e1_eco9_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Other Econ Disadv Students
+658,e1_ecov_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Econ Disadv Info Students
+659,e1_ecov_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Econ Disadv Info Students
+660,e1_ti1y_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Title-I Participant Students Codes: 6 7 9
+661,e1_ti1y_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Title-I Participant Students Codes: 6 7 9
+662,e1_ti1n_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Title-I Participant Students Codes: 0 8
+663,e1_ti1n_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Title-I Participant Students Codes: 0 8
+664,e1_ti10_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Nonparticipant (Not Previous Participant Students)
+665,e1_ti10_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Nonparticipant (Not Previous Participant Students)
+666,e1_ti16_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Schoolwide Program Participant Students
+667,e1_ti16_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Schoolwide Program Participant Students
+668,e1_ti17_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Targeted Assistance Participant Students
+669,e1_ti17_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Targeted Assistance Participant Students
+670,e1_ti18_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Nonparticipant (Previous Participant) Students
+671,e1_ti18_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Nonparticipant (Previous Participant) Students
+672,e1_ti19_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Homeless Participant at Non-Title-I Schools Students
+673,e1_ti19_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Homeless Participant at Non-Title-I Schools Students
+674,e1_ti1v_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Title-I Info Students
+675,e1_ti1v_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Title-I Info Students
+676,e1_migy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Migrant Students
+677,e1_migy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Migrant Students
+678,e1_mign_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Migrant Students
+679,e1_mign_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Migrant Students
+680,e1_migv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Migrant Info Students
+681,e1_migv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Migrant Info Students
+682,e1_lepc_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Emergent Bilingual/English Learner Students
+683,e1_lepc_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Emergent Bilingual/English Learner Students
+684,e1_lepf_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+685,e1_lepf_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+686,e1_leps_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+687,e1_leps_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+688,e1_lept_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+689,e1_lept_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+690,e1_lepr_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+691,e1_lepr_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+692,e1_lepe_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Former EB/EL (Post Monitoring)  Students
+693,e1_lepe_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Former EB/EL (Post Monitoring)  Students
+694,e1_lep0_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Non-Emergent Bilingual/English Learner Students
+695,e1_lep0_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Non-Emergent Bilingual/English Learner Students
+696,e1_lepv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No EBILING Info Students
+697,e1_lepv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No EBILING Info Students
+698,e1_bily_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Bilingual Students  Codes: 2 3 4 5
+699,e1_bily_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Bilingual Students  Codes: 2 3 4 5
+700,e1_biln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Bilingual Students
+701,e1_biln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Bilingual Students
+702,e1_bil2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Transitional Bilingual/Early Exit Students
+703,e1_bil2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Transitional Bilingual/Early Exit Students
+704,e1_bil3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Transitional Bilingual/Late Exit Students
+705,e1_bil3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Transitional Bilingual/Late Exit Students
+706,e1_bil4_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Dual Language Immersion/Two Way Students
+707,e1_bil4_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Dual Language Immersion/Two Way Students
+708,e1_bil5_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Dual Language Immersion/One Way Students
+709,e1_bil5_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Dual Language Immersion/One Way Students
+710,e1_bilv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Bilingual Info Students
+711,e1_bilv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Bilingual Info Students
+712,e1_esly_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- ESL Students Codes: 2 3
+713,e1_esly_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- ESL Students Codes: 2 3
+714,e1_esln_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not ESL Students
+715,e1_esln_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not ESL Students
+716,e1_esl2_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- ESL/Content-based students
+717,e1_esl2_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- ESL/Content-based students
+718,e1_esl3_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- ESL/Pull-out students
+719,e1_esl3_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- ESL/Pull-out students
+720,e1_eslv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No ESL Info Students
+721,e1_eslv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No ESL Info Students
+722,e1_esbiy_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Either Bilingual or ESL
+723,e1_esbiy_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Either Bilingual or ESL
+724,e1_esbin_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+725,e1_esbin_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+726,e1_esbiv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+727,e1_esbiv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+728,e1_spey_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Special Ed Students
+729,e1_spey_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Special Ed Students
+730,e1_spen_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Special Ed Students
+731,e1_spen_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Special Ed Students
+732,e1_spev_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Special Ed Info Students
+733,e1_spev_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Special Ed Info Students
+734,e1_gify_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Gifted/Talented Students
+735,e1_gify_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Gifted/Talented Students
+736,e1_gifn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not Gifted/Talented Students
+737,e1_gifn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not Gifted/Talented Students
+738,e1_gifv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No Gifted/Talented Info Students
+739,e1_gifv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No Gifted/Talented Info Students
+740,e1_atry_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- At-Risk Students
+741,e1_atry_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- At-Risk Students
+742,e1_atrn_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- Not At-Risk Students
+743,e1_atrn_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- Not At-Risk Students
+744,e1_atrv_avg_cat1,Numeric,8,# Avg Items Correct--Reporting Category 1 -- English I -- No At-Risk Info Students
+745,e1_atrv_pct_cat1,Numeric,8,% Avg Items Correct--Reporting Category 1 -- English I -- No At-Risk Info Students
+746,e1_all_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- All Students
+747,e1_all_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- All Students
+748,e1_sexm_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Male Students
+749,e1_sexm_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Male Students
+750,e1_sexf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Female Students
+751,e1_sexf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Female Students
+752,e1_sexv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Sex Info Students
+753,e1_sexv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Sex Info Students
+754,e1_ethh_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Hispanic/Latino Students
+755,e1_ethh_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Hispanic/Latino Students
+756,e1_ethi_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- American Indian or Alaska Native Students
+757,e1_ethi_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- American Indian or Alaska Native Students
+758,e1_etha_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Asian Students
+759,e1_etha_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Asian Students
+760,e1_ethb_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Black or African American Students
+761,e1_ethb_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Black or African American Students
+762,e1_ethp_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Native Hawaiian or Other Pacific Islander Students
+763,e1_ethp_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Native Hawaiian or Other Pacific Islander Students
+764,e1_ethw_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- White Students
+765,e1_ethw_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- White Students
+766,e1_eth2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Two or More Races Students
+767,e1_eth2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Two or More Races Students
+768,e1_ethv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Ethnicity Info Students
+769,e1_ethv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Ethnicity Info Students
+770,e1_ecoy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Econ Disadv Students Codes: 1 2 9
+771,e1_ecoy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Econ Disadv Students Codes: 1 2 9
+772,e1_econ_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Econ Disadv Students
+773,e1_econ_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Econ Disadv Students
+774,e1_eco1_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Free Meals Students
+775,e1_eco1_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Free Meals Students
+776,e1_eco2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Reduced-Price Meals Students
+777,e1_eco2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Reduced-Price Meals Students
+778,e1_eco9_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Other Econ Disadv Students
+779,e1_eco9_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Other Econ Disadv Students
+780,e1_ecov_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Econ Disadv Info Students
+781,e1_ecov_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Econ Disadv Info Students
+782,e1_ti1y_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Title-I Participant Students Codes: 6 7 9
+783,e1_ti1y_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Title-I Participant Students Codes: 6 7 9
+784,e1_ti1n_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Title-I Participant Students Codes: 0 8
+785,e1_ti1n_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Title-I Participant Students Codes: 0 8
+786,e1_ti10_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Nonparticipant (Not Previous Participant Students)
+787,e1_ti10_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Nonparticipant (Not Previous Participant Students)
+788,e1_ti16_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Schoolwide Program Participant Students
+789,e1_ti16_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Schoolwide Program Participant Students
+790,e1_ti17_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Targeted Assistance Participant Students
+791,e1_ti17_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Targeted Assistance Participant Students
+792,e1_ti18_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Nonparticipant (Previous Participant) Students
+793,e1_ti18_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Nonparticipant (Previous Participant) Students
+794,e1_ti19_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Homeless Participant at Non-Title-I Schools Students
+795,e1_ti19_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Homeless Participant at Non-Title-I Schools Students
+796,e1_ti1v_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Title-I Info Students
+797,e1_ti1v_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Title-I Info Students
+798,e1_migy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Migrant Students
+799,e1_migy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Migrant Students
+800,e1_mign_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Migrant Students
+801,e1_mign_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Migrant Students
+802,e1_migv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Migrant Info Students
+803,e1_migv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Migrant Info Students
+804,e1_lepc_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Emergent Bilingual/English Learner Students
+805,e1_lepc_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Emergent Bilingual/English Learner Students
+806,e1_lepf_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+807,e1_lepf_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+808,e1_leps_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+809,e1_leps_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+810,e1_lept_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+811,e1_lept_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+812,e1_lepr_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+813,e1_lepr_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+814,e1_lepe_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Former EB/EL (Post Monitoring)  Students
+815,e1_lepe_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Former EB/EL (Post Monitoring)  Students
+816,e1_lep0_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Non-Emergent Bilingual/English Learner Students
+817,e1_lep0_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Non-Emergent Bilingual/English Learner Students
+818,e1_lepv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No EBILING Info Students
+819,e1_lepv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No EBILING Info Students
+820,e1_bily_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Bilingual Students  Codes: 2 3 4 5
+821,e1_bily_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Bilingual Students  Codes: 2 3 4 5
+822,e1_biln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Bilingual Students
+823,e1_biln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Bilingual Students
+824,e1_bil2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Transitional Bilingual/Early Exit Students
+825,e1_bil2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Transitional Bilingual/Early Exit Students
+826,e1_bil3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Transitional Bilingual/Late Exit Students
+827,e1_bil3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Transitional Bilingual/Late Exit Students
+828,e1_bil4_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Dual Language Immersion/Two Way Students
+829,e1_bil4_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Dual Language Immersion/Two Way Students
+830,e1_bil5_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Dual Language Immersion/One Way Students
+831,e1_bil5_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Dual Language Immersion/One Way Students
+832,e1_bilv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Bilingual Info Students
+833,e1_bilv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Bilingual Info Students
+834,e1_esly_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- ESL Students Codes: 2 3
+835,e1_esly_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- ESL Students Codes: 2 3
+836,e1_esln_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not ESL Students
+837,e1_esln_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not ESL Students
+838,e1_esl2_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- ESL/Content-based students
+839,e1_esl2_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- ESL/Content-based students
+840,e1_esl3_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- ESL/Pull-out students
+841,e1_esl3_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- ESL/Pull-out students
+842,e1_eslv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No ESL Info Students
+843,e1_eslv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No ESL Info Students
+844,e1_esbiy_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Either Bilingual or ESL
+845,e1_esbiy_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Either Bilingual or ESL
+846,e1_esbin_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+847,e1_esbin_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+848,e1_esbiv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+849,e1_esbiv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+850,e1_spey_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Special Ed Students
+851,e1_spey_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Special Ed Students
+852,e1_spen_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Special Ed Students
+853,e1_spen_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Special Ed Students
+854,e1_spev_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Special Ed Info Students
+855,e1_spev_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Special Ed Info Students
+856,e1_gify_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Gifted/Talented Students
+857,e1_gify_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Gifted/Talented Students
+858,e1_gifn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not Gifted/Talented Students
+859,e1_gifn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not Gifted/Talented Students
+860,e1_gifv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No Gifted/Talented Info Students
+861,e1_gifv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No Gifted/Talented Info Students
+862,e1_atry_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- At-Risk Students
+863,e1_atry_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- At-Risk Students
+864,e1_atrn_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- Not At-Risk Students
+865,e1_atrn_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- Not At-Risk Students
+866,e1_atrv_avg_cat2,Numeric,8,# Avg Items Correct--Reporting Category 2 -- English I -- No At-Risk Info Students
+867,e1_atrv_pct_cat2,Numeric,8,% Avg Items Correct--Reporting Category 2 -- English I -- No At-Risk Info Students
+868,e1_all_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- All Students
+869,e1_all_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- All Students
+870,e1_sexm_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Male Students
+871,e1_sexm_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Male Students
+872,e1_sexf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Female Students
+873,e1_sexf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Female Students
+874,e1_sexv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Sex Info Students
+875,e1_sexv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Sex Info Students
+876,e1_ethh_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Hispanic/Latino Students
+877,e1_ethh_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Hispanic/Latino Students
+878,e1_ethi_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- American Indian or Alaska Native Students
+879,e1_ethi_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- American Indian or Alaska Native Students
+880,e1_etha_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Asian Students
+881,e1_etha_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Asian Students
+882,e1_ethb_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Black or African American Students
+883,e1_ethb_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Black or African American Students
+884,e1_ethp_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Native Hawaiian or Other Pacific Islander Students
+885,e1_ethp_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Native Hawaiian or Other Pacific Islander Students
+886,e1_ethw_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- White Students
+887,e1_ethw_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- White Students
+888,e1_eth2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Two or More Races Students
+889,e1_eth2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Two or More Races Students
+890,e1_ethv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Ethnicity Info Students
+891,e1_ethv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Ethnicity Info Students
+892,e1_ecoy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Econ Disadv Students Codes: 1 2 9
+893,e1_ecoy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Econ Disadv Students Codes: 1 2 9
+894,e1_econ_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Econ Disadv Students
+895,e1_econ_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Econ Disadv Students
+896,e1_eco1_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Free Meals Students
+897,e1_eco1_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Free Meals Students
+898,e1_eco2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Reduced-Price Meals Students
+899,e1_eco2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Reduced-Price Meals Students
+900,e1_eco9_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Other Econ Disadv Students
+901,e1_eco9_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Other Econ Disadv Students
+902,e1_ecov_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Econ Disadv Info Students
+903,e1_ecov_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Econ Disadv Info Students
+904,e1_ti1y_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Title-I Participant Students Codes: 6 7 9
+905,e1_ti1y_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Title-I Participant Students Codes: 6 7 9
+906,e1_ti1n_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Title-I Participant Students Codes: 0 8
+907,e1_ti1n_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Title-I Participant Students Codes: 0 8
+908,e1_ti10_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Nonparticipant (Not Previous Participant Students)
+909,e1_ti10_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Nonparticipant (Not Previous Participant Students)
+910,e1_ti16_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Schoolwide Program Participant Students
+911,e1_ti16_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Schoolwide Program Participant Students
+912,e1_ti17_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Targeted Assistance Participant Students
+913,e1_ti17_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Targeted Assistance Participant Students
+914,e1_ti18_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Nonparticipant (Previous Participant) Students
+915,e1_ti18_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Nonparticipant (Previous Participant) Students
+916,e1_ti19_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Homeless Participant at Non-Title-I Schools Students
+917,e1_ti19_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Homeless Participant at Non-Title-I Schools Students
+918,e1_ti1v_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Title-I Info Students
+919,e1_ti1v_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Title-I Info Students
+920,e1_migy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Migrant Students
+921,e1_migy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Migrant Students
+922,e1_mign_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Migrant Students
+923,e1_mign_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Migrant Students
+924,e1_migv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Migrant Info Students
+925,e1_migv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Migrant Info Students
+926,e1_lepc_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Emergent Bilingual/English Learner Students
+927,e1_lepc_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Emergent Bilingual/English Learner Students
+928,e1_lepf_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+929,e1_lepf_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+930,e1_leps_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+931,e1_leps_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+932,e1_lept_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+933,e1_lept_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+934,e1_lepr_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+935,e1_lepr_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+936,e1_lepe_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Former EB/EL (Post Monitoring)  Students
+937,e1_lepe_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Former EB/EL (Post Monitoring)  Students
+938,e1_lep0_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Non-Emergent Bilingual/English Learner Students
+939,e1_lep0_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Non-Emergent Bilingual/English Learner Students
+940,e1_lepv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No EBILING Info Students
+941,e1_lepv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No EBILING Info Students
+942,e1_bily_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Bilingual Students  Codes: 2 3 4 5
+943,e1_bily_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Bilingual Students  Codes: 2 3 4 5
+944,e1_biln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Bilingual Students
+945,e1_biln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Bilingual Students
+946,e1_bil2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Transitional Bilingual/Early Exit Students
+947,e1_bil2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Transitional Bilingual/Early Exit Students
+948,e1_bil3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Transitional Bilingual/Late Exit Students
+949,e1_bil3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Transitional Bilingual/Late Exit Students
+950,e1_bil4_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Dual Language Immersion/Two Way Students
+951,e1_bil4_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Dual Language Immersion/Two Way Students
+952,e1_bil5_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Dual Language Immersion/One Way Students
+953,e1_bil5_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Dual Language Immersion/One Way Students
+954,e1_bilv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Bilingual Info Students
+955,e1_bilv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Bilingual Info Students
+956,e1_esly_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- ESL Students Codes: 2 3
+957,e1_esly_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- ESL Students Codes: 2 3
+958,e1_esln_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not ESL Students
+959,e1_esln_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not ESL Students
+960,e1_esl2_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- ESL/Content-based students
+961,e1_esl2_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- ESL/Content-based students
+962,e1_esl3_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- ESL/Pull-out students
+963,e1_esl3_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- ESL/Pull-out students
+964,e1_eslv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No ESL Info Students
+965,e1_eslv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No ESL Info Students
+966,e1_esbiy_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Either Bilingual or ESL
+967,e1_esbiy_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Either Bilingual or ESL
+968,e1_esbin_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+969,e1_esbin_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+970,e1_esbiv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+971,e1_esbiv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+972,e1_spey_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Special Ed Students
+973,e1_spey_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Special Ed Students
+974,e1_spen_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Special Ed Students
+975,e1_spen_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Special Ed Students
+976,e1_spev_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Special Ed Info Students
+977,e1_spev_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Special Ed Info Students
+978,e1_gify_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Gifted/Talented Students
+979,e1_gify_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Gifted/Talented Students
+980,e1_gifn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not Gifted/Talented Students
+981,e1_gifn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not Gifted/Talented Students
+982,e1_gifv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No Gifted/Talented Info Students
+983,e1_gifv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No Gifted/Talented Info Students
+984,e1_atry_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- At-Risk Students
+985,e1_atry_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- At-Risk Students
+986,e1_atrn_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- Not At-Risk Students
+987,e1_atrn_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- Not At-Risk Students
+988,e1_atrv_avg_cat3,Numeric,8,# Avg Items Correct--Reporting Category 3 -- English I -- No At-Risk Info Students
+989,e1_atrv_pct_cat3,Numeric,8,% Avg Items Correct--Reporting Category 3 -- English I -- No At-Risk Info Students
+990,e1_all_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- All Students
+991,e1_all_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- All Students
+992,e1_sexm_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Male Students
+993,e1_sexm_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Male Students
+994,e1_sexf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Female Students
+995,e1_sexf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Female Students
+996,e1_sexv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Sex Info Students
+997,e1_sexv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Sex Info Students
+998,e1_ethh_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Hispanic/Latino Students
+999,e1_ethh_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Hispanic/Latino Students
+1000,e1_ethi_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- American Indian or Alaska Native Students
+1001,e1_ethi_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- American Indian or Alaska Native Students
+1002,e1_etha_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Asian Students
+1003,e1_etha_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Asian Students
+1004,e1_ethb_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Black or African American Students
+1005,e1_ethb_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Black or African American Students
+1006,e1_ethp_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1007,e1_ethp_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1008,e1_ethw_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- White Students
+1009,e1_ethw_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- White Students
+1010,e1_eth2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Two or More Races Students
+1011,e1_eth2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Two or More Races Students
+1012,e1_ethv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Ethnicity Info Students
+1013,e1_ethv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Ethnicity Info Students
+1014,e1_ecoy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Econ Disadv Students Codes: 1 2 9
+1015,e1_ecoy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Econ Disadv Students Codes: 1 2 9
+1016,e1_econ_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Econ Disadv Students
+1017,e1_econ_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Econ Disadv Students
+1018,e1_eco1_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Free Meals Students
+1019,e1_eco1_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Free Meals Students
+1020,e1_eco2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Reduced-Price Meals Students
+1021,e1_eco2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Reduced-Price Meals Students
+1022,e1_eco9_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Other Econ Disadv Students
+1023,e1_eco9_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Other Econ Disadv Students
+1024,e1_ecov_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Econ Disadv Info Students
+1025,e1_ecov_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Econ Disadv Info Students
+1026,e1_ti1y_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Title-I Participant Students Codes: 6 7 9
+1027,e1_ti1y_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Title-I Participant Students Codes: 6 7 9
+1028,e1_ti1n_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Title-I Participant Students Codes: 0 8
+1029,e1_ti1n_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Title-I Participant Students Codes: 0 8
+1030,e1_ti10_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Nonparticipant (Not Previous Participant Students)
+1031,e1_ti10_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Nonparticipant (Not Previous Participant Students)
+1032,e1_ti16_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Schoolwide Program Participant Students
+1033,e1_ti16_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Schoolwide Program Participant Students
+1034,e1_ti17_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Targeted Assistance Participant Students
+1035,e1_ti17_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Targeted Assistance Participant Students
+1036,e1_ti18_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Nonparticipant (Previous Participant) Students
+1037,e1_ti18_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Nonparticipant (Previous Participant) Students
+1038,e1_ti19_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1039,e1_ti19_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1040,e1_ti1v_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Title-I Info Students
+1041,e1_ti1v_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Title-I Info Students
+1042,e1_migy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Migrant Students
+1043,e1_migy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Migrant Students
+1044,e1_mign_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Migrant Students
+1045,e1_mign_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Migrant Students
+1046,e1_migv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Migrant Info Students
+1047,e1_migv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Migrant Info Students
+1048,e1_lepc_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Emergent Bilingual/English Learner Students
+1049,e1_lepc_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Emergent Bilingual/English Learner Students
+1050,e1_lepf_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1051,e1_lepf_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1052,e1_leps_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1053,e1_leps_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1054,e1_lept_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1055,e1_lept_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1056,e1_lepr_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1057,e1_lepr_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1058,e1_lepe_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Former EB/EL (Post Monitoring)  Students
+1059,e1_lepe_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Former EB/EL (Post Monitoring)  Students
+1060,e1_lep0_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Non-Emergent Bilingual/English Learner Students
+1061,e1_lep0_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Non-Emergent Bilingual/English Learner Students
+1062,e1_lepv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No EBILING Info Students
+1063,e1_lepv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No EBILING Info Students
+1064,e1_bily_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1065,e1_bily_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1066,e1_biln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Bilingual Students
+1067,e1_biln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Bilingual Students
+1068,e1_bil2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Transitional Bilingual/Early Exit Students
+1069,e1_bil2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Transitional Bilingual/Early Exit Students
+1070,e1_bil3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Transitional Bilingual/Late Exit Students
+1071,e1_bil3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Transitional Bilingual/Late Exit Students
+1072,e1_bil4_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Dual Language Immersion/Two Way Students
+1073,e1_bil4_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Dual Language Immersion/Two Way Students
+1074,e1_bil5_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Dual Language Immersion/One Way Students
+1075,e1_bil5_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Dual Language Immersion/One Way Students
+1076,e1_bilv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Bilingual Info Students
+1077,e1_bilv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Bilingual Info Students
+1078,e1_esly_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- ESL Students Codes: 2 3
+1079,e1_esly_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- ESL Students Codes: 2 3
+1080,e1_esln_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not ESL Students
+1081,e1_esln_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not ESL Students
+1082,e1_esl2_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- ESL/Content-based students
+1083,e1_esl2_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- ESL/Content-based students
+1084,e1_esl3_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- ESL/Pull-out students
+1085,e1_esl3_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- ESL/Pull-out students
+1086,e1_eslv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No ESL Info Students
+1087,e1_eslv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No ESL Info Students
+1088,e1_esbiy_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Either Bilingual or ESL
+1089,e1_esbiy_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Either Bilingual or ESL
+1090,e1_esbin_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1091,e1_esbin_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1092,e1_esbiv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1093,e1_esbiv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1094,e1_spey_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Special Ed Students
+1095,e1_spey_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Special Ed Students
+1096,e1_spen_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Special Ed Students
+1097,e1_spen_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Special Ed Students
+1098,e1_spev_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Special Ed Info Students
+1099,e1_spev_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Special Ed Info Students
+1100,e1_gify_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Gifted/Talented Students
+1101,e1_gify_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Gifted/Talented Students
+1102,e1_gifn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not Gifted/Talented Students
+1103,e1_gifn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not Gifted/Talented Students
+1104,e1_gifv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No Gifted/Talented Info Students
+1105,e1_gifv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No Gifted/Talented Info Students
+1106,e1_atry_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- At-Risk Students
+1107,e1_atry_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- At-Risk Students
+1108,e1_atrn_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- Not At-Risk Students
+1109,e1_atrn_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- Not At-Risk Students
+1110,e1_atrv_avg_cat4,Numeric,8,# Avg Items Correct--Reporting Category 4 -- English I -- No At-Risk Info Students
+1111,e1_atrv_pct_cat4,Numeric,8,% Avg Items Correct--Reporting Category 4 -- English I -- No At-Risk Info Students
+1112,e1_all_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- All Students
+1113,e1_all_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- All Students
+1114,e1_sexm_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Male Students
+1115,e1_sexm_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Male Students
+1116,e1_sexf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Female Students
+1117,e1_sexf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Female Students
+1118,e1_sexv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Sex Info Students
+1119,e1_sexv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Sex Info Students
+1120,e1_ethh_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Hispanic/Latino Students
+1121,e1_ethh_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Hispanic/Latino Students
+1122,e1_ethi_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- American Indian or Alaska Native Students
+1123,e1_ethi_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- American Indian or Alaska Native Students
+1124,e1_etha_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Asian Students
+1125,e1_etha_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Asian Students
+1126,e1_ethb_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Black or African American Students
+1127,e1_ethb_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Black or African American Students
+1128,e1_ethp_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1129,e1_ethp_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1130,e1_ethw_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- White Students
+1131,e1_ethw_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- White Students
+1132,e1_eth2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Two or More Races Students
+1133,e1_eth2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Two or More Races Students
+1134,e1_ethv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Ethnicity Info Students
+1135,e1_ethv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Ethnicity Info Students
+1136,e1_ecoy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Econ Disadv Students Codes: 1 2 9
+1137,e1_ecoy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Econ Disadv Students Codes: 1 2 9
+1138,e1_econ_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Econ Disadv Students
+1139,e1_econ_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Econ Disadv Students
+1140,e1_eco1_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Free Meals Students
+1141,e1_eco1_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Free Meals Students
+1142,e1_eco2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Reduced-Price Meals Students
+1143,e1_eco2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Reduced-Price Meals Students
+1144,e1_eco9_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Other Econ Disadv Students
+1145,e1_eco9_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Other Econ Disadv Students
+1146,e1_ecov_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Econ Disadv Info Students
+1147,e1_ecov_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Econ Disadv Info Students
+1148,e1_ti1y_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Title-I Participant Students Codes: 6 7 9
+1149,e1_ti1y_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Title-I Participant Students Codes: 6 7 9
+1150,e1_ti1n_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Title-I Participant Students Codes: 0 8
+1151,e1_ti1n_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Title-I Participant Students Codes: 0 8
+1152,e1_ti10_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Nonparticipant (Not Previous Participant Students)
+1153,e1_ti10_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Nonparticipant (Not Previous Participant Students)
+1154,e1_ti16_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Schoolwide Program Participant Students
+1155,e1_ti16_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Schoolwide Program Participant Students
+1156,e1_ti17_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Targeted Assistance Participant Students
+1157,e1_ti17_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Targeted Assistance Participant Students
+1158,e1_ti18_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Nonparticipant (Previous Participant) Students
+1159,e1_ti18_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Nonparticipant (Previous Participant) Students
+1160,e1_ti19_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1161,e1_ti19_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1162,e1_ti1v_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Title-I Info Students
+1163,e1_ti1v_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Title-I Info Students
+1164,e1_migy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Migrant Students
+1165,e1_migy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Migrant Students
+1166,e1_mign_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Migrant Students
+1167,e1_mign_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Migrant Students
+1168,e1_migv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Migrant Info Students
+1169,e1_migv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Migrant Info Students
+1170,e1_lepc_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Emergent Bilingual/English Learner Students
+1171,e1_lepc_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Emergent Bilingual/English Learner Students
+1172,e1_lepf_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1173,e1_lepf_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1174,e1_leps_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1175,e1_leps_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1176,e1_lept_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1177,e1_lept_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1178,e1_lepr_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1179,e1_lepr_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1180,e1_lepe_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Former EB/EL (Post Monitoring)  Students
+1181,e1_lepe_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Former EB/EL (Post Monitoring)  Students
+1182,e1_lep0_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Non-Emergent Bilingual/English Learner Students
+1183,e1_lep0_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Non-Emergent Bilingual/English Learner Students
+1184,e1_lepv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No EBILING Info Students
+1185,e1_lepv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No EBILING Info Students
+1186,e1_bily_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1187,e1_bily_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1188,e1_biln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Bilingual Students
+1189,e1_biln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Bilingual Students
+1190,e1_bil2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Transitional Bilingual/Early Exit Students
+1191,e1_bil2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Transitional Bilingual/Early Exit Students
+1192,e1_bil3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Transitional Bilingual/Late Exit Students
+1193,e1_bil3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Transitional Bilingual/Late Exit Students
+1194,e1_bil4_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Dual Language Immersion/Two Way Students
+1195,e1_bil4_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Dual Language Immersion/Two Way Students
+1196,e1_bil5_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Dual Language Immersion/One Way Students
+1197,e1_bil5_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Dual Language Immersion/One Way Students
+1198,e1_bilv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Bilingual Info Students
+1199,e1_bilv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Bilingual Info Students
+1200,e1_esly_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- ESL Students Codes: 2 3
+1201,e1_esly_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- ESL Students Codes: 2 3
+1202,e1_esln_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not ESL Students
+1203,e1_esln_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not ESL Students
+1204,e1_esl2_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- ESL/Content-based students
+1205,e1_esl2_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- ESL/Content-based students
+1206,e1_esl3_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- ESL/Pull-out students
+1207,e1_esl3_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- ESL/Pull-out students
+1208,e1_eslv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No ESL Info Students
+1209,e1_eslv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No ESL Info Students
+1210,e1_esbiy_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Either Bilingual or ESL
+1211,e1_esbiy_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Either Bilingual or ESL
+1212,e1_esbin_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1213,e1_esbin_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1214,e1_esbiv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1215,e1_esbiv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1216,e1_spey_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Special Ed Students
+1217,e1_spey_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Special Ed Students
+1218,e1_spen_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Special Ed Students
+1219,e1_spen_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Special Ed Students
+1220,e1_spev_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Special Ed Info Students
+1221,e1_spev_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Special Ed Info Students
+1222,e1_gify_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Gifted/Talented Students
+1223,e1_gify_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Gifted/Talented Students
+1224,e1_gifn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not Gifted/Talented Students
+1225,e1_gifn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not Gifted/Talented Students
+1226,e1_gifv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No Gifted/Talented Info Students
+1227,e1_gifv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No Gifted/Talented Info Students
+1228,e1_atry_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- At-Risk Students
+1229,e1_atry_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- At-Risk Students
+1230,e1_atrn_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- Not At-Risk Students
+1231,e1_atrn_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- Not At-Risk Students
+1232,e1_atrv_avg_cat5,Numeric,8,# Avg Items Correct--Reporting Category 5 -- English I -- No At-Risk Info Students
+1233,e1_atrv_pct_cat5,Numeric,8,% Avg Items Correct--Reporting Category 5 -- English I -- No At-Risk Info Students
+1234,e1_all_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- All Students
+1235,e1_all_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- All Students
+1236,e1_sexm_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Male Students
+1237,e1_sexm_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Male Students
+1238,e1_sexf_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Female Students
+1239,e1_sexf_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Female Students
+1240,e1_sexv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Sex Info Students
+1241,e1_sexv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Sex Info Students
+1242,e1_ethh_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Hispanic/Latino Students
+1243,e1_ethh_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Hispanic/Latino Students
+1244,e1_ethi_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- American Indian or Alaska Native Students
+1245,e1_ethi_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- American Indian or Alaska Native Students
+1246,e1_etha_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Asian Students
+1247,e1_etha_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Asian Students
+1248,e1_ethb_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Black or African American Students
+1249,e1_ethb_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Black or African American Students
+1250,e1_ethp_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1251,e1_ethp_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Native Hawaiian or Other Pacific Islander Students
+1252,e1_ethw_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- White Students
+1253,e1_ethw_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- White Students
+1254,e1_eth2_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Two or More Races Students
+1255,e1_eth2_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Two or More Races Students
+1256,e1_ethv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Ethnicity Info Students
+1257,e1_ethv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Ethnicity Info Students
+1258,e1_ecoy_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Econ Disadv Students Codes: 1 2 9
+1259,e1_ecoy_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Econ Disadv Students Codes: 1 2 9
+1260,e1_econ_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Econ Disadv Students
+1261,e1_econ_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Econ Disadv Students
+1262,e1_eco1_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Free Meals Students
+1263,e1_eco1_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Free Meals Students
+1264,e1_eco2_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Reduced-Price Meals Students
+1265,e1_eco2_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Reduced-Price Meals Students
+1266,e1_eco9_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Other Econ Disadv Students
+1267,e1_eco9_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Other Econ Disadv Students
+1268,e1_ecov_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Econ Disadv Info Students
+1269,e1_ecov_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Econ Disadv Info Students
+1270,e1_ti1y_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Title-I Participant Students Codes: 6 7 9
+1271,e1_ti1y_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Title-I Participant Students Codes: 6 7 9
+1272,e1_ti1n_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Title-I Participant Students Codes: 0 8
+1273,e1_ti1n_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Title-I Participant Students Codes: 0 8
+1274,e1_ti10_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Nonparticipant (Not Previous Participant Students)
+1275,e1_ti10_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Nonparticipant (Not Previous Participant Students)
+1276,e1_ti16_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Schoolwide Program Participant Students
+1277,e1_ti16_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Schoolwide Program Participant Students
+1278,e1_ti17_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Targeted Assistance Participant Students
+1279,e1_ti17_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Targeted Assistance Participant Students
+1280,e1_ti18_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Nonparticipant (Previous Participant) Students
+1281,e1_ti18_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Nonparticipant (Previous Participant) Students
+1282,e1_ti19_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1283,e1_ti19_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Homeless Participant at Non-Title-I Schools Students
+1284,e1_ti1v_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Title-I Info Students
+1285,e1_ti1v_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Title-I Info Students
+1286,e1_migy_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Migrant Students
+1287,e1_migy_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Migrant Students
+1288,e1_mign_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Migrant Students
+1289,e1_mign_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Migrant Students
+1290,e1_migv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Migrant Info Students
+1291,e1_migv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Migrant Info Students
+1292,e1_lepc_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Emergent Bilingual/English Learner Students
+1293,e1_lepc_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Emergent Bilingual/English Learner Students
+1294,e1_lepf_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1295,e1_lepf_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 1st Year) Students
+1296,e1_leps_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1297,e1_leps_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 2nd Year) Students
+1298,e1_lept_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1299,e1_lept_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 3rd Year) Students
+1300,e1_lepr_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1301,e1_lepr_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Reclassified from EB/EL (Monitored 4th Year) Students
+1302,e1_lepe_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Former EB/EL (Post Monitoring)  Students
+1303,e1_lepe_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Former EB/EL (Post Monitoring)  Students
+1304,e1_lep0_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Non-Emergent Bilingual/English Learner Students
+1305,e1_lep0_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Non-Emergent Bilingual/English Learner Students
+1306,e1_lepv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No EBILING Info Students
+1307,e1_lepv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No EBILING Info Students
+1308,e1_bily_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1309,e1_bily_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Bilingual Students  Codes: 2 3 4 5
+1310,e1_biln_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Bilingual Students
+1311,e1_biln_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Bilingual Students
+1312,e1_bil2_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Transitional Bilingual/Early Exit Students
+1313,e1_bil2_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Transitional Bilingual/Early Exit Students
+1314,e1_bil3_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Transitional Bilingual/Late Exit Students
+1315,e1_bil3_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Transitional Bilingual/Late Exit Students
+1316,e1_bil4_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Dual Language Immersion/Two Way Students
+1317,e1_bil4_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Dual Language Immersion/Two Way Students
+1318,e1_bil5_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Dual Language Immersion/One Way Students
+1319,e1_bil5_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Dual Language Immersion/One Way Students
+1320,e1_bilv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Bilingual Info Students
+1321,e1_bilv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Bilingual Info Students
+1322,e1_esly_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- ESL Students Codes: 2 3
+1323,e1_esly_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- ESL Students Codes: 2 3
+1324,e1_esln_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not ESL Students
+1325,e1_esln_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not ESL Students
+1326,e1_esl2_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- ESL/Content-based students
+1327,e1_esl2_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- ESL/Content-based students
+1328,e1_esl3_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- ESL/Pull-out students
+1329,e1_esl3_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- ESL/Pull-out students
+1330,e1_eslv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No ESL Info Students
+1331,e1_eslv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No ESL Info Students
+1332,e1_esbiy_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Either Bilingual or ESL
+1333,e1_esbiy_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Either Bilingual or ESL
+1334,e1_esbin_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1335,e1_esbin_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Neither Bilingual nor ESL  Codes: Biling=0 & ESL=0
+1336,e1_esbiv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1337,e1_esbiv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Both and/or Either Bilingual/ESL Info Students
+1338,e1_spey_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Special Ed Students
+1339,e1_spey_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Special Ed Students
+1340,e1_spen_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Special Ed Students
+1341,e1_spen_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Special Ed Students
+1342,e1_spev_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Special Ed Info Students
+1343,e1_spev_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Special Ed Info Students
+1344,e1_gify_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Gifted/Talented Students
+1345,e1_gify_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Gifted/Talented Students
+1346,e1_gifn_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not Gifted/Talented Students
+1347,e1_gifn_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not Gifted/Talented Students
+1348,e1_gifv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No Gifted/Talented Info Students
+1349,e1_gifv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No Gifted/Talented Info Students
+1350,e1_atry_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- At-Risk Students
+1351,e1_atry_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- At-Risk Students
+1352,e1_atrn_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- Not At-Risk Students
+1353,e1_atrn_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- Not At-Risk Students
+1354,e1_atrv_avg_cat6,Numeric,8,# Avg Items Correct--Reporting Category 6 -- English I -- No At-Risk Info Students
+1355,e1_atrv_pct_cat6,Numeric,8,% Avg Items Correct--Reporting Category 6 -- English I -- No At-Risk Info Students
