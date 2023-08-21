@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>DownWithRobinHood</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="/" id="navbar_logo" style="font-weight: bold; font-size: 25px;">D.W.R.H</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a id="home" href="/" class="navbar_links">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a id="resources" href="/tech.html" class="navbar_links">Resources</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a id="faq" href="/" class="navbar_links">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Main Section -->
+        <div class="main">
+            <div class="main_container">
+                <div class="main_content">
+                    <img src="/images/homebackground.webp" alt="Kids at a lunch table" style="width: 100%;">
+                    <div class="hometext">
+                        <h1 style="letter-spacing: .02px;">Down With Robin Hood</h1>
+                        <p>&nbsp</p>
+                        <p>&nbsp</p>
+                        <p style="letter-spacing: .02px;">Robin Hood Law has taken more than $3 billion from schools to fund other areas of the state budget.</p>
+                    </div>
+                    <div id="learn_btn" class="learn_btn" onclick="learnClick()">Learn More</div>
+                </div>
+            </div>
+            <div id="firstspacer" class="spacer">&nbsp;</div>
+            <div id="about" class="about_container">
+                <div class="row">
+                    <div class="column">
+                        <h1>The Basics</h1>
+                        &nbsp;
+                        <p style="line-height: 1.9; letter-spacing: .05;">A series of lawsuits in the 1980's and early 1990's pointing out the discrimination of poor school districts lead to the passing of Senate Bill 7, nicknamed the “<b>Robin Hood</b>” law. This law aimed to “recapture” property tax revenue from property-wealthy districts and redistribute it to school districts.
+                            When recapture began in 1994, the state collected $127 million from schools. This figure has now grown to over <b>$4 billion</b> for the 2022-23 school year. Out of the 1.2 million students who's schools are victims of recapture, 56% are deemed economically-disadvantaged.                            
+                            <b>Not 100% of this money goes back to schools. It is used in other areas of the state budget.</b></p>
+                    </div>
+                    <div class="column">
+                        <img id="graph" src="/images/RecaptureAmount.png" alt="Graph depicting the amount of funds recaptured per year." style="width: 100%;">
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+        
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">
+                              
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">&nbsp;</div>
+            <div id="whatCanYouDo" class="callToAction" style="background-color: #333333;">
+                <div class="row">
+                    <div id="question" class="column">
+                        <h1 style="font-weight: bolder; color: white;margin-left: 50px;">What can<br>you do?</h1>
+                    </div>
+                    <div class="column">
+                        <div id="answer" class="callToActionText" style="padding-left: 30px;">
+                            <p2><a href="/resources.html">Educate yourself on the effects of recapture</a></p2>
+                            <p><b>&bull;</b> This system was built to provide equal education for all students in Texas, but the rising cost of education is leaving schools paying the state more than they can afford.</p>
+                            <p2 style="text-decoration: underline; cursor: pointer;" onclick="legScroll()">Communicate with your legislator</p2>
+                            <p><b>&bull;</b> Let your legislator know that you don't agree with the system. You can mention the growth of recapture, the use of recaptured funds in other areas of the state budget, and transparency in property-tax bills.</p>
+                            <p2><a href="/resources.html">Educate other tax-payers in your community</a></p2>
+                            <p><b>&bull;</b> Now that you know a little more about this system and its effects, help spread awareness within your community by posting to social media.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="lastspacer" class="spacer">&nbsp;</div>
+            <div id="contactLeg_container" class="contactLeg_container";>
+                <h2 style="letter-spacing: 0.3px;">CONTACT YOUR LOCAL<br>LEGISLATOR</h2>
+                <p style="font-weight: 300; font-size: 18px; margin: 40px 90px;">To find your representatives, use the button below. Their contact information is available on their websites. <a href="/resources.html">Sample letters and templates are available in the resources section.</a></p>
+                <div id="contact_btn" class="contact_btn" onclick="contactClick()">Who Represents Me?</div>
+            </div>
+            <div class="spacer">&nbsp;</div>
+            <div class="spacer">&nbsp;</div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

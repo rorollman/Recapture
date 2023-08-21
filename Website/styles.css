@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#home:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#resources:link {
+    color: #fff;
+    text-decoration: none;
+}
+#resources:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq:link {
+    color: #fff;
+    text-decoration: none;
+}
+#faq:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:link {
+    color: #333333;
+    text-decoration: underline;
+}
+a:visited {
+    color: #333333;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #333333;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+p2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background: #333333;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo {
+    background-color: #fff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+.navbar_links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+
+.navbar_links:hover {
+    color: #FF4040;
+    transition: all 0.3s ease;
+}
+
+
+.main_content {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hometext {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.learn_btn {
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #333333;
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.learn_btn:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.spacer {height: 75px;}
+
+.about_container {
+    margin-left: 50px;
+    text-align: center;
+}
+
+#graph {transition: 0.3s;cursor: pointer;}
+
+#graph:hover{opacity: 0.7;}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 150px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+  /* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#question {
+    background-color: #333333;
+}
+
+#answer {
+    background-color: #fff;
+}
+.callToAction {
+    justify-content: center;
+}
+
+.contactLeg_container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_btn {
+    background-color: #333333;
+    color: #fff;
+    border: 1px solid #333333;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    display: inline-block;
+    width: auto;
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact_btn:hover {
+    background-color: #fff;
+    color: #333333;
+}
